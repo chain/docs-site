@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "nittiReg";
+    src: url("/fonts/nitti/normal/nitti-normal-v500-webfont.eot")
+       url("/fonts/nitti/normal/nitti-normal-v500-webfont.eot?#iefix")
+        format("embedded-opentype"),
+      url("/fonts/nitti/normal/nitti-normal-v500-webfont.woff2") format("woff2"),
+      url("/fonts/nitti/normal/nitti-normal-v500-webfont.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "nittiSemi";
+    src: url("/fonts/nitti/medium/nitti-medium-v500-webfont.eot");
+    src: url("/fonts/nitti/medium/nitti-medium-v500-webfont.eot?#iefix")
+        format("embedded-opentype"),
+      url("/fonts/nitti/medium/nitti-medium-v500-webfont.woff2") format("woff2"),
+      url("/fonts/nitti/medium/nitti-medium-v500-webfont.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "nittiGrotReg";
+    src: url("/fonts/nittigrotesk/normal/nittigrotesk-normal-v20-webfont.eot");
+    src: url("/fonts/nittigrotesk/normal/nittigrotesk-normal-v20-webfont.eot?#iefix")
+        format("embedded-opentype"),
+      url("/fonts/nittigrotesk/normal/nittigrotesk-normal-v20-webfont.woff2") format("woff2"),
+      url("/fonts/nittigrotesk/normal/nittigrotesk-normal-v20-webfont.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "nittiGrotMed";
+    src: url("/fonts/nittigrotesk/medium/nittigrotesk-medium-v20-webfont.eot");
+    src: url("/fonts/nittigrotesk/medium/nittigrotesk-medium-v20-webfont.eot?#iefix")
+        format("embedded-opentype"),
+      url("/fonts/nittigrotesk/medium/nittigrotesk-medium-v20-webfont.woff2") format("woff2"),
+      url("/fonts/nittigrotesk/medium/nittigrotesk-medium-v20-webfont.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+  }
+  .nittiGrotMed {
+    font-family: nittiGrotMed;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .nittiGrotReg {
+    font-family: nittiGrotReg;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .nittiSemi {
+    font-family: nittiSemi;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .nittiReg {
+    font-family: nittiReg;
+    font-weight: normal;
+    font-style: normal;
+  }
