@@ -2,17 +2,14 @@ version: '1'
 
 services:
   webserver:
-    image: node
+    image: node:16.15-alpine
     volumes:
       - .:/chain-docs
     command: >
-      sh -c "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash &&
-                [ -s "/root/.nvm/nvm.sh" ] && \. "/root/.nvm/nvm.sh" &&
-                [ -s "/root/.nvm/bash_completion" ] && \. "/root/.nvm/bash_completion" &&                
-                npm install &&
+      sh -c "npm install &&
                 npx docusaurus start --host 0.0.0.0"
     working_dir: /chain-docs 
     ports:
-      - 3000:3000
+      - 80:3000
     environment:
       NVM_DIR: /root/.nvm
