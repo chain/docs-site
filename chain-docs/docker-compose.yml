@@ -10,6 +10,6 @@ services:
                 npx docusaurus start --host 0.0.0.0"
     working_dir: /chain-docs 
     ports:
-      - 80:3000
+      - 3000:3000
     environment:
       NVM_DIR: /root/.nvm

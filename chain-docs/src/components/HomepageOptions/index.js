@@ -45,8 +45,7 @@ function Option({ img, title, description }) {
         <div className="text--center">
           <img src={img} className={styles.featureGif} role="img" />
         </div>
-        <div className="text--center padding-horiz--md">
-          <h3>{title}</h3>
+        <div className="text--left padding-horiz--lg">          
           <p>{description}</p>
         </div>
       </Link>

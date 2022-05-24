@@ -1,39 +1,68 @@
-@import 'variables.css';
-@import 'fonts.css';
+@import "variables.css";
+@import "fonts.css";
 
-*{
+* {
   font-family: "nittiGrotReg" !important;
 }
 
-.navbar__link--active{
-  color: var(--ifm-color-secondary);
+.navbar{
+  background-color: var(--ifm-navbar-color-primary);
+  box-shadow: none;
 }
 
-.navbar__item:hover{
-  color: var(--ifm-color-secondary);
+.navbar__link {
+  /* centers on logo */
+  padding-top: 0.5rem;
+  font-size: large;
 }
 
-.navbar__link:hover{
-  color: var(--ifm-color-secondary);
+.navbar__link--active {
+  color: var(--ifm-color-tertiary);
 }
 
-.hero__subtitle{
-  color: var(--ifm-color-secondary);
+.navbar__item:hover {
+  color: var(--ifm-color-tertiary);
 }
 
-.footer, .footer--dark{
-  background-color: var(--ifm-color-primary);  
+.navbar__link:hover {
+  color: var(--ifm-color-tertiary);
+}
+
+.hero__title {
   color: var(--ifm-color-text);
 }
 
-.footer__link-item{
-  color: var(--ifm-color-text);
-}
-
-.footer__link-item:hover{
-  color: var(--ifm-color-secondary);
-}
-
-.row{  
+.row {
   justify-content: center;
+}
+
+
+.hero__subtitle {
+  color: var(--ifm-color-tertiary);
+}
+
+.footer,
+.footer--dark {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-text-footer);
+}
+
+.footer__link-item {
+  color: var(--ifm-color-text-footer);
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-tertiary);
+}
+
+a {
+  color: var(--ifm-color-tertiary);
+}
+
+.hero--primary {
+  background-color: var(--ifm-color-secondary);
+}
+
+html[data-theme="dark"] .navbar .navbar__logo {
+  content: url(../../static/img/logo-dark.png);
 }

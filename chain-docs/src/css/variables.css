@@ -1,23 +1,47 @@
-:root {
+:root {    
     --ifm-color-primary: #20252D;
-    --ifm-color-secondary: #1EBFAA;
-    --ifm-color-text: #FFFFFF;
-    --ifm-footer-background-color: var(--ifm-color-primary);
-    --ifm-footer-color: var(--ifm-color-text);
-    --ifm-footer-link-color: var(--ifm-color-text);
-    --ifm-footer-link-hover-color: var(--ifm-color-secondary);
+    --ifm-color-secondary: #f6f8fc;
+    --ifm-color-secondary-light: #f6f8fc;
+    --ifm-color-tertiary: #1EBFAA;
+
+    --ifm-navbar-color-primary: #ffff;
+
+    --ifm-color-text: black;
+    
     --ifm-code-font-size: 95%;
+
+    --ifm-footer-background-color: var(--ifm-color-primary);
+    
+    --ifm-color-text-footer: white;
+    --ifm-footer-link-color: white;
+    --ifm-footer-link-hover-color: var(--ifm-color-tertiary);
+    --ifm-footer-title-color: white;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   }
   
   /* For readability concerns, you should choose a lighter palette in dark mode. */
   [data-theme='dark'] {
-    --ifm-color-primary: #25c2a0;
-    --ifm-color-primary-dark: #21af90;
-    --ifm-color-primary-darker: #1fa588;
-    --ifm-color-primary-darkest: #1a8870;
-    --ifm-color-primary-light: #29d5b0;
-    --ifm-color-primary-lighter: #32d8b4;
-    --ifm-color-primary-lightest: #4fddbf;
+    --ifm-color-primary: #20252D;
+    --ifm-color-secondary: #20252D;
+    --ifm-color-secondary-light: #282b2e;
+    --ifm-color-tertiary: #1EBFAA;
+
+    --ifm-navbar-color-primary: #20252D;
+
+    --ifm-color-text: white;
+    
+    --ifm-code-font-size: 95%;
+
+    --ifm-menu-color-active: var(--ifm-color-tertiary);
+    --ifm-breadcrumb-color-active: var(--ifm-color-tertiary);
+
+    --ifm-tabs-color-active: var(--ifm-color-tertiary);
+
+    --ifm-footer-background-color: var(--ifm-color-primary);
+    
+    --ifm-color-text-footer: white;
+    --ifm-footer-link-color: white;
+    --ifm-footer-link-hover-color: var(--ifm-color-tertiary);
+    --ifm-footer-title-color: white;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   }

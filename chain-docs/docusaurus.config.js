@@ -55,7 +55,7 @@ const config = {
       navbar: {        
         logo: {
           alt: 'Chain Logo',
-          src: 'img/logo.png',
+          src: 'img/logo-light.png',
         },
         items: [    
           {
@@ -70,11 +70,11 @@ const config = {
             docId: 'xcn/token/introduction',
             label: 'XCN',
           }, 
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -85,11 +85,11 @@ const config = {
             items: [
               {
                 label: 'Sequence',
-                to: 'sequence/get-started/introduction',
+                to: 'docs/sequence/get-started/introduction',
               },
               {
                 label: 'XCN',
-                to: 'xcn/token/introduction',
+                to: 'docs/xcn/token/introduction',
               },
             ],
           },
@@ -97,30 +97,31 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Telegram',
+                href: 'https://t.me/Chain',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/chain',
               },
             ],
           },
-          {
-            title: 'More',
-            items: [             
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [             
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Chain, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['java', 'ruby'],
       },
     }),
 };
