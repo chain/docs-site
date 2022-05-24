@@ -95,7 +95,23 @@ const config = {
           },
           {
             title: 'Community',
-            items: [
+            items: [        
+              {
+                label: 'Github',
+                href: 'https://github.com/chain',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/chain',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://linkedin.com/company/chain-global',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/Chain',
+              },
               {
                 label: 'Telegram',
                 href: 'https://t.me/Chain',
@@ -103,18 +119,13 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/chain',
-              },
+              },       
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/ChainOfficial',
+              },      
             ],
-          },
-          // {
-          //   title: 'More',
-          //   items: [             
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
-          //     },
-          //   ],
-          // },
+          },    
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Chain, Inc. Built with Docusaurus.`,
       },

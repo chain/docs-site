@@ -63,6 +63,10 @@ a {
   background-color: var(--ifm-color-secondary);
 }
 
+.footer__link-item > svg{
+  display: none;
+}
+
 html[data-theme="dark"] .navbar .navbar__logo {
   content: url(../../static/img/logo-dark.png);
 }
