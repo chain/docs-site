@@ -89,7 +89,7 @@ account_tags.user_id
 This would return a list of token "balances" across all the accounts for that user.
 
 #### Tags snapshot
-When a new [action](<%= docs_path('actions') %>) is added to a ledger via a [transaction](<%= docs_path('transactions') %>), a snapshot of the source account tags and destination account tags as they exist at that time are added to the `snapshot` object in the [action object](<%= docs_path('actions', :anchor => 'data-structure') %>).
+When a new [action](actions.md) is added to a ledger via a [transaction](transactions.md), a snapshot of the source account tags and destination account tags as they exist at that time are added to the `snapshot` object in the [action object](actions.md#data-structure).
 
 You can then provide a filter to access the tags snapshot when querying actions. For example:
 
