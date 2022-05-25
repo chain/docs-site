@@ -31,10 +31,10 @@ const OptionList = [
 function Option({ img, title, description }) {
   var link;
   if (title === "Sequence") {
-    link = '/docs/sequence/get-started/introduction';
+    link = '/docs-site/docs/sequence/get-started/introduction';
   }
   else if(title === "XCN") {
-    link = '/docs/xcn/token/introduction';
+    link = '/docs-site/docs/xcn/token/introduction';
   }
   else{
     link = '/';
@@ -45,7 +45,7 @@ function Option({ img, title, description }) {
         <div className="text--center">
           <img src={img} className={styles.featureGif} role="img" />
         </div>
-        <div className="text--left padding-horiz--lg">          
+        <div className="option-description text--left padding-horiz--lg">          
           <p>{description}</p>
         </div>
       </Link>
