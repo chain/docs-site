@@ -1,13 +1,13 @@
 .features {
   display: flex;  
-  justify-content: center; 
+  justify-content: center;   
   width: 100%; 
   padding-top: 1rem;  
   background-color: var(--ifm-color-secondary);
 }
 
 .featureGif {
-  height: auto;
+  height: 100%;
   width: 100%;
   /* top left and right border radius 40px */
   border-radius: 40px 40px 0 0;
@@ -18,8 +18,8 @@
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center;  
+  height: auto;
   width: 100%;
   background-color: var(--ifm-color-secondary-light);  
   border-radius: 40px;

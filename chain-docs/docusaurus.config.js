@@ -117,11 +117,7 @@ const config = {
               {
                 label: 'Telegram',
                 href: 'https://t.me/Chain',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/chain',
-              },       
+              },              
               {
                 label: 'Discord',
                 href: 'https://discord.gg/ChainOfficial',
