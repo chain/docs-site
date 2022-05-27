@@ -20,7 +20,7 @@ const OptionList = [
     description: (
       <>
         The Chain Ecosystem Cryptocurrency. Stake your XCN today to participate
-        in Chain Governance.
+        in Chain Governance. Test
         {/* these line breaks make the cards the same hight, should fix in CSS */}
         {/* <br /><br /> */}
       </>
