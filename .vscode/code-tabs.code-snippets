@@ -16,7 +16,7 @@
 	// 	"description": "Log output to console"
 	// }
 
-	"JavaTabs": {
+	"JavaTab": {
 		"scope": "markdown",
 		"prefix": "jt",
 		"body": [
