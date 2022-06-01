@@ -24,7 +24,7 @@ const OptionList = [
         {/* these line breaks make the cards the same hight, should fix in CSS */}
         {/* <br /><br /> */}
       </>
-    ),
+    ),    
   },
 ];
 
