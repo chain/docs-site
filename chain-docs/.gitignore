@@ -15,13 +15,6 @@
 .env.test.local
 .env.production.local
 
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
