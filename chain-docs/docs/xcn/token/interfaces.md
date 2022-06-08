@@ -6,10 +6,10 @@ displayed_sidebar: xcn
 ---
 The Chain Interfaces are designed for users to have access to the decentralized smart contracts on the blockchain without coding or solidity knowledge. The user-friendly interface enables users to conveniently access Chain Governance and Chain staking with their non-custodial digital wallet. 
 
-Chain Staking
+[Chain Staking](../staking)
 
-Chain Governance 
+[Chain Governance](../governance/architecture)
 
-Rewards 
+[Rewards](../staking/rewards)
 
-Voting
+[Voting](../governance/voting.md)
