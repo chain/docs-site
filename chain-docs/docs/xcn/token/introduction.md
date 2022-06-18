@@ -16,5 +16,3 @@ Chain’s decentralized applications utilize XCN as the governance token that en
 
 🔐 Chain Staking — Stake XCN to secure the protocol and earn rewards
 
-💰 Helix — Compliant DeFi Exchange (Coming Soon)  
-
