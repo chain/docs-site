@@ -5,7 +5,7 @@
   font-family: "nittiGrotReg" !important;
 }
 
-.navbar{
+.navbar {
   background-color: var(--ifm-navbar-color-primary);
   box-shadow: none;
 }
@@ -33,9 +33,8 @@
 }
 
 .row {
-  justify-content: center;  
+  justify-content: center;
 }
-
 
 .hero__subtitle {
   color: var(--ifm-color-tertiary);
@@ -63,10 +62,14 @@ a {
   background-color: var(--ifm-color-secondary);
 }
 
-.footer__link-item > svg{
+.footer__link-item > svg {
   display: none;
 }
 
+html[data-theme="light"] .navbar .navbar__logo {
+  content: url("../../static/img/logo-light.png");
+}
+
 html[data-theme="dark"] .navbar .navbar__logo {
-  content: url(../../static/img/logo-dark.png);
+  content: url("../../static/img/logo-dark.png");
 }
