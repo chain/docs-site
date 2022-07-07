@@ -24,20 +24,18 @@ const OptionList = [
         {/* these line breaks make the cards the same hight, should fix in CSS */}
         {/* <br /><br /> */}
       </>
-    ),    
+    ),
   },
 ];
 
 function Option({ img, title, description }) {
   var link;
   if (title === "Sequence") {
-    link = '/docs-site/docs/sequence/get-started/introduction';
-  }
-  else if(title === "XCN") {
-    link = '/docs-site/docs/xcn/token/introduction';
-  }
-  else{
-    link = '/';
+    link = "/docs/sequence/get-started/introduction";
+  } else if (title === "XCN") {
+    link = "/docs/xcn/token/introduction";
+  } else {
+    link = "/";
   }
   return (
     <div className={styles.optionCard}>
@@ -45,7 +43,7 @@ function Option({ img, title, description }) {
         <div className="text--center">
           <img src={img} className={styles.featureGif} role="img" />
         </div>
-        <div className="option-description text--left padding-horiz--lg">          
+        <div className="option-description text--left padding-horiz--lg">
           <p>{description}</p>
         </div>
       </Link>
