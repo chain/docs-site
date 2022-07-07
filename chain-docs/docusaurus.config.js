@@ -9,7 +9,7 @@ const config = {
   title: "Chain Docs",
   tagline: "Complete documentation for the Chain Ecosystem",
   url: "https://chain.github.io",
-  baseUrl: "/",
+  baseUrl: "/docs-site/",
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
