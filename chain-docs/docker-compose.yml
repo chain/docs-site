@@ -2,14 +2,13 @@ version: '1'
 
 services:
   webserver:
-    image: node:16.15-alpine
+    image: node:16.15
     volumes:
       - .:/chain-docs
     command: >
-      sh -c "npm install &&
-                npx docusaurus start --host 0.0.0.0"
+      sh -c "npm run build && npm run serve"
     working_dir: /chain-docs 
     ports:
-      - 3000:3000
+      - 80:80
     environment:
       NVM_DIR: /root/.nvm
