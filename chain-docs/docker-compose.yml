@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/chain-docs
     command: >
-      sh -c "npm run build && npm run serve"
+      sh -c "npm install && npm run build && npm run serve"
     working_dir: /chain-docs 
     ports:
       - 80:80
