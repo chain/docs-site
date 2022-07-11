@@ -5,7 +5,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ## Installation
 
 1. Install docker (in case you have not already)
-2. Run `docker compose up`
+2. Run `docker-compose up`
 
 
 ## Developer Stuff (Not needed for most cases)
