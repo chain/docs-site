@@ -31,9 +31,9 @@ const OptionList = [
 function Option({ img, title, description }) {
   var link;
   if (title === "Sequence") {
-    link = "/docs/sequence/get-started/introduction";
+    link = "/docs-site/docs/sequence/get-started/introduction";
   } else if (title === "XCN") {
-    link = "/docs/xcn/token/introduction";
+    link = "/docs-site/docs/xcn/token/introduction";
   } else {
     link = "/";
   }

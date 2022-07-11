@@ -2,7 +2,15 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Installation
+
+1. Install docker (in case you have not already)
+2. Run `docker-compose up`
+
+
+## Developer Stuff (Not needed for most cases)
+Under the hood, some useful commands that docusaurus uses but that are not needed for most use cases are below.
+
 
 ```
 $ yarn
