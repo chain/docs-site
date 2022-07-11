@@ -57,6 +57,7 @@ const config = {
       navbar: {
         logo: {
           alt: "Chain Logo",
+          href: "https://chain.com",
           src: "img/logo-light.png",
         },
         items: [
