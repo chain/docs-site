@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Chain Docs",
   tagline: "Complete documentation for the Chain Ecosystem",
-  url: "https://chain.github.io",
+  url: "https://docs.chain.com",
   baseUrl: "/docs-site/",
   trailingSlash: false,
   onBrokenLinks: "throw",
@@ -74,6 +74,23 @@ const config = {
             label: "XCN",
           },
         ],
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "MEID2H0G2L",
+
+        // Public API key: it is safe to commit it
+        apiKey: "d8d4dd66779786cadcfedce0db4d1060",
+
+        indexName: "chain",
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "false",
+
+        //... other Algolia params
       },
       footer: {
         style: "dark",
