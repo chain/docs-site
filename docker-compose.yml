@@ -4,10 +4,10 @@ services:
   webserver:
     image: node:16.15
     volumes:
-      - .:/chain-docs
+      - .:/app
     command: >
       sh -c "npm install && npm run build && npm run serve"
-    working_dir: /chain-docs 
+    working_dir: /app
     ports:
       - 80:80
     environment:

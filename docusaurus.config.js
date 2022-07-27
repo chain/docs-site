@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Chain Docs",
   tagline: "Complete documentation for the Chain Ecosystem",
-  url: "https://chain.github.io",
-  baseUrl: "/docs-site/",
+  url: "https://docs.chain.com",
+  baseUrl: "/",
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
