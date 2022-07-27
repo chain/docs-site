@@ -4,10 +4,10 @@ services:
   webserver:
     image: node:16.15
     volumes:
-      - .:/
+      - .:/app
     command: >
       sh -c "npm install && npm run build && npm run serve"
-    working_dir: /
+    working_dir: /app
     ports:
       - 80:80
     environment:
