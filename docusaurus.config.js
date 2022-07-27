@@ -128,7 +128,7 @@ const config = {
         appId: "MEID2H0G2L",
 
         // Public API key: it is safe to commit it
-        apiKey: "d8d4dd66779786cadcfedce0db4d1060",
+        apiKey: "ced144e16bc3d758661a79195188b424",
 
         indexName: "chain",
 
