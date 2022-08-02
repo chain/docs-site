@@ -123,29 +123,29 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Chain, Inc. Built with Docusaurus.`,
       },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: "MEID2H0G2L",
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: "MEID2H0G2L",
 
-        // Public API key: it is safe to commit it
-        apiKey: "a042229957a5410a758156777b665225",
+      //   // Public API key: it is safe to commit it
+      //   apiKey: "a042229957a5410a758156777b665225",
 
-        indexName: "chain",
+      //   indexName: "chain",
 
-        // Optional: see doc section below
-        contextualSearch: true,
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
 
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: "external\\.com|domain\\.com",
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   externalUrlRegex: "external\\.com|domain\\.com",
 
-        // Optional: Algolia search parameters
-        searchParameters: {},
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
 
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: "search",
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: "search",
 
-        //... other Algolia params
-      },
+      //   //... other Algolia params
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
