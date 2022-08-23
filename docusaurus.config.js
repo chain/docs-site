@@ -73,6 +73,12 @@ const config = {
             docId: "xcn/token/introduction",
             label: "XCN",
           },
+          {
+            type: "doc",
+            position: "left",
+            docId: "cloud/introduction",
+            label: "Cloud",
+          },
         ],
       },
       footer: {
