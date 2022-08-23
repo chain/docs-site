@@ -18,5 +18,3 @@ To enable distributed network of cloud computing designed to enable Nodes with K
 ### Premium API
 
 <!-- Sign up to our Premium Plan with a minimum deposit of 0.01 XCN and get access to powerful features. [_Read more_](../chain-protocol/premium-api/)__ -->
-
-__
