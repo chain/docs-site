@@ -26,6 +26,18 @@ const OptionList = [
       </>
     ),
   },
+  {
+    title: "Cloud",
+    img: require("@site/static/img/xcn-full.gif").default,
+    description: (
+      <>
+        The Chain Ecosystem Cryptocurrency. Stake your XCN today to participate
+        in Chain Governance.
+        {/* these line breaks make the cards the same hight, should fix in CSS */}
+        {/* <br /><br /> */}
+      </>
+    ),
+  },
 ];
 
 function Option({ img, title, description }) {
@@ -34,6 +46,8 @@ function Option({ img, title, description }) {
     link = "/docs/sequence/get-started/introduction";
   } else if (title === "XCN") {
     link = "/docs/xcn/token/introduction";
+  } else if (title === "Cloud") {
+    link = "/docs/cloud/introduction";
   } else {
     link = "/";
   }
@@ -54,8 +68,8 @@ function Option({ img, title, description }) {
 export default function HomepageOptions() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+      <div className={styles.optionContainer}>
+        <div className={styles.row}>
           {OptionList.map((props, idx) => (
             <Option key={idx} {...props} />
           ))}
