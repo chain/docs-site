@@ -156,6 +156,7 @@ const sidebars = {
           collapsible: true,
           collapsed: false,
           items: [
+            "cloud/rpc-services/premium-api/premium-api",
             "cloud/rpc-services/premium-api/security",
             "cloud/rpc-services/premium-api/ui-interactions",
           ],
@@ -169,10 +170,20 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
+        "cloud/node-services/node-services",
         "cloud/node-services/architecture",
         "cloud/node-services/smart-contract-flows",
         "cloud/node-services/payment-methods",
-        "cloud/node-services/node-staking",
+        {
+          type: "category",
+          label: "Protocol Node",
+          collapsible: true,
+          collapsed: false,
+          items: [
+            "cloud/node-services/protocol-node/protocol-node",
+            "cloud/node-services/protocol-node/node-staking",
+          ],
+        },
         "cloud/node-services/enterprise-node",
         "cloud/node-services/pricing",
       ],
@@ -190,6 +201,7 @@ const sidebars = {
           collapsible: true,
           collapsed: false,
           items: [
+            "cloud/supported-chains/ethereum/ethereum",
             "cloud/supported-chains/ethereum/connect-wallet",
             "cloud/supported-chains/ethereum/start-making-requests",
             "cloud/supported-chains/ethereum/basic-project",

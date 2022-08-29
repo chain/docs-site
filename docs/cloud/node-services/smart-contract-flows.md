@@ -6,7 +6,7 @@ description: Detail of Chain Cloud Smart Contract
 
 Architecture for Chain Cloud via Smart Contracts.
 
-<!-- ![Smart contract technical flow](<../../.gitbook/assets/cp-smartcontract (2).png>) -->
+![Smart contract technical flow](../../../static/img/smart-contract-flow.png)
 
 Contract: NodeStaking Factory: Admin will use this contract to create new staking pool
 

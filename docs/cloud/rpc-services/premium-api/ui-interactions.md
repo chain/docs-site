@@ -24,13 +24,13 @@ The wallet connection procedure is the following:
 
 As you connected to the dApp, you will be asked to provide the email address. Please provide your email address as this is mandatory.
 
-<!-- ![Add Email](<../../.gitbook/assets/image (5) (1).png>) -->
+![Add Email](../../../../static/img/add-email.png)
 
 ### XCN Payment
 
 After provided email, user will open the Premium API page by navigating on the left menu. The Premium API will be under Cloud category.
 
-<!-- ![Premium API](<../../.gitbook/assets/image (2).png>) -->
+![Premium API](../../../../static/img/xcn-payment.png)
 
 User must pay XCN to use Premium API by clicking "Unlock Premium". Please make sure that you have enough XCN in the wallet.
 
@@ -38,9 +38,8 @@ User must pay XCN to use Premium API by clicking "Unlock Premium". Please make s
 
 After finish paying XCN, you will be able to view the Premium Endpoints for 4 chains (More to come).&#x20;
 
-<!-- ![Premium APIs list](<../../.gitbook/assets/image (8).png>) -->
+![Premium APIs list](../../../../static/img/premium-endpoints.png)
 
 To add domain and IP to use the Premium Endpoints, click "More" to view the detail page.\
 
-
-<!-- ![Premium API detail page](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqknFn0ROCZ375XFLVVcq%2Fuploads%2FtScVgzYqhcUcs9JAMCVS%2Fimage.png?alt=media\&token=33279f99-f0ed-47bb-a0e5-87efbc6ce555) -->
+![Premium API detail page](../../../../static/img/add-domain-ip.png)

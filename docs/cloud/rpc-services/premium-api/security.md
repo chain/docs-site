@@ -6,7 +6,7 @@ description: Security Overview of Chain Cloud Premium API
 
 As users paid for Premium API using, they will get an API key and access to Premium API UI for extra security
 
-<!-- ![Premium API Detail page](<../../.gitbook/assets/image (10).png>) -->
+![Premium API Detail page](../../../../static/img/premium-details.png)
 
 The security of Premium plan consists 2 parts.
 

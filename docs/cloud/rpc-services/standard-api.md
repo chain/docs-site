@@ -8,7 +8,7 @@ _Standard API_ is central to the Chain Cloud vision of mass adoption in Web 3.0 
 
 ### Make requests via public URL (no sign up or KYC) <a href="#make-requests-via-public-url-no-sign-up-or-kyc" id="make-requests-via-public-url-no-sign-up-or-kyc"></a>
 
-{% hint style="info" %}
+:::tip
 Try copying this code into your command line/terminal.
 
 ```html
@@ -17,7 +17,7 @@ curl https://api-us.chainprtcl.net/btc \
  -H "Content-Type: application/json" \
  --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
-{% endhint %}
+:::
 
 Enjoy the following benefits:
 
@@ -30,10 +30,10 @@ Enjoy the following benefits:
 
 As the user, first you have to connect to the dApp using Metamask, WalletConnect or CoinBase Wallet.
 
-<!-- ![Connect Wallet](<../.gitbook/assets/image (6).png>) -->
+![Connect Wallet](../../../static/img/standard-api-1.png)
 
 After that, choose Standard API on the left menu (Under Cloud category)
 
-<!-- ![Public APIs list](<../.gitbook/assets/image (1) (1) (1).png>) -->
+![Public APIs list](../../../static/img/standard-api-2.png)
 
 User can check the dashboard views of the status of individual chain public RPCs by click "More"&#x20;

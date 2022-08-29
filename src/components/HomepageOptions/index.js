@@ -28,11 +28,11 @@ const OptionList = [
   },
   {
     title: "Cloud",
-    img: require("@site/static/img/xcn-full.gif").default,
+    img: require("@site/static/img/cloud-full.gif").default,
     description: (
       <>
-        The Chain Ecosystem Cryptocurrency. Stake your XCN today to participate
-        in Chain Governance.
+        Decentralized infrastructure protocol designed for developers to access
+        blockchain networks on-demand.
         {/* these line breaks make the cards the same hight, should fix in CSS */}
         {/* <br /><br /> */}
       </>
@@ -54,11 +54,13 @@ function Option({ img, title, description }) {
   return (
     <div className={styles.optionCard}>
       <Link to={link}>
-        <div className="text--center">
-          <img src={img} className={styles.featureGif} role="img" />
-        </div>
-        <div className="option-description text--left padding-horiz--lg">
-          <p>{description}</p>
+        <div className={styles.content}>
+          <div className={styles.featureGifContainer}>
+            <img src={img} className={styles.featureGif} role="img" />
+          </div>
+          <div className={styles.optionDescription}>
+            <p>{description}</p>
+          </div>
         </div>
       </Link>
     </div>
@@ -69,11 +71,9 @@ export default function HomepageOptions() {
   return (
     <section className={styles.features}>
       <div className={styles.optionContainer}>
-        <div className={styles.row}>
-          {OptionList.map((props, idx) => (
-            <Option key={idx} {...props} />
-          ))}
-        </div>
+        {OptionList.map((props, idx) => (
+          <Option key={idx} {...props} />
+        ))}
       </div>
     </section>
   );
