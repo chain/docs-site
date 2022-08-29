@@ -18,8 +18,6 @@ EVM-compatibility permits support for Ethereum tools and DApps.
 
 [**Github**](https://github.com/binance-chain)
 
-***
-
 ### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
 You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can then perform transactions and interact with the network.
@@ -30,13 +28,13 @@ You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can the
 2. Select '_**Custom RPC**_'.
 3. Enter the settings for the required project as follows in the table below:
 
-|   Chain   | Custom RPC Category |                                   Details                                   |
-| :-------: | :-----------------: | :-------------------------------------------------------------------------: |
-| BNB Chain |    NETWORK NAME:    |                                BNB Chain RPC                                |
-|           |    NEW RPC URL:     | [https://api-us.chainprtcl.net/bsc&#xD;](https://api-us.chainprtcl.net/bsc) |
-|           |      CHAIN ID:      |                                     56                                      |
-|           |       SYMBOL:       |                                     BNB                                     |
-|           |   BLOCK EXPLORER:   |                 [https://bscscan.com](https://bscscan.com/)                 |
+|   Chain   | Custom RPC Category |                                                        Details                                                         |
+| :-------: | :-----------------: | :--------------------------------------------------------------------------------------------------------------------: |
+| BNB Chain |    NETWORK NAME:    |                                                     BNB Chain RPC                                                      |
+|           |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/bsc](https://apigw-dev.chainprtcl.net/bsc)[&#xD;](https://api-us.chainprtcl.net/bsc) |
+|           |      CHAIN ID:      |                                                           56                                                           |
+|           |       SYMBOL:       |                                                          BNB                                                           |
+|           |   BLOCK EXPLORER:   |                                      [https://bscscan.com](https://bscscan.com/)                                       |
 
 ### Integrate code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#integrate-code) <a href="#integrate-code" id="integrate-code"></a>
 
@@ -48,9 +46,14 @@ Returns the current client version.
 
 **Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-request)
 
+{% code overflow="wrap" %}
 ```
-curl https://api-us.chainprtcl.net/bsc \  -X POST \  -H "Content-Type: application/json" \  --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
+curl https://apigw-dev.chainprtcl.net/bsc \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
+{% endcode %}
 
 **Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-response)
 
@@ -64,28 +67,51 @@ curl https://api-us.chainprtcl.net/bsc \  -X POST \  -H "Content-Type: applicati
 
 Returns the current network id.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-request-1)
+**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-1)
+
+{% code overflow="wrap" %}
+```
+curl https://apigw-dev.chainprtcl.net/bsc \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
+```
+{% endcode %}
+
+**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-1)
 
 ```
-    curl https://api-us.chainprtcl.net/bsc \  -X POST \  -H "Content-Type: application/json" \  --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
-```
-
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-response-1)
-
-```
-{"jsonrpc":"2.0","id":67,"result":"56"}
+{"jsonrpc":"2.0","result":"100","id":67}
 ```
 
 #### eth library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#eth-library) <a href="#eth-library" id="eth-library"></a>
 
-#### Example request[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+
+**eth\_estimateGas**
+
+Returns the gas price for the transaction in hex.
+
+{% code overflow="wrap" %}
+```
+curl https://apigw-dev.chainprtcl.net/bsc \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{
+    "jsonrpc":"2.0",
+    "method":"eth_estimateGas",
+    "params":[{
+    "from": "0x8D97689C9818892B700e27F316cc3E41e17fBeb9",
+    "to": "0xd3CdA913deB6f67967B99D67aCDFa1712C293601",
+    "value": "0x186a0"
+    }],
+    "id":1
+}'
+```
+{% endcode %}
+
+#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-curl https://api-us.chainprtcl.net/bsc \  -X POST \  -H "Content-Type: application/json" \  --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":67}'
-```
-
-#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
-
-```
-{"jsonrpc":"2.0","id":67,"result":"0xf50e1c"}
+{"jsonrpc":"2.0","result":"0x5208","id":1}
 ```

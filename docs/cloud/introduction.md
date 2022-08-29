@@ -8,11 +8,26 @@ Chain Cloud is a decentralized and distributed infrastructure designed for devel
 
 1. [Standard API](./rpc-services/standard-api.md): Free and instant access to our range of Public RPC APIs.
 2. [Premium API](./rpc-services/premium-api/premium-api.md): Sign up to our Premium Plan with a minimum deposit of 0.01 XCN and get access to powerful features.
-3. [Node Services](./node-services/node-services.md): Full, Archive nodes are available for 4 chains.
+3. [Node Services](chain-cloud/chain-cloud-services/): Full, Archive nodes are available for 18 chains.
    1. Bitcoin
    2. Ethereum
    3. BSC Network
    4. Solana
+   5. Klaytn
+   6. Gnosis
+   7. Avalanche C-chain
+   8. Polygon
+   9. Fantom
+   10. Arbitrum
+   11. Optimism
+   12. Huobi ECO Chain
+   13. Astar
+   14. Aurora
+   15. Cronos
+   16. Celo
+   17. Bittorrent Chain
+   18. Ethereum Classic
+
 
 ## Overview
 

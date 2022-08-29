@@ -34,7 +34,7 @@ touch index.js
 
 ```
 const Web3 = require('web3');
-const web3 = new Web3("https://api-us.chainprtcl.net/eth"); // For Premium endpoints append API key to url "https://api-us.chainprtcl.net/eth/APIKEY"
+const web3 = new Web3("https://apigw-dev.chainprtcl.net/eth"); // For Premium endpoints append API key to url "https://api-us.chainprtcl.net/eth/APIKEY"
 web3.eth.getBlockNumber()
 .then(console.log);
 ```

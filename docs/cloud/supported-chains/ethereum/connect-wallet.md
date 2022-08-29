@@ -20,12 +20,12 @@ There are default settings in MetaMask for connecting a wallet to Ethereum Mainn
 
     _Make sure you include backslashes and don't add any whitespace._
 
-| **Chain** | **Custom RPC Category** | **Details**                                                                 |
-| --------- | ----------------------- | --------------------------------------------------------------------------- |
-| Ethereum  | NETWORK NAME:           | Chain Ethereum RPC                                                          |
-|           | NEW RPC URL:            | [https://api-us.chainprtcl.net/eth&#xD;](https://api-us.chainprtcl.net/eth) |
-|           | CHAIN ID:               | 1                                                                           |
-|           | SYMBOL:                 | ETH                                                                         |
-|           | BLOCK EXPLORER URL:     | [https://etherscan.io/](https://etherscan.io/)                              |
+| **Chain** | **Custom RPC Category** | **Details**                                                                       |
+| --------- | ----------------------- | --------------------------------------------------------------------------------- |
+| Ethereum  | NETWORK NAME:           | Chain Ethereum RPC                                                                |
+|           | NEW RPC URL:            | [https://apigw-dev.chainprtcl.net/eth&#xD;](https://apigw-dev.chainprtcl.net/eth) |
+|           | CHAIN ID:               | 1                                                                                 |
+|           | SYMBOL:                 | ETH                                                                               |
+|           | BLOCK EXPLORER URL:     | [https://etherscan.io/](https://etherscan.io/)                                    |
 
 * Ignore the **Chain ID warning** and click **Save**.
