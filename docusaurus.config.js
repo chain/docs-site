@@ -95,6 +95,10 @@ const config = {
                 label: "XCN",
                 to: "docs/xcn/token/introduction",
               },
+              {
+                label: "Cloud",
+                to: "docs/cloud/introduction",
+              },
             ],
           },
           {

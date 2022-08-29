@@ -1,42 +1,40 @@
 ---
-description: Klaytn network in Chain Cloud RPC service
+description: Gnosis network in Chain Cloud RPC service
 ---
 
-# Klaytn
+# Gnosis
 
-**Klaytn** is a highly optimized, BFT-based public blockchain that aims to meet the enterprise-grade reliability. Key design goals are;
+**Gnosis Chain** (Formerly the xDai Chain) provides stability, scalability and an extendable beacon chain framework.
 
-* Immediate finality.
-* High TPS that meets real-world use cases.
-* Lower the cost of running Blockchain Applications.
-* Lower the barriers to entry for end-users.
-* Ease the technology adoption process for industry.
+Development on Gnosis Chain is straightforward for Ethereum developers as it is an EVM compatible chain. Smart contracts can be written and deployed in the same way as for Ethereum just by setting a different RPC endpoint.
 
-### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/solana/#quick-links) <a href="#quick-links" id="quick-links"></a>
+Any contract that works on the Ethereum mainnet can be redeployed to the Gnosis chain. Transaction costs are minimized, and all fees and transactions are paid with a single token (xDai). Many tools supporting Ethereum development are compatible with Gnosis Chain.
 
-****[**Klaytn**](https://klaytn.foundation/)****
+### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
-****[**Docs**](https://docs.klaytn.foundation/)****
+[**Gnosis Chain**](https://www.xdaichain.com/)
 
-****[**Github**](https://github.com/klaytn)****
+[**Docs**](https://www.xdaichain.com/)
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/solana/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+[**Github**](https://github.com/xdaichain)
 
-You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can then perform transactions and interact with the network.
+### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
-#### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#get-started) <a href="#get-started" id="get-started"></a>
+You can set up your **MetaMask wallet** to connect to Gnosis RPC. You can then perform transactions and interact with the network.
+
+### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
-2. Select '_**Custom RPC**_'.
-3. Enter the settings for the required project as follows in the table below:
+2. Select '_**Custom RPC**_'
+3. Enter the settings below:
 
-|    Chain     | Custom RPC Category |                                      Details                                       |
-| :----------: | :-----------------: | :--------------------------------------------------------------------------------: |
-| Klaytn Chain |    NETWORK NAME:    |                                  Klaytn Chain RPC                                  |
-|              |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/klaytn](https://apigw-dev.chainprtcl.net/klaytn) |
-|              |      CHAIN ID:      |                                        8217                                        |
-|              |       SYMBOL:       |                                        KLAY                                        |
-|              |   BLOCK EXPLORER:   |                [https://scope.klaytn.com](https://scope.klaytn.com)                |
+| Chain  | Custom RPC Category |                                         Details                                         |
+| :----: | :-----------------: | :-------------------------------------------------------------------------------------: |
+| Gnosis |    NETWORK NAME:    |                                       Gnosis RPC                                        |
+|        |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/gnosis](https://apigw-dev.chainprtcl.net/gnosis)&#xD; |
+|        |      CHAIN ID:      |                                          0x64                                           |
+|        |       SYMBOL:       |                                          xDai                                           |
+|        |   BLOCK EXPLORER:   |      [https://blockscout.com/xdai/mainnet/](https://blockscout.com/xdai/mainnet/)       |
 
 ### Integrate Code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
 
@@ -50,7 +48,7 @@ Returns the current client version.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/bsc \
+curl https://apigw-dev.chainprtcl.net/gnosis \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -75,7 +73,7 @@ Returns the current network id.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/klaytn \
+curl https://apigw-dev.chainprtcl.net/gnosis \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -98,7 +96,7 @@ Returns the gas price for the transaction in hex.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/klaytn \
+curl https://apigw-dev.chainprtcl.net/gnosis \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{

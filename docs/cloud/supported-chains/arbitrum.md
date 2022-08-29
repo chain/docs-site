@@ -1,42 +1,38 @@
 ---
-description: Klaytn network in Chain Cloud RPC service
+description: Arbitrum network in Chain Cloud RPC service
 ---
 
-# Klaytn
+# Arbitrum
 
-**Klaytn** is a highly optimized, BFT-based public blockchain that aims to meet the enterprise-grade reliability. Key design goals are;
+**Arbitrum** is a suite of Ethereum scaling solutions that enable high-throughput, low cost smart contracts while remaining trustlessly secure.
 
-* Immediate finality.
-* High TPS that meets real-world use cases.
-* Lower the cost of running Blockchain Applications.
-* Lower the barriers to entry for end-users.
-* Ease the technology adoption process for industry.
+Arbitrum has three modes: **AnyTrust Channels**, **AnyTrust Sidechains,** and **Arbitrum Rollup**.
 
-### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/solana/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### **Quick Links**[​](https://www.ankr.com/docs/build-blockchain/chains/v2/arbitrum/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
-****[**Klaytn**](https://klaytn.foundation/)****
+[**Arbitrum**](https://arbitrum.io/) ​
 
-****[**Docs**](https://docs.klaytn.foundation/)****
+[**Docs**](https://developer.offchainlabs.com/docs/frontend\_integration)**​**
 
-****[**Github**](https://github.com/klaytn)****
+[**Github**](https://github.com/OffchainLabs)
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/solana/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
-You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can then perform transactions and interact with the network.
+You can set up your **MetaMask wallet** to connect to Arbitrum RPC. You can then perform transactions and interact with the network.
 
-#### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
-2. Select '_**Custom RPC**_'.
-3. Enter the settings for the required project as follows in the table below:
+2. Select '_**Custom RPC**_'
+3. Enter the settings below:
 
-|    Chain     | Custom RPC Category |                                      Details                                       |
-| :----------: | :-----------------: | :--------------------------------------------------------------------------------: |
-| Klaytn Chain |    NETWORK NAME:    |                                  Klaytn Chain RPC                                  |
-|              |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/klaytn](https://apigw-dev.chainprtcl.net/klaytn) |
-|              |      CHAIN ID:      |                                        8217                                        |
-|              |       SYMBOL:       |                                        KLAY                                        |
-|              |   BLOCK EXPLORER:   |                [https://scope.klaytn.com](https://scope.klaytn.com)                |
+|  Chain   | Custom RPC Category |                                        Details                                         |
+| :------: | :-----------------: | :------------------------------------------------------------------------------------: |
+| Arbitrum |    NETWORK NAME:    |                                      Arbitrum RPC                                      |
+|          |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/arbitrum](https://apigw-dev.chainprtcl.net/arbitrum) |
+|          |      CHAIN ID:      |                                         42161                                          |
+|          |       SYMBOL:       |                                          AETH                                          |
+|          |   BLOCK EXPLORER:   |                       [https://arbiscan.io](https://arbiscan.io)                       |
 
 ### Integrate Code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
 
@@ -50,7 +46,7 @@ Returns the current client version.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/bsc \
+curl https://apigw-dev.chainprtcl.net/arbitrum \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -75,7 +71,7 @@ Returns the current network id.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/klaytn \
+curl https://apigw-dev.chainprtcl.net/arbitrum \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -98,7 +94,7 @@ Returns the gas price for the transaction in hex.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/klaytn \
+curl https://apigw-dev.chainprtcl.net/arbitrum \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{

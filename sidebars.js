@@ -6,7 +6,7 @@ const sidebars = {
       type: "category",
       label: "Getting Started",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "sequence/get-started/introduction",
         "sequence/get-started/teams",
@@ -21,7 +21,7 @@ const sidebars = {
       type: "category",
       label: "Examples",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "sequence/examples/mobile-wallet",
         "sequence/examples/crypto-exchange",
@@ -33,7 +33,7 @@ const sidebars = {
       type: "category",
       label: "Ledger Objects",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "sequence/ledger-objects/tokens",
         "sequence/ledger-objects/flavors",
@@ -47,7 +47,7 @@ const sidebars = {
       type: "category",
       label: "Ledger Queries",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "sequence/ledger-queries/overview",
         "sequence/ledger-queries/filters",
@@ -61,7 +61,7 @@ const sidebars = {
       type: "category",
       label: "Reference",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         {
           type: "link",
@@ -96,7 +96,7 @@ const sidebars = {
       type: "category",
       label: "Token",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "xcn/token/introduction",
         "xcn/token/disclaimer",
@@ -111,7 +111,7 @@ const sidebars = {
       type: "category",
       label: "Staking",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "xcn/staking/staking",
         "xcn/staking/rewards",
@@ -124,7 +124,7 @@ const sidebars = {
       type: "category",
       label: "Governance",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "xcn/governance/dao",
         "xcn/governance/constitution",
@@ -146,7 +146,7 @@ const sidebars = {
       type: "category",
       label: "RPC Services",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "cloud/rpc-services/rpc-services",
         "cloud/rpc-services/standard-api",
@@ -154,7 +154,7 @@ const sidebars = {
           type: "category",
           label: "Premium API",
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
           items: [
             "cloud/rpc-services/premium-api/premium-api",
             "cloud/rpc-services/premium-api/security",
@@ -168,7 +168,7 @@ const sidebars = {
       type: "category",
       label: "Node Services",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "cloud/node-services/node-services",
         "cloud/node-services/architecture",
@@ -178,7 +178,7 @@ const sidebars = {
           type: "category",
           label: "Protocol Node",
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
           items: [
             "cloud/node-services/protocol-node/protocol-node",
             "cloud/node-services/protocol-node/node-staking",
@@ -192,14 +192,14 @@ const sidebars = {
       type: "category",
       label: "Supported Chains",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         "cloud/supported-chains/bitcoin",
         {
           type: "category",
           label: "Ethereum",
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
           items: [
             "cloud/supported-chains/ethereum/ethereum",
             "cloud/supported-chains/ethereum/connect-wallet",
@@ -209,26 +209,40 @@ const sidebars = {
         },
         "cloud/supported-chains/bsc-network",
         "cloud/supported-chains/solana",
+        "cloud/supported-chains/klaytn",
+        "cloud/supported-chains/gnosis",
+        "cloud/supported-chains/avalanche",
+        "cloud/supported-chains/polygon",
+        "cloud/supported-chains/fantom",
+        "cloud/supported-chains/arbitrum",
+        "cloud/supported-chains/optimism",
+        "cloud/supported-chains/huobi",
+        "cloud/supported-chains/astar",
+        "cloud/supported-chains/aurora",
+        "cloud/supported-chains/cronos",
+        "cloud/supported-chains/celo",
+        "cloud/supported-chains/bittorent-chain",
+        "cloud/supported-chains/ethereum-classic",
       ],
     },
     {
       type: "category",
       label: "Examples",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: ["cloud/examples/web3-gaming"],
     },
     {
       type: "category",
       label: "DAO",
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         {
           type: "category",
           label: "Staking",
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
           items: [
             "cloud/dao/staking/staking",
             "cloud/dao/staking/rewards",
@@ -241,7 +255,7 @@ const sidebars = {
           type: "category",
           label: "Governance",
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
           items: [
             "cloud/dao/governance/dao",
             "cloud/dao/governance/constitution",

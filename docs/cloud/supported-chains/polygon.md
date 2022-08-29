@@ -1,42 +1,36 @@
 ---
-description: Klaytn network in Chain Cloud RPC service
+description: Polygon network in Chain Cloud RPC service
 ---
 
-# Klaytn
+# Polygon
 
-**Klaytn** is a highly optimized, BFT-based public blockchain that aims to meet the enterprise-grade reliability. Key design goals are;
+**Polygon** is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
 
-* Immediate finality.
-* High TPS that meets real-world use cases.
-* Lower the cost of running Blockchain Applications.
-* Lower the barriers to entry for end-users.
-* Ease the technology adoption process for industry.
+### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
-### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/solana/#quick-links) <a href="#quick-links" id="quick-links"></a>
+****[**Polygon Chain**](https://polygon.technology/)****
 
-****[**Klaytn**](https://klaytn.foundation/)****
+****[**Docs**](https://wiki.polygon.technology/)****
 
-****[**Docs**](https://docs.klaytn.foundation/)****
+[**Github**](https://github.com/maticnetwork/)
 
-****[**Github**](https://github.com/klaytn)****
+### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/solana/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+You can set up your **MetaMask wallet** to connect to Polygon RPC. You can then perform transactions and interact with the network.
 
-You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can then perform transactions and interact with the network.
-
-#### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
-2. Select '_**Custom RPC**_'.
-3. Enter the settings for the required project as follows in the table below:
+2. Select '_**Custom RPC**_'
+3. Enter the settings below:
 
-|    Chain     | Custom RPC Category |                                      Details                                       |
-| :----------: | :-----------------: | :--------------------------------------------------------------------------------: |
-| Klaytn Chain |    NETWORK NAME:    |                                  Klaytn Chain RPC                                  |
-|              |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/klaytn](https://apigw-dev.chainprtcl.net/klaytn) |
-|              |      CHAIN ID:      |                                        8217                                        |
-|              |       SYMBOL:       |                                        KLAY                                        |
-|              |   BLOCK EXPLORER:   |                [https://scope.klaytn.com](https://scope.klaytn.com)                |
+|  Chain  | Custom RPC Category |                                       Details                                        |
+| :-----: | :-----------------: | :----------------------------------------------------------------------------------: |
+| Polygon |    NETWORK NAME:    |                                     Polygon RPC                                      |
+|         |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/polygon](https://apigw-dev.chainprtcl.net/polygon) |
+|         |      CHAIN ID:      |                                         137                                          |
+|         |       SYMBOL:       |                                        MATIC                                         |
+|         |   BLOCK EXPLORER:   |                 [https://polygonscan.com/](https://polygonscan.com/)                 |
 
 ### Integrate Code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
 
@@ -50,7 +44,7 @@ Returns the current client version.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/bsc \
+curl https://apigw-dev.chainprtcl.net/polygon \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -75,7 +69,7 @@ Returns the current network id.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/klaytn \
+curl https://apigw-dev.chainprtcl.net/polygon \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -98,7 +92,7 @@ Returns the gas price for the transaction in hex.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/klaytn \
+curl https://apigw-dev.chainprtcl.net/polygon \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{
