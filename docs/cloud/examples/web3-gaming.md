@@ -18,6 +18,6 @@ Of course, some games may not process quite as many transactions until they rise
 
 ### Node ownership <a href="#validator-nodes-speed-vs-decentralization" id="validator-nodes-speed-vs-decentralization"></a>
 
-Again, this is a topic that will require attention to your individual situation. You can have Chain Cloud host nodes for you.
+Again, this is a topic that will require attention to your individual situation. You can have Chain Cloud host nodes for you. 
 
 This will likely depend on your level of Web3 knowledge and experience hosting blockchain nodes. Chain Cloud can help you with hosting full nodes to support your business.[​](https://www.ankr.com/docs/build-blockchain/app-chain/use-cases/web3-gaming/#validator-nodes-speed-vs-decentralization)
