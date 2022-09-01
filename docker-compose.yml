@@ -1,10 +1,12 @@
-version: '1.1'
+version: '2'
 
 services:
-
-  proxy:
-    build:
-        context: .
-        dockerfile: Dockerfile
+  webserver:
+    image: node:16.15
+    volumes:
+      - .:/app
+    command: >
+      sh -c "yarn && yarn build && yarn serve"
+    working_dir: /app
     ports:
       - 80:80
