@@ -16,7 +16,7 @@ EVM-compatibility permits support for Ethereum tools and DApps.
 
 [**Docs**](https://docs.binance.org/smart-chain/guides/bsc-intro.html)
 
-[**Github**](https://github.com/binance-chain)
+[**Github**](https://github.com/bnb-chain)
 
 ### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 

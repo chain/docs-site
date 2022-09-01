@@ -58,8 +58,28 @@ a {
   color: var(--ifm-color-tertiary);
 }
 
+a:hover {
+  color: var(--ifm-color-text);
+}
+
+li:hover {
+  color: var(--ifm-color-tertiary);
+}
+
 .hero--primary {
   background-color: var(--ifm-color-secondary);
+}
+
+.table-of-contents__link:hover {
+  color: var(--ifm-color-tertiary);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-tertiary);
+}
+
+.pagination-nav__link:hover {
+  border: 1px solid var(--ifm-color-tertiary);
 }
 
 .footer__link-item > svg {

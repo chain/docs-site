@@ -1,115 +1,167 @@
 ---
-description: Aurora network in Chain Cloud RPC service
+description: Avalanche C-Chain network in Chain Cloud RPC service
 ---
 
-# Aurora
+# Avalanche
 
-**Aurora** is an Ethereum Virtual Machine (EVM) built on the NEAR Protocol, that provides a solution for developers to deploy their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users. Besides the EVM, Aurora developed the Rainbow Bridge which allows users to transfer assets between Ethereum, NEAR, and Aurora. Aurora is backed by top VCs such as Pantera Capital, Electric Capital, Dragonfly Capital, Three Arrows Capital, and Alameda Research.
+Avalanche is an **ecosystem** made up of three core Blockchains optimized for specific tasks within the network. The **Exchange Chain** (X-Chain), **Platform Chain** (P-Chain), and **Contract Chain** (C-Chain).
 
-### **Quick Links**[​](https://www.ankr.com/docs/build-blockchain/chains/v2/arbitrum/#quick-links) <a href="#quick-links" id="quick-links"></a>
+The **C-Chain** is available via Avalanche RPC.
 
-****[**Aurora**](https://aurora.dev/)****
+Avalanche was built specifically with Defi dApps and protocols in mind, focusing on security, low latency & high throughput. Avalanche uses a novel consensus protocol by utilizing two different consensus mechanisms. The consensus protocol ensures a high degree of security and fast finality even with multiple chains running simultaneously.
 
-****[**Docs​**](https://doc.aurora.dev/)****
+### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
-****[**Github**](https://github.com/AstarNetwork)****
+[**Avalanche**](https://www.avalabs.org/)
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+[**Docs**](https://docs.avax.network/build/avalanchego-apis/issuing-api-calls)
 
-You can set up your **MetaMask wallet** to connect to Aurora RPC. You can then perform transactions and interact with the network.
+[**Github**](https://github.com/ava-labs)
 
-### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#get-started) <a href="#get-started" id="get-started"></a>
+### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+
+You can set up your **MetaMask wallet** to connect to Avalanche RPC. You can then perform transactions and interact with the network.
+
+### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
-2. Select '_**Custom RPC**_'
+2. Select '_**Custom RPC**_'.
 3. Enter the settings below:
 
-| Chain  | Custom RPC Category |                                      Details                                       |
-| :----: | :-----------------: | :--------------------------------------------------------------------------------: |
-| Aurora |    NETWORK NAME:    |                                     Aurora RPC                                     |
-|        |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/aurora](https://apigw-dev.chainprtcl.net/aurora) |
-|        |      CHAIN ID:      |                                     1313161554                                     |
-|        |       SYMBOL:       |                                        ETH                                         |
-|        |   BLOCK EXPLORER:   |                 [https://aurorascan.dev/](https://aurorascan.dev/)                 |
+|   Chain   | Custom RPC Category |                                     Details                                      |
+| :-------: | :-----------------: | :------------------------------------------------------------------------------: |
+| Avalanche |    NETWORK NAME:    |                                  Avalanche RPC                                   |
+|           |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/avaxc](https://apigw-dev.chainprtcl.net/avaxc) |
+|           |      CHAIN ID:      |                                      43114                                       |
+|           |       SYMBOL:       |                                       AVAX                                       |
+|           |   BLOCK EXPLORER:   |  [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)  |
 
-### Integrate Code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate code <a href="#integrate-code" id="integrate-code"></a>
 
-#### web3 library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#web3-library) <a href="#web3-library" id="web3-library"></a>
+{% hint style="info" %}
+**Avalanche** supports standard JSON RPC calls identical to [Geth's API](https://geth.ethereum.org/docs/rpc/server) for the following services:
+
+* `web3_`
+* `net_`
+* `eth_`
+* `personal_`
+{% endhint %}
+
+### Avalanche[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#avalanche-1) <a href="#avalanche-1" id="avalanche-1"></a>
+
+#### web3 library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#web3-library) <a href="#web3-library" id="web3-library"></a>
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request)
+**Example request**
 
-{% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/aurora \
+curl https://apigw-dev.chainprtcl.net/avaxc \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
-{% endcode %}
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response)
+**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#example-response)
 
-{% code overflow="wrap" %}
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","id":1,"result":"v0.7.2-rc.1"}
 ```
-{% endcode %}
 
-#### net library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#net-library) <a href="#net-library" id="net-library"></a>
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-1)
+**Example request**
 
-{% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/aurora \
+  curl https://apigw-dev.chainprtcl.net/avaxc \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
-{% endcode %}
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-1)
+**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{"jsonrpc":"2.0","id":67,"result":"43114"}
 ```
 
-#### eth library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#eth-library) <a href="#eth-library" id="eth-library"></a>
 
-#### Example request[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request <a href="#example-request-2" id="example-request-2"></a>
 
-**eth\_estimateGas**
-
-Returns the gas price for the transaction in hex.
-
-{% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/aurora \
+curl https://apigw-dev.chainprtcl.net/avaxc \
   -X POST \
   -H "Content-Type: application/json" \
-  --data '{
+  --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":67}'
+```
+
+
+
+#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+
+```
+{"jsonrpc":"2.0","id":67,"result":"0xaf7bf1"}
+```
+
+***
+
+### Integrate code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#integrate-code-1) <a href="#integrate-code-1" id="integrate-code-1"></a>
+
+#### web3[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#web3) <a href="#web3" id="web3"></a>
+
+* **clientVersion**
+
+```
+package main
+
+import (
+  "fmt"
+  "strings"
+  "net/http"
+  "io/ioutil"
+)
+
+func main() {
+
+  url := "https://apigw-dev.chainprtcl.net/avaxc"
+  method := "POST"
+
+  payload := strings.NewReader(`{
     "jsonrpc":"2.0",
-    "method":"eth_estimateGas",
-    "params":[{
-    "from": "0x8D97689C9818892B700e27F316cc3E41e17fBeb9",
-    "to": "0xd3CdA913deB6f67967B99D67aCDFa1712C293601",
-    "value": "0x186a0"
-    }],
+    "method":"web3_clientVersion",
+    "params":[],
     "id":1
-}'
-```
-{% endcode %}
+}`)
 
-#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+  client := &http.Client {
+  }
+  req, err := http.NewRequest(method, url, payload)
 
-```
-{"jsonrpc":"2.0","result":"0x5208","id":1}
+  if err != nil {
+    fmt.Println(err)
+    return
+  }
+  req.Header.Add("Content-Type", "application/json")
+
+  res, err := client.Do(req)
+  if err != nil {
+    fmt.Println(err)
+    return
+  }
+  defer res.Body.Close()
+
+  body, err := ioutil.ReadAll(res.Body)
+  if err != nil {
+    fmt.Println(err)
+    return
+  }
+  fmt.Println(string(body))
+}
 ```
