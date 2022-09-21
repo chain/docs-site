@@ -57,7 +57,7 @@ const config = {
       navbar: {
         logo: {
           alt: "Chain Logo",
-          href: "https://chain.com",
+          href: "/",
           src: "img/logo-light.png",
         },
         items: [
@@ -72,6 +72,12 @@ const config = {
             position: "left",
             docId: "xcn/token/introduction",
             label: "XCN",
+          },
+          {
+            type: "doc",
+            position: "left",
+            docId: "cloud/introduction",
+            label: "Cloud",
           },
         ],
       },
@@ -88,6 +94,10 @@ const config = {
               {
                 label: "XCN",
                 to: "docs/xcn/token/introduction",
+              },
+              {
+                label: "Cloud",
+                to: "docs/cloud/introduction",
               },
             ],
           },
