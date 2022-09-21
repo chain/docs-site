@@ -1,10 +1,14 @@
-version: '1.1'
+version: '2'
 
 services:
-
-  proxy:
-    build:
-        context: .
-        dockerfile: Dockerfile
+  webserver:
+    image: node:16.15
+    volumes:
+      - .:/app
+    command: >
+      sh -c "npm install && npm run build && npm run serve"
+    working_dir: /app
     ports:
       - 80:80
+    environment:
+      NVM_DIR: /root/.nvm
