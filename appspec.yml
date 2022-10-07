@@ -1,0 +1,15 @@
+
+version: 0.0
+os: linux
+files:
+  - source: .
+    destination: /home/ec2-user/docs-site/
+hooks:
+  AfterInstall:
+   - location: scripts/setup.sh
+     timeout: 300
+     runas: root
+  ApplicationStart:
+   - location: scripts/run.sh
+     timeout: 300
+     runas: root
