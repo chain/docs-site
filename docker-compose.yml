@@ -1,12 +1,10 @@
-version: '2'
+version: "3"
 
 services:
-  webserver:
-    image: node:16.15
-    volumes:
-      - .:/app
-    command: >
-      sh -c "yarn && yarn build && yarn serve"
-    working_dir: /app
+
+  proxy:
+    build: .
+    container_name: docs-app
+    working_dir: /site
     ports:
-      - 80:80
+      - "80:80"

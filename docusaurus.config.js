@@ -113,10 +113,6 @@ const config = {
                 href: "https://twitter.com/chain",
               },
               {
-                label: "LinkedIn",
-                href: "https://linkedin.com/company/chain-global",
-              },
-              {
                 label: "Instagram",
                 href: "https://instagram.com/Chain",
               },
@@ -131,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Chain, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chain.`,
       },
       // algolia: {
       //   // The application ID provided by Algolia

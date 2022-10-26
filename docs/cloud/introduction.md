@@ -41,14 +41,14 @@ Standard API are available to all and free to use on the Chain Cloud platform. T
 
 To access all the advanced features of Chain Cloud RPC, developers can use Premium APIs. Premium features include exclusive multi-chain RPC endpoints, prioritized requests, WebSockets to make Web3 development an easy task.
 
-## The developers' profits
+## For developers:
 
 * **Use the unlimited request RPC**
   * As the blockchains world is growing constantly, the demands for RPCs is higher. With Chain Cloud, the developers can access to that kind of RPC for multiple chains with unlimited requests from multi regions.
 * **Security**
   * Chain Cloud provide security for developers, including API Key, Whitelist for domains and IP Addresses.
 
-## The node providers' profits
+## For node providers:
 
 * **Earn XCN for enabling Web3 development**
   * Node providers will stake XCN to provide nodes, at the same time earn the XCNs for serving the Web3 developers and applications&#x20;

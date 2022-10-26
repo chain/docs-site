@@ -1,0 +1,81 @@
+name: Deploy to AWS EC2 Instance
+
+on:
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - '.github/**/*'
+      - '.gitignore'
+
+env:
+  AWS_REGION: "us-east-1"
+
+jobs:
+  deploy:
+    permissions:
+      id-token: write # This is required for requesting the JWT
+      contents: read  # This is required for actions/checkout
+
+    runs-on: ubuntu-latest
+
+    name: Deploy to AWS EC2
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          role-session-name: GitHubCodeDeploySession
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Create CodeDeploy Deployment
+        id: deploy
+        run: |
+          aws deploy create-deployment \
+            --application-name DocsSite_Application \
+            --deployment-group-name main \
+            --deployment-config-name CodeDeployDefault.OneAtATime \
+            --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
+
+  new-tag:
+    needs: [deploy]
+    name: "Create New Tag"
+    runs-on: ubuntu-latest
+
+    outputs:
+      old_tag: "${{ steps.release-tag.outputs.old_tag }}"
+      new_tag: "${{ steps.release-tag.outputs.new_tag }}"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: "0"
+
+      - name: Get tag bump type
+        run: |
+          commit="${{ github.event.commits[0].message }}"
+          if [[ "${commit}" == *major* ]]
+          then
+              echo "TAG_BUMP=major" >> $GITHUB_ENV
+          elif [[ "${commit}" == *minor* ]]
+          then
+              echo "TAG_BUMP=minor" >> $GITHUB_ENV
+          else
+              echo "TAG_BUMP=patch" >> $GITHUB_ENV
+          fi
+
+      # Bump the version using DEFAULT_BUMP but don't push it just yet
+      - name: Bump version
+        id: new-tag
+        uses: everspader/github-tag-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WITH_V: false
+          DRY_RUN: false
+          DEFAULT_BUMP: ${{ env.TAG_BUMP }}
+          RELEASE_BRANCHES: main
+          VERBOSE: false
