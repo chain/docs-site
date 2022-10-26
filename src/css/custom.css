@@ -62,7 +62,7 @@ a:hover {
   color: var(--ifm-color-text);
 }
 
-li:hover {
+li > a:hover {
   color: var(--ifm-color-tertiary);
 }
 

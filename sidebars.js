@@ -104,7 +104,6 @@ const sidebars = {
         "xcn/token/tokenomics",
         "xcn/token/utility",
         "xcn/token/interfaces",
-        "xcn/token/api",
       ],
     },
     {
