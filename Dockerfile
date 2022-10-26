@@ -1,9 +1,19 @@
-FROM node:16.15 AS docusaurus
-COPY . /site
+FROM node:18-alpine AS deps
+
 WORKDIR /site
 
-RUN yarn && yarn build
+# Install dependencies based on the preferred package manager
+COPY package.json yarn.lock* package-lock.json* ./
+RUN npm install
 
-FROM nginx:1.23 AS server
-COPY --from=docusaurus /site/build/ /usr/share/nginx/html/
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+FROM node:18-alpine AS builder
+
+WORKDIR /site
+COPY --from=deps /site/node_modules ./node_modules
+COPY . .
+
+RUN npm run build
+
+EXPOSE 80
+
+CMD yarn serve
