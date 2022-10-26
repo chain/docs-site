@@ -12,22 +12,22 @@ Two-sided marketplace applications &mdash; such as ride-sharing or vacation rent
 
 In this guide, we explore how to build a ride-sharing application on top of Sequence.
 
-* [Overview](#overview)
-* [Setup](#setup)
-  * [Keys](#keys)
-  * [Flavors](#flavors)
-  * [Accounts](#accounts)
-* [Transaction Types](#transaction-types)
-  * [Ride Payment](#ride-payment)
-  * [Refund Rider](#refund-rider)
-  * [Distribute Promotional Credits](#distribute-promotional-credits)
-  * [Ride Payment - with credits](#ride-payment-with-credits)
-  * [Payout Driver](#payout-driver)
-* [Queries](#queries)
-  * [Driver Balance](#driver-balance)
-  * [Driver Earning History](#driver-earning-history)
-  * [Rider Credits Balance](#rider-credits-balance)
-  * [Rider Fare History](#rider-fare-history)
+- [Overview](#overview)
+- [Setup](#setup)
+  - [Keys](#keys)
+  - [Flavors](#flavors)
+  - [Accounts](#accounts)
+- [Transaction Types](#transaction-types)
+  - [Ride Payment](#ride-payment)
+  - [Refund Rider](#refund-rider)
+  - [Distribute Promotional Credits](#distribute-promotional-credits)
+  - [Ride Payment - with credits](#ride-payment---with-credits)
+  - [Payout Driver](#payout-driver)
+- [Queries](#queries)
+  - [Driver Balance](#driver-balance)
+  - [Driver earning history](#driver-earning-history)
+  - [Rider Credits Balances](#rider-credits-balances)
+  - [Rider fare history](#rider-fare-history)
 
 ### Overview
 There are two types of users: riders and drivers. These will each be represented as **accounts** in the ledger.

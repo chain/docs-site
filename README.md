@@ -1,3 +1,8 @@
+# Staging Server
+```bash
+ssh ec2-user@3.221.113.242
+```
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.

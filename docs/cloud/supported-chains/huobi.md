@@ -1,26 +1,22 @@
 ---
-description: Gnosis network in Chain Cloud RPC service
+description: Huobi ECO network in Chain Cloud RPC service
 ---
 
-# Gnosis
+# Huobi ECO Chain
 
-**Gnosis Chain** (Formerly the xDai Chain) provides stability, scalability and an extendable beacon chain framework.
+**Huobi HECO Chain** (Heco) is a decentralized, high-efficiency and energy-saving public chain. It is compatible with smart contracts and supports high- performance transactions. The endogenous token of Heco is HT and it adopts the HPoS consensus mechanism. Heco will continue to improve the efficiency of Ethereum by Layer2, which will supplement and empower the Ethereum ecosystem.
 
-Development on Gnosis Chain is straightforward for Ethereum developers as it is an EVM compatible chain. Smart contracts can be written and deployed in the same way as for Ethereum just by setting a different RPC endpoint.
+### **Quick Links**[​](https://www.ankr.com/docs/build-blockchain/chains/v2/arbitrum/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
-Any contract that works on the Ethereum mainnet can be redeployed to the Gnosis chain. Transaction costs are minimized, and all fees and transactions are paid with a single token (xDai). Many tools supporting Ethereum development are compatible with Gnosis Chain.
+****[**Huabi ECO chain**](https://www.hecochain.com/en-us/)****
 
-### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#quick-links) <a href="#quick-links" id="quick-links"></a>
+****[**Docs**](https://docs.hecochain.com/#/)**​**
 
-[**Gnosis Chain**](https://www.xdaichain.com/)
-
-[**Docs**](https://www.xdaichain.com/)
-
-[**Github**](https://github.com/xdaichain)
+****[**Github**](https://github.com/stars-labs/)****
 
 ### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
-You can set up your **MetaMask wallet** to connect to Gnosis RPC. You can then perform transactions and interact with the network.
+You can set up your **MetaMask wallet** to connect to HECO RPC. You can then perform transactions and interact with the network.
 
 ### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#get-started) <a href="#get-started" id="get-started"></a>
 
@@ -28,13 +24,13 @@ You can set up your **MetaMask wallet** to connect to Gnosis RPC. You can then p
 2. Select '_**Custom RPC**_'
 3. Enter the settings below:
 
-| Chain  | Custom RPC Category |                                         Details                                         |
-| :----: | :-----------------: | :-------------------------------------------------------------------------------------: |
-| Gnosis |    NETWORK NAME:    |                                       Gnosis RPC                                        |
-|        |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/gnosis](https://apigw-dev.chainprtcl.net/gnosis)&#xD; |
-|        |      CHAIN ID:      |                                          0x64                                           |
-|        |       SYMBOL:       |                                          xDai                                           |
-|        |   BLOCK EXPLORER:   |      [https://blockscout.com/xdai/mainnet/](https://blockscout.com/xdai/mainnet/)       |
+| Chain | Custom RPC Category |                                    Details                                     |
+| :---: | :-----------------: | :----------------------------------------------------------------------------: |
+| HECO  |    NETWORK NAME:    |                                    HECO RPC                                    |
+|       |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/heco](https://apigw-dev.chainprtcl.net/heco) |
+|       |      CHAIN ID:      |                                      128                                       |
+|       |       SYMBOL:       |                                       HT                                       |
+|       |   BLOCK EXPLORER:   |           [https://scan.hecochain.com/](https://scan.hecochain.com/)           |
 
 ### Integrate Code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
 
@@ -48,7 +44,7 @@ Returns the current client version.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/gnosis \
+curl https://apigw-dev.chainprtcl.net/heco \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -73,7 +69,7 @@ Returns the current network id.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/gnosis \
+curl https://apigw-dev.chainprtcl.net/heco \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -96,7 +92,7 @@ Returns the gas price for the transaction in hex.
 
 {% code overflow="wrap" %}
 ```
-curl https://apigw-dev.chainprtcl.net/gnosis \
+curl https://apigw-dev.chainprtcl.net/heco \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{

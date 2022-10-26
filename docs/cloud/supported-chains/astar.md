@@ -10,11 +10,11 @@ Astar Network focuses on making the best smart contract platform so that dApps d
 
 ### **Quick Links**[​](https://www.ankr.com/docs/build-blockchain/chains/v2/arbitrum/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
-[**Astar**](https://astar.network/)****
+[**Astar**](https://astar.network/)
 
-****[**Docs**](https://docs.astar.network/)**​**
+[**Docs**](https://docs.astar.network/)
 
-****[**Github**](https://github.com/AstarNetwork)****
+[**Github**](https://github.com/AstarNetwork)
 
 ### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
