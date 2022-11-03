@@ -14,4 +14,4 @@ description: Chain Cloud RPC Service Pricing
 | Connection            | HTTPS                                                                                                                  | HTTPS and WebSockets                                           |
 | Support               | Discord Support                                                                                                        | Custom SLA                                                     |
 | Terms                 | No Contract                                                                                                            | Both Contract and No Contract                                  |
-| Cost                  | **FREE**                                                                                                               | 100,000 XCN per month                                          |
+| Cost                  | **FREE**                                                                                                               | 100,000,000 XCN per month                                      |

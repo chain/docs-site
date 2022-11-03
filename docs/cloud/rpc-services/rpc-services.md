@@ -17,4 +17,4 @@ Free and instant access to our range of Public APIs. [_Read more_](../rpc-servic
 
 ### Premium API
 
-Sign up to our Premium Plan with a minimum deposit of 0.01 XCN and get access to powerful features. [_Read more_](../rpc-services/premium-api/premium-api.md)
+Sign up to our Premium Plan with a minimum deposit of 100000000 and get access to powerful features. [_Read more_](../rpc-services/premium-api/premium-api.md)

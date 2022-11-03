@@ -30,7 +30,7 @@ As you connected to the dApp, you will be asked to provide the email address. Pl
 
 After provided email, user will open the Premium API page by navigating on the left menu. The Premium API will be under Cloud category.
 
-![Premium API](../../../../static/img/xcn-payment.png)
+![Premium API](../../../../static/img/pay-with-xcn.png)
 
 User must pay XCN to use Premium API by clicking "Unlock Premium". Please make sure that you have enough XCN in the wallet.
 
