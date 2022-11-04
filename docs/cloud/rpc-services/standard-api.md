@@ -21,7 +21,7 @@ curl https://api-us.chainprtcl.net/btc \
 
 Enjoy the following benefits:
 
-* Permission-less, Open access to 4 chains (more to come)
+* Permission-less, Open access to 18 chains (more to come)
 * Zero cost access to Public RPC endpoints
 * No username or password required
 * Dashboard views of the status of individual chain public RPCs
