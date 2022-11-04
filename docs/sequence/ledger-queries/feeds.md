@@ -34,12 +34,12 @@ In general, you should consume a transaction feed in one and only one thread. In
 #### Field Descriptions
 
 | Field         | Type                     | Description                                                                       |
-|:--------------|:-------------------------|:----------------------------------------------------------------------------------|
+| :------------ | :----------------------- | :-------------------------------------------------------------------------------- |
 | type          | string                   | The type of feed – `action` or `transaction`.                                     |
 | id            | string                   | User-supplied or system-assigned unique identifier of the feed.                   |
 | filter        | string                   | The filter that determines which items get returned in the feed.                  |
 | filter params | array of strings or ints | The ordered set of values for any placeholders (e.g `$1`) included in the filter. |
-| cursor        | string                   | A pointer to the the last item acknowledged in the feed.                          |
+| cursor        | string                   | A pointer to the last item acknowledged in the feed.                              |
 
 #### Example Object
 

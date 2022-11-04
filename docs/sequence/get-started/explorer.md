@@ -8,7 +8,7 @@ The Ledger Explorer is a tool designed for developers and product managers. It e
 
 ![](../../../static/img/docs/explorer.png)
 
-The explorer is helpful for prototyping you model, setting up your ledger, and debugging your application.
+The explorer is helpful for prototyping your model, setting up your ledger, and debugging your application.
 
 ### Prototyping
 As you are designing your ledger model, you can prototype all the interactions in the explorer without writing any code.

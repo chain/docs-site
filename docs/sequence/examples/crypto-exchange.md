@@ -8,31 +8,31 @@ displayed_sidebar: sequence
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Sequence provides crypto asset exchanges an easy-to-use, powerful ledger infrastructure for securely tracking client funds. Exchanges can use Sequence to easily record deposits, withdrawals, and transfers of fiat currencies and crypto assets on their platform.
+Sequence provides crypto asset exchanges with an easy-to-use, powerful ledger infrastructure for securely tracking client funds. Exchanges can use Sequence to easily record deposits, withdrawals, and transfers of fiat currencies and crypto assets on their platform.
 
 In this guide, we explore how to build a crypto asset exchange application on top of Sequence.
 
-* [Overview](#overview)
-* [Setup](#setup)
-  * [Keys](#keys)
-  * [Flavors](#flavors)
-  * [Accounts](#accounts)
-* [Transaction Types](#transaction-types)
-  * [Deposit](#deposit)
-  * [Buy Crypto Asset with Fiat Currency](#buy-crypto-asset-with-fiat-currency)
-  * [Settle Trade Match](#settle-trade-match)
-  * [External Sale](#external-sale)
-  * [Withdraw](#withdraw)
-* [Queries](#queries)
-  * [User Balances](#user-balances)
-  * [Crypto Asset Totals](#crypto-asset-totals)
-  * [Total Fees](#total-fees)
-  * [User Activity](#user-activity)
+- [Overview](#overview)
+- [Setup](#setup)
+  - [Keys](#keys)
+  - [Flavors](#flavors)
+  - [Accounts](#accounts)
+- [Transaction Types](#transaction-types)
+  - [Deposit](#deposit)
+  - [Buy Crypto Assets with Fiat Currency](#buy-crypto-assets-with-fiat-currency)
+  - [Settle Trade Match](#settle-trade-match)
+  - [External Sale](#external-sale)
+  - [Withdraw](#withdraw)
+- [Queries](#queries)
+  - [User Balances](#user-balances)
+  - [Crypto Asset Totals](#crypto-asset-totals)
+  - [Total Fees](#total-fees)
+  - [User Activity](#user-activity)
 
 ### Overview
 In our example crypto asset exchange, users will be represented as **accounts** in the ledger.
 
-There are two currencies, USD and EUR, as well as two crytpo assets, BTC (Bitcoin) and ETH (Ethereum ether). These will each be represented as **flavors** in the ledger. (This can be extended to any number of different currencies and assets.)
+There are two currencies, USD and EUR, as well as two crypto assets, BTC (Bitcoin) and ETH (Ethereum ether). These will each be represented as **flavors** in the ledger. (This can be extended to any number of different currencies and assets.)
 
 Currencies and crypto assets can be deposited, withdrawn, and transferred to other users in exchange for currencies or other crypto assets. The company charges a 1% fee on all withdrawals of fiat currency. All of these interactions will be represented as **transactions** in the ledger.
 
@@ -236,7 +236,7 @@ ledger.accounts.create(
 </Tabs>
 
 ### Transaction Types
-Now that we have created our flavors and accounts, we track events with **transactions**. A single transaction can include multiple **actions**, involving any number of flavors and accounts. The actions in a transaction occur simultaneously, as a single, atomic operation. A transaction can never be partially applied.
+Now that we have created our flavors and accounts, we can track events with **transactions**. A single transaction can include multiple **actions**, involving any number of flavors and accounts. The actions in a transaction occur simultaneously, as a single, atomic operation. A transaction can never be partially applied.
 
 #### Deposit
 When a user deposits fiat currency or a crypto asset, we create a transaction containing an **issue** action to issue the amount of the deposited currency or crypto asset into their account. This will create a number of **tokens** of the corresponding flavor and put them in the account.
@@ -343,8 +343,8 @@ end
 
 Because this transaction issues tokens of the USD flavor, it must be signed by the `treasury` key. This is handled automatically by the `transact` SDK method.
 
-#### Buy Crypto Asset with Fiat Currency
-When a user purchases a crypto asset using fiat currency, we model the purchase as an atomic transaction with two actions:
+#### Buy Crypto Assets with Fiat Currency
+When a user purchases a crypto asset using a fiat currency, we model the purchase as an atomic transaction with two actions:
 
 1. **Transfer** - purchase price from the buyer to the seller
 2. **Transfer** - purchased crypto asset from the seller to the buyer

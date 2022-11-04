@@ -8,7 +8,7 @@ A team contains **[ledgers](ledgers.md)** that can be accessed by **[people](acc
 
 ### Create a team
 
-When you **[create a team](https://sequence.chain.com/start)**, you will be asked to enter a **team name**, which will be used to generate your **team URL**. This is where all people on your team will log in to the team dashboard.
+When you **[create a team](https://sequence.chain.com/start)**, you will be asked to enter a **team name**, which will be used to generate your **team URL**. This is where all the people on your team will log in to the team dashboard.
 
 ![](../../../static/img/docs/create-team.png)
 

@@ -13,7 +13,7 @@ Results of both [list queries](list-queries.md) and [sum queries](sum-queries.md
 There are two methods for handling paginated results:
 
 1. **Retrieve a page of results at a time** – useful for implementing pagination in an end-user application, such as infinite scroll.
-2. **Iterate though individual results** - useful for processing results in an application, such as generating a report (where pages are incidental).
+2. **Iterate through individual results** - useful for processing results in an application, such as generating a report (where pages are incidental).
 
 ### Retrieving pages
 Each page contains a **cursor**. To retrieve the next page, you perform another query, providing the cursor from the previous page.

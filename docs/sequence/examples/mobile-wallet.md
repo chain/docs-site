@@ -13,23 +13,23 @@ These applications tend to have a few things in common &mdash; consumers accumul
 
 In this guide, we explore how to build a mobile wallet application on top of Sequence.
 
-* [Overview](#overview)
-* [Setup](#setup)
-  * [Keys](#keys)
-  * [Flavors](#flavors)
-  * [Accounts](#accounts)
-* [Transaction Types](#transaction-types)
-  * [Deposit](#deposit)
-  * [P2P Payment](#p2p-payment-consumer-to-consumer)
-  * [Merchant Payment](#merchant-payment)
-  * [Merchant FX Payment](#merchant-fx-foreign-exchange-payment)
-  * [Withdrawal](#withdrawal)
-* [Queries](#queries)
-  * [Account Balances](#balances-in-an-account)
-  * [Total Tokens](#total-amount-of-tokens-in-the-ledger)
-  * [USD by Account type](#amount-of-usd-in-each-type-of-account)
-  * [Total Fees](#total-fees)
-  * [Recent Actions](#recent-actions-in-an-account)
+- [Overview](#overview)
+- [Setup](#setup)
+  - [Keys](#keys)
+  - [Flavors](#flavors)
+  - [Accounts](#accounts)
+- [Transaction Types](#transaction-types)
+  - [Deposit](#deposit)
+  - [P2P Payment (consumer-to-consumer)](#p2p-payment-consumer-to-consumer)
+  - [Merchant Payment](#merchant-payment)
+  - [Merchant FX (foreign exchange) Payment](#merchant-fx-foreign-exchange-payment)
+  - [Withdrawal](#withdrawal)
+- [Queries](#queries)
+  - [Balances in an Account](#balances-in-an-account)
+  - [Total Amount of Tokens in the Ledger](#total-amount-of-tokens-in-the-ledger)
+  - [Amount of USD in Each Type of Account](#amount-of-usd-in-each-type-of-account)
+  - [Total Fees](#total-fees)
+  - [Recent Actions in an Account](#recent-actions-in-an-account)
 
 ### Overview
 In our example mobile wallet system, there are two types of users: consumers and merchants. These will each be represented as **accounts** in the ledger.
@@ -96,7 +96,7 @@ ledger.keys.create(id: 'loyalty')
 </Tabs>
 
 #### Flavors
-Flavors represent the different types of balances in merchant and consumer accounts. Our ledger wil have flavors for USD, EUR, and points.
+Flavors represent the different types of balances in merchant and consumer accounts. Our ledger will have flavors for USD, EUR, and points.
 
 First, we create the currency flavors using the `treasury` key:
 

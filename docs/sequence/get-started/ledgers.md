@@ -26,9 +26,9 @@ A ledger can be created in one of two modes: **development** or **production**.
 
 Development ledgers are used for prototyping and testing. You can create as many development ledgers as you need (e.g. one per developer on your team) and easily reset or delete them.
 
-Production ledgers are used for applications in production that are recording actual transactions and balances. You will typically have only one production ledger. *For safety, ledgers in production mode cannot be renamed, reset, or deleted.*
+Production ledgers are used for applications in production that record actual transactions and balances. You will typically have only one production ledger. *For safety reasons, ledgers in production mode cannot be renamed, reset, or deleted.*
 
-While it is not possible to change the mode of a ledger, the interfaces for development and production ledgers are identical. This means that you can easily move an application built on a development ledger into production. You simply setup a new production ledger which your application can point to. No code changes are required.
+While it is not possible to change the mode of a ledger, the interfaces for development and production ledgers are identical. This means that you can easily move an application built on a development ledger into production. You can simply set up a new production ledger that your application can refer to. No code changes are required.
 
 ### Reset a ledger
 
