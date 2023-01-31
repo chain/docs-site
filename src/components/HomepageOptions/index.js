@@ -15,18 +15,6 @@ const OptionList = [
         ),
     },
     {
-        title: "XCN",
-        img: require("@site/static/img/xcn-full.gif").default,
-        description: (
-            <>
-                The Chain Ecosystem Cryptocurrency. Stake your XCN today to
-                participate in Chain Governance.
-                {/* these line breaks make the cards the same hight, should fix in CSS */}
-                {/* <br /><br /> */}
-            </>
-        ),
-    },
-    {
         title: "Cloud",
         img: require("@site/static/img/cloud-full.gif").default,
         description: (
