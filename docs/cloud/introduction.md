@@ -44,9 +44,9 @@ To access all the advanced features of Chain Cloud RPC, developers can use Premi
 ## For developers:
 
 * **Use the unlimited request RPC**
-  * As the blockchains world is growing constantly, the demands for RPCs is higher. With Chain Cloud, the developers can access to that kind of RPC for multiple chains with unlimited requests from multi regions.
+  * As the blockchains world is growing constantly, the demand for RPCs is higher. With Chain Cloud, the developers can access that kind of RPC for multiple chains with unlimited requests from multi regions.
 * **Security**
-  * Chain Cloud provide security for developers, including API Key, Whitelist for domains and IP Addresses.
+  * Chain Cloud provides security for developers, including API Key, Whitelist for domains and IP Addresses.
 
 ## For node providers:
 
