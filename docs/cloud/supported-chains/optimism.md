@@ -105,3 +105,11 @@ curl https://apigw-dev.chainprtcl.net/op \
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $190                 |
+| Archive Node          | $515                 |
+| Testnet               | $190                 |

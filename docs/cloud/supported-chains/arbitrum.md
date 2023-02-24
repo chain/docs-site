@@ -107,3 +107,11 @@ curl https://apigw-dev.chainprtcl.net/arbitrum \
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $182                 |
+| Archive Node          | $377                 |
+| Testnet               | $182                 |

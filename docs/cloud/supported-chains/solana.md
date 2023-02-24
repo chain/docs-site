@@ -29,3 +29,11 @@ For developers, [command-line wallets](https://docs.solana.com/wallet-guide/cli)
 Solana uses it's own command-line tools to interact with a Solana cluster.
 
 Solana provides easy to follow guidance in their [documentation on how to install and use Solana Command Line (CLI) tools](https://docs.solana.com/cli).
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/solana/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $468                 |
+| Archive Node          | $468                 |
+| Testnet               | $468                 |

@@ -105,3 +105,11 @@ curl https://apigw-dev.chainprtcl.net/aurora \
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $312                 |
+| Archive Node          | $1014                |
+| Testnet               | $234                 |

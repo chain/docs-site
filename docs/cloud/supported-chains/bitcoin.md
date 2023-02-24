@@ -14,3 +14,10 @@ Bitcoin is digital money that can be exchanged permisionlessly, peer-to-peer, wi
 ### Bitcoin Official RPC-API documentation[​](https://docs.chain.com/docs/cloud/supported-chains/bitcoin/#bitcoin-official-rpc-api-documentation) <a href="#bitcoin-official-rpc-api-documentation" id="bitcoin-official-rpc-api-documentation"></a>
 
 * [Official RPC-API documentation](https://developer.bitcoin.org/reference/rpc/index.html)
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/bitcoin/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $221                 |
+| Testnet               | $143                 |

@@ -105,3 +105,11 @@ curl https://apigw-dev.chainprtcl.net/heco \
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/huobi/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $533                 |
+| Archive Node          | $923                 |
+| Testnet               | $338                 |

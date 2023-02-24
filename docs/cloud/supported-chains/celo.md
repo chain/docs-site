@@ -109,3 +109,11 @@ curl https://apigw-dev.chainprtcl.net/celo \
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $182                 |
+| Archive Node          | $507                 |
+| Testnet               | $182                 |

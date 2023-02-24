@@ -23,3 +23,10 @@ EOS is a blockchain that operates on **Delegated Proof of Stake**, built on the 
 ### EOS Official RPC-API documentation[​](https://docs.chain.com/docs/cloud/supported-chains/eos/#eos-official-rpc-api-documentation) <a href="#eos-official-rpc-api-documentation" id="eos-official-rpc-api-documentation"></a>
 
 * [Official RPC-API documentation](https://developer.eos.io/manuals/eos/v2.1/rpc_apis/index)
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/eos/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $385                 |
+| Testnet               | $255                 |

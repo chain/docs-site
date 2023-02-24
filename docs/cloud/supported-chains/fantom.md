@@ -105,3 +105,11 @@ curl https://apigw-dev.chainprtcl.net/ftm \
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/fantom/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $515                 |
+| Archive Node          | $2725                |
+| Testnet               | $229                 |

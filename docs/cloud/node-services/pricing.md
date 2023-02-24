@@ -26,5 +26,5 @@ description: Chain Cloud Full Node Services Pricing
 | Staking Requirement   | None                                                      |
 | Reward                | None                                                      |
 | Terms                 | Monthly                                                   |
-| Payment Method        | <ul><li>XCN, USDT, ETH</li></ul>                          |
-| Cost                  | <p>1,500,000,000 XCN per month<br/>(20% off with XCN)</p> |
+| Payment Method        | <ul><li>USD</li><li>BTC, ETH, BNB, USDT, ...</li></ul>    |
+| Cost                  | <p>Depends on chain and type</p>                          |

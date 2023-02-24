@@ -109,3 +109,11 @@ curl https://apigw-dev.chainprtcl.net/bsc \
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/bittorent-chain/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $1482                |
+| Archive Node          | $2132                |
+| Testnet               | $1157                |

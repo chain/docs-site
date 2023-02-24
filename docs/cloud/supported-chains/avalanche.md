@@ -163,3 +163,11 @@ func main() {
   fmt.Println(string(body))
 }
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $169                 |
+| Archive Node          | $169                 |
+| Testnet               | $130                 |

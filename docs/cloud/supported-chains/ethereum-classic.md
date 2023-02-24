@@ -107,3 +107,11 @@ curl https://apigw-dev.chainprtcl.net/etc \
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $213                 |
+| Archive Node          | $317                 |
+| Testnet               | $154                 |
