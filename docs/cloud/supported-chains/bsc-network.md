@@ -46,14 +46,12 @@ Returns the current client version.
 
 **Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-request)
 
-{% code overflow="wrap" %}
 ```
 curl https://apigw-dev.chainprtcl.net/bsc \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
-{% endcode %}
 
 **Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-response)
 
@@ -69,14 +67,12 @@ Returns the current network id.
 
 **Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-1)
 
-{% code overflow="wrap" %}
 ```
 curl https://apigw-dev.chainprtcl.net/bsc \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
-{% endcode %}
 
 **Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-1)
 
@@ -92,7 +88,6 @@ curl https://apigw-dev.chainprtcl.net/bsc \
 
 Returns the gas price for the transaction in hex.
 
-{% code overflow="wrap" %}
 ```
 curl https://apigw-dev.chainprtcl.net/bsc \
   -X POST \
@@ -108,7 +103,6 @@ curl https://apigw-dev.chainprtcl.net/bsc \
     "id":1
 }'
 ```
-{% endcode %}
 
 #### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 

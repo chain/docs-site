@@ -38,14 +38,12 @@ You can set up your **MetaMask wallet** to connect to Avalanche RPC. You can the
 
 ### Integrate code <a href="#integrate-code" id="integrate-code"></a>
 
-{% hint style="info" %}
 **Avalanche** supports standard JSON RPC calls identical to [Geth's API](https://geth.ethereum.org/docs/rpc/server) for the following services:
 
 * `web3_`
 * `net_`
 * `eth_`
 * `personal_`
-{% endhint %}
 
 ### Avalanche[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#avalanche-1) <a href="#avalanche-1" id="avalanche-1"></a>
 

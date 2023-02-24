@@ -42,22 +42,18 @@ Returns the current client version.
 
 **Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request)
 
-{% code overflow="wrap" %}
 ```
 curl https://apigw-dev.chainprtcl.net/op \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
-{% endcode %}
 
 **Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response)
 
-{% code overflow="wrap" %}
 ```
 {"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
 ```
-{% endcode %}
 
 #### net library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#net-library) <a href="#net-library" id="net-library"></a>
 
@@ -67,14 +63,12 @@ Returns the current network id.
 
 **Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-1)
 
-{% code overflow="wrap" %}
 ```
 curl https://apigw-dev.chainprtcl.net/op \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
-{% endcode %}
 
 **Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-1)
 
@@ -90,7 +84,6 @@ curl https://apigw-dev.chainprtcl.net/op \
 
 Returns the gas price for the transaction in hex.
 
-{% code overflow="wrap" %}
 ```
 curl https://apigw-dev.chainprtcl.net/op \
   -X POST \
@@ -106,7 +99,6 @@ curl https://apigw-dev.chainprtcl.net/op \
     "id":1
 }'
 ```
-{% endcode %}
 
 #### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
