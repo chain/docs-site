@@ -6,7 +6,7 @@ description: Aurora network in Chain Cloud RPC service
 
 **Aurora** is an Ethereum Virtual Machine (EVM) built on the NEAR Protocol, that provides a solution for developers to deploy their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users. Besides the EVM, Aurora developed the Rainbow Bridge which allows users to transfer assets between Ethereum, NEAR, and Aurora. Aurora is backed by top VCs such as Pantera Capital, Electric Capital, Dragonfly Capital, Three Arrows Capital, and Alameda Research.
 
-### **Quick Links**[​](https://www.ankr.com/docs/build-blockchain/chains/v2/arbitrum/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum#quick-links) <a href="#quick-links" id="quick-links"></a>
 
 ****[**Aurora**](https://aurora.dev/)****
 
