@@ -3,7 +3,7 @@ description: Chain Cloud Full Node Services Pricing
 ---
 
 # Pricing
-
+<!-- 
 | Feature               | Protocol Node                                             | Enterprise Node                                           |
 | --------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
 | Full and Archive Data | ✅                                                         | ✅                                                         |
@@ -15,3 +15,16 @@ description: Chain Cloud Full Node Services Pricing
 | Terms                 | Monthly                                                   | Monthly                                                   |
 | Payment Method        | <ul><li>XCN, USDC, ETH</li></ul>                          | <ul><li>XCN, USDC, ETH</li></ul>                          |
 | Cost                  | <p>1,000,000,000 XCN per month<br/>(20% off with XCN)</p> | <p>1,500,000,000 XCN per month<br/>(20% off with XCN)</p> |
+ -->
+
+| Feature               | Enterprise Node                                           |
+| --------------------- | --------------------------------------------------------- |
+| Full and Archive Data | ✅                                                         |
+| Dedicated domain      | Custom Subdomain and dedicated full node                  |
+| Connection            | HTTPS and WebSockets                                      |
+| Support               | Custom SLA                                                |
+| Staking Requirement   | None                                                      |
+| Reward                | None                                                      |
+| Terms                 | Monthly                                                   |
+| Payment Method        | <ul><li>XCN, USDT, ETH</li></ul>                          |
+| Cost                  | <p>1,500,000,000 XCN per month<br/>(20% off with XCN)</p> |

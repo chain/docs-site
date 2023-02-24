@@ -97,28 +97,53 @@ const sidebars = {
             id: "cloud/introduction",
             label: "Introduction",
         },
-        {
-            type: "category",
-            label: "RPC Services",
-            collapsible: true,
-            collapsed: true,
-            items: [
-                "cloud/rpc-services/rpc-services",
-                "cloud/rpc-services/standard-api",
-                {
-                    type: "category",
-                    label: "Premium API",
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        "cloud/rpc-services/premium-api/premium-api",
-                        "cloud/rpc-services/premium-api/security",
-                        "cloud/rpc-services/premium-api/ui-interactions",
-                    ],
-                },
-                "cloud/rpc-services/pricing",
-            ],
-        },
+        // Changed by Ozren
+        // {
+        //     type: "category",
+        //     label: "RPC Services",
+        //     collapsible: true,
+        //     collapsed: true,
+        //     items: [
+        //         "cloud/rpc-services/rpc-services",
+        //         "cloud/rpc-services/standard-api",
+        //         {
+        //             type: "category",
+        //             label: "Premium API",
+        //             collapsible: true,
+        //             collapsed: true,
+        //             items: [
+        //                 "cloud/rpc-services/premium-api/premium-api",
+        //                 "cloud/rpc-services/premium-api/security",
+        //                 "cloud/rpc-services/premium-api/ui-interactions",
+        //             ],
+        //         },
+        //         "cloud/rpc-services/pricing",
+        //     ],
+        // },
+        // {
+        //     type: "category",
+        //     label: "Node Services",
+        //     collapsible: true,
+        //     collapsed: true,
+        //     items: [
+        //         "cloud/node-services/node-services",
+        //         "cloud/node-services/architecture",
+        //         "cloud/node-services/smart-contract-flows",
+        //         "cloud/node-services/payment-methods",
+        //         {
+        //             type: "category",
+        //             label: "Protocol Node",
+        //             collapsible: true,
+        //             collapsed: true,
+        //             items: [
+        //                 "cloud/node-services/protocol-node/protocol-node",
+        //                 "cloud/node-services/protocol-node/node-staking",
+        //             ],
+        //         },
+        //         "cloud/node-services/enterprise-node",
+        //         "cloud/node-services/pricing",
+        //     ],
+        // },
         {
             type: "category",
             label: "Node Services",
@@ -128,17 +153,6 @@ const sidebars = {
                 "cloud/node-services/node-services",
                 "cloud/node-services/architecture",
                 "cloud/node-services/smart-contract-flows",
-                "cloud/node-services/payment-methods",
-                {
-                    type: "category",
-                    label: "Protocol Node",
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        "cloud/node-services/protocol-node/protocol-node",
-                        "cloud/node-services/protocol-node/node-staking",
-                    ],
-                },
                 "cloud/node-services/enterprise-node",
                 "cloud/node-services/pricing",
             ],

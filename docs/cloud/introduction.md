@@ -6,9 +6,11 @@ description: Welcome to Chain Cloud!
 
 Chain Cloud is a decentralized and distributed infrastructure designed for developers to access blockchain networks on-demand, and for providers to invest in the full nodes RPC demands around the world. In addition, clients can utilize various services within Chain Cloud to meet their blockchain and web3 product needs.&#x20;
 
-1. [Standard API](./rpc-services/standard-api.md): Free and instant access to our range of Public RPC APIs.
-2. [Premium API](./rpc-services/premium-api/premium-api.md): Sign up to our Premium Plan with a minimum deposit of 0.01 XCN and get access to powerful features.
-3. [Node Services](./node-services/node-services.md): Full, Archive nodes are available for 18 chains.
+<!-- Changed by Ozren -->
+<!-- 1. [Standard API](./rpc-services/standard-api.md): Free and instant access to our range of Public RPC APIs.
+2. [Premium API](./rpc-services/premium-api/premium-api.md): Sign up to our Premium Plan with a minimum deposit of 0.01 XCN and get access to powerful features. -->
+<!--  -->
+1. [Node Services](./node-services/node-services.md): Full, Archive nodes are available for 18 chains.
     1. Arbitrum
     2. Astar
     3. Aurora
@@ -35,9 +37,11 @@ Chain Cloud is a decentralized and distributed infrastructure designed for devel
 
 Chain Cloud Services is the gateway through which Web3 developers, projects, and protocols connect to the node infrastructure and development tools they need to build Web3 applications.
 
-We provide free, public RPC endpoints for developers, alongside Premium and Enterprise plans packed with advanced developer tools — all powered by a globally distributed and decentralized network of nodes. In the Chain Cloud Premium API, developers paid for access to on-chain data, independent node providers serve blockchain requests to earn XCN tokens.
+<!-- Changed by Ozren -->
+<!-- We provide free, public RPC endpoints for developers, alongside Premium and Enterprise plans packed with advanced developer tools — all powered by a globally distributed and decentralized network of nodes. In the Chain Cloud Premium API, developers paid for access to on-chain data, independent node providers serve blockchain requests to earn XCN tokens. -->
 
-Standard API are available to all and free to use on the Chain Cloud platform. Today, blockchain developers and projects can use these RPC endpoints to access Bitcoin, Ethereum, BSC and Solana with no need to input user info or login credentials.
+<!-- Standard API are available to all and free to use on the Chain Cloud platform. Today, blockchain developers and projects can use these RPC endpoints to access Bitcoin, Ethereum, BSC and Solana with no need to input user info or login credentials. -->
+<!--  -->
 
 To access all the advanced features of Chain Cloud RPC, developers can use Premium APIs. Premium features include exclusive multi-chain RPC endpoints, prioritized requests, WebSockets to make Web3 development an easy task.
 
