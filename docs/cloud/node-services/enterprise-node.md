@@ -21,7 +21,7 @@ To start deploying nodes, there are some required steps for you to go through:
 
 You can signup with your email and confirm via email and then signin to your account.
 
-![Sign In](../../../static/img/login.png)
+![Sign In](../../../static/img/LogIn.png)
 
 ### Go to marketplace
 
