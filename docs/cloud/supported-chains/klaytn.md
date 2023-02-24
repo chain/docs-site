@@ -12,7 +12,7 @@ description: Klaytn network in Chain Cloud RPC service
 * Lower the barriers to entry for end-users.
 * Ease the technology adoption process for industry.
 
-### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/solana/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
 ****[**Klaytn**](https://klaytn.foundation/)****
 
@@ -20,11 +20,11 @@ description: Klaytn network in Chain Cloud RPC service
 
 ****[**Github**](https://github.com/klaytn)****
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/solana/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
 You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can then perform transactions and interact with the network.
 
-#### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#get-started) <a href="#get-started" id="get-started"></a>
+#### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'.
@@ -38,15 +38,15 @@ You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can 
 |              |       SYMBOL:       |                                        KLAY                                        |
 |              |   BLOCK EXPLORER:   |                [https://scope.klaytn.com](https://scope.klaytn.com)                |
 
-### Integrate Code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
 
-#### web3 library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#web3-library) <a href="#web3-library" id="web3-library"></a>
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request)
+**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request)
 
 ```
 curl https://apigw-dev.chainprtcl.net/bsc \
@@ -55,19 +55,19 @@ curl https://apigw-dev.chainprtcl.net/bsc \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response)
 
 ```
 {"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
 ```
 
-#### net library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#net-library) <a href="#net-library" id="net-library"></a>
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-1)
+**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request-1)
 
 ```
 curl https://apigw-dev.chainprtcl.net/klaytn \
@@ -82,9 +82,9 @@ curl https://apigw-dev.chainprtcl.net/klaytn \
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#eth-library) <a href="#eth-library" id="eth-library"></a>
 
-#### Example request[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
 
 **eth\_estimateGas**
 
@@ -106,7 +106,7 @@ curl https://apigw-dev.chainprtcl.net/klaytn \
 }'
 ```
 
-#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}

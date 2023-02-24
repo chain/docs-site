@@ -6,7 +6,7 @@ description: Optimism network in Chain Cloud RPC service
 
 **Optimism** is a Layer 2 scaling solution on Ethereum to reduce gas fees, process new transactions faster, thereby providing a smoother user experience while maintaining security from the Ethereum original chain. Optimism is an Optimistic Roll-up project, using a fraud-proof security mechanism.
 
-### **Quick Links**[​](https://www.ankr.com/docs/build-blockchain/chains/v2/arbitrum/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
 ****[**Optimism**](https://www.optimism.io/)****
 
@@ -14,11 +14,11 @@ description: Optimism network in Chain Cloud RPC service
 
 ****[**Github**](https://github.com/ethereum-optimism)****
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
 You can set up your **MetaMask wallet** to connect to Optimism RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -32,15 +32,15 @@ You can set up your **MetaMask wallet** to connect to Optimism RPC. You can then
 |          |       SYMBOL:       |                                    ETH                                     |
 |          |   BLOCK EXPLORER:   |    [https://optimistic.etherscan.io/](https://optimistic.etherscan.io/)    |
 
-### Integrate Code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
 
-#### web3 library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#web3-library) <a href="#web3-library" id="web3-library"></a>
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request)
+**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-request)
 
 ```
 curl https://apigw-dev.chainprtcl.net/op \
@@ -49,19 +49,19 @@ curl https://apigw-dev.chainprtcl.net/op \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-response)
 
 ```
 {"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
 ```
 
-#### net library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#net-library) <a href="#net-library" id="net-library"></a>
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-1)
+**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-request-1)
 
 ```
 curl https://apigw-dev.chainprtcl.net/op \
@@ -70,15 +70,15 @@ curl https://apigw-dev.chainprtcl.net/op \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-1)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-response-1)
 
 ```
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#eth-library) <a href="#eth-library" id="eth-library"></a>
 
-#### Example request[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
 
 **eth\_estimateGas**
 
@@ -100,7 +100,7 @@ curl https://apigw-dev.chainprtcl.net/op \
 }'
 ```
 
-#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}

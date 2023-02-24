@@ -10,7 +10,7 @@ The **C-Chain** is available via Avalanche RPC.
 
 Avalanche was built specifically with Defi dApps and protocols in mind, focusing on security, low latency & high throughput. Avalanche uses a novel consensus protocol by utilizing two different consensus mechanisms. The consensus protocol ensures a high degree of security and fast finality even with multiple chains running simultaneously.
 
-### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
 [**Avalanche**](https://www.avalabs.org/)
 
@@ -18,11 +18,11 @@ Avalanche was built specifically with Defi dApps and protocols in mind, focusing
 
 [**Github**](https://github.com/ava-labs)
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
 You can set up your **MetaMask wallet** to connect to Avalanche RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'.
@@ -45,9 +45,9 @@ You can set up your **MetaMask wallet** to connect to Avalanche RPC. You can the
 * `eth_`
 * `personal_`
 
-### Avalanche[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#avalanche-1) <a href="#avalanche-1" id="avalanche-1"></a>
+### Avalanche[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#avalanche-1) <a href="#avalanche-1" id="avalanche-1"></a>
 
-#### web3 library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#web3-library) <a href="#web3-library" id="web3-library"></a>
 
 * **clientVersion**
 
@@ -62,13 +62,13 @@ curl https://apigw-dev.chainprtcl.net/avaxc \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#example-response)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#example-response)
 
 ```
 {"jsonrpc":"2.0","id":1,"result":"v0.7.2-rc.1"}
 ```
 
-#### net library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#net-library) <a href="#net-library" id="net-library"></a>
 
 * **net\_version**
 
@@ -83,13 +83,13 @@ Returns the current network id.
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#example-response-1)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#example-response-1)
 
 ```
 {"jsonrpc":"2.0","id":67,"result":"43114"}
 ```
 
-#### eth library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#eth-library) <a href="#eth-library" id="eth-library"></a>
 
 #### Example request <a href="#example-request-2" id="example-request-2"></a>
 
@@ -102,7 +102,7 @@ curl https://apigw-dev.chainprtcl.net/avaxc \
 
 
 
-#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
 {"jsonrpc":"2.0","id":67,"result":"0xaf7bf1"}
@@ -110,9 +110,9 @@ curl https://apigw-dev.chainprtcl.net/avaxc \
 
 ***
 
-### Integrate code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#integrate-code-1) <a href="#integrate-code-1" id="integrate-code-1"></a>
+### Integrate code[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#integrate-code-1) <a href="#integrate-code-1" id="integrate-code-1"></a>
 
-#### web3[​](https://www.ankr.com/docs/build-blockchain/chains/v2/avalanche/#web3) <a href="#web3" id="web3"></a>
+#### web3[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#web3) <a href="#web3" id="web3"></a>
 
 * **clientVersion**
 

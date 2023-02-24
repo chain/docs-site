@@ -10,7 +10,7 @@ As well as EVM compatibility, BNB Chain adds smart contract functionality to the
 
 EVM-compatibility permits support for Ethereum tools and DApps.
 
-### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
 [**BNB Chain**](https://www.binance.org/en/smartChain)
 
@@ -18,11 +18,11 @@ EVM-compatibility permits support for Ethereum tools and DApps.
 
 [**Github**](https://github.com/bnb-chain)
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
 You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can then perform transactions and interact with the network.
 
-#### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#get-started) <a href="#get-started" id="get-started"></a>
+#### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'.
@@ -36,15 +36,15 @@ You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can the
 |           |       SYMBOL:       |                                                          BNB                                                           |
 |           |   BLOCK EXPLORER:   |                                      [https://bscscan.com](https://bscscan.com/)                                       |
 
-### Integrate code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#integrate-code) <a href="#integrate-code" id="integrate-code"></a>
+### Integrate code[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#integrate-code) <a href="#integrate-code" id="integrate-code"></a>
 
-#### web3 library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#web3-library) <a href="#web3-library" id="web3-library"></a>
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-request)
+**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request)
 
 ```
 curl https://apigw-dev.chainprtcl.net/bsc \
@@ -53,19 +53,19 @@ curl https://apigw-dev.chainprtcl.net/bsc \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#example-response)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-response)
 
 ```
 {"jsonrpc":"2.0","id":1,"result":"Geth/v1.1.7-74f6b613/linux-amd64/go1.16.10"}
 ```
 
-#### net library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#net-library) <a href="#net-library" id="net-library"></a>
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-1)
+**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request-1)
 
 ```
 curl https://apigw-dev.chainprtcl.net/bsc \
@@ -74,15 +74,15 @@ curl https://apigw-dev.chainprtcl.net/bsc \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-1)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-response-1)
 
 ```
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/binance-smart-chain/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#eth-library) <a href="#eth-library" id="eth-library"></a>
 
-#### Example request[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
 
 **eth\_estimateGas**
 
@@ -104,7 +104,7 @@ curl https://apigw-dev.chainprtcl.net/bsc \
 }'
 ```
 
-#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}

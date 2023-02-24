@@ -6,7 +6,7 @@ description: Polygon network in Chain Cloud RPC service
 
 **Polygon** is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
 
-### Quick links[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#quick-links) <a href="#quick-links" id="quick-links"></a>
 
 ****[**Polygon Chain**](https://polygon.technology/)****
 
@@ -14,11 +14,11 @@ description: Polygon network in Chain Cloud RPC service
 
 [**Github**](https://github.com/maticnetwork/)
 
-### Connect wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
 
 You can set up your **MetaMask wallet** to connect to Polygon RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#get-started) <a href="#get-started" id="get-started"></a>
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -32,15 +32,15 @@ You can set up your **MetaMask wallet** to connect to Polygon RPC. You can then 
 |         |       SYMBOL:       |                                        MATIC                                         |
 |         |   BLOCK EXPLORER:   |                 [https://polygonscan.com/](https://polygonscan.com/)                 |
 
-### Integrate Code[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
 
-#### web3 library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#web3-library) <a href="#web3-library" id="web3-library"></a>
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request)
+**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request)
 
 ```
 curl https://apigw-dev.chainprtcl.net/polygon \
@@ -49,19 +49,19 @@ curl https://apigw-dev.chainprtcl.net/polygon \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-response)
 
 ```
 {"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
 ```
 
-#### net library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#net-library) <a href="#net-library" id="net-library"></a>
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-1)
+**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request-1)
 
 ```
 curl https://apigw-dev.chainprtcl.net/polygon \
@@ -70,15 +70,15 @@ curl https://apigw-dev.chainprtcl.net/polygon \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-1)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-response-1)
 
 ```
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#eth-library) <a href="#eth-library" id="eth-library"></a>
 
-#### Example request[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
 
 **eth\_estimateGas**
 
@@ -100,7 +100,7 @@ curl https://apigw-dev.chainprtcl.net/polygon \
 }'
 ```
 
-#### Example response[​](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}

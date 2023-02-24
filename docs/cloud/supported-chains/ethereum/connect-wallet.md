@@ -6,7 +6,7 @@ description: How to Connect Wallet using Chain Cloud Ethereum RPC
 
 This section walks you through how to connect a MetaMask wallet to Ethereum Mainnet.
 
-### How to add Ethereum Mainnet to your wallet[​](https://www.ankr.com/docs/build-blockchain/chains/v2/ethereum/how-to/connect-ethereum/#how-to-add-ethereum-mainnet-to-your-wallet) <a href="#how-to-add-ethereum-mainnet-to-your-wallet" id="how-to-add-ethereum-mainnet-to-your-wallet"></a>
+### How to add Ethereum Mainnet to your wallet[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/connect-wallet/#how-to-add-ethereum-mainnet-to-your-wallet) <a href="#how-to-add-ethereum-mainnet-to-your-wallet" id="how-to-add-ethereum-mainnet-to-your-wallet"></a>
 
 This is the primary Ethereum production blockchain. Transactions on the Ethereum Mainnet occur on the blockchain and incur costs (ETH).
 
