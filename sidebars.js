@@ -172,6 +172,7 @@ const sidebars = {
                 "cloud/supported-chains/bitcoinCash",
                 "cloud/supported-chains/bittorent-chain",
                 // "cloud/supported-chains/celo",
+                "cloud/supported-chains/cosmos",
                 "cloud/supported-chains/cronos",
                 "cloud/supported-chains/doge",
                 "cloud/supported-chains/eos",
