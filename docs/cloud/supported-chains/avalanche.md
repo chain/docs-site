@@ -31,7 +31,7 @@ You can set up your **MetaMask wallet** to connect to Avalanche RPC. You can the
 |   Chain   | Custom RPC Category |                                     Details                                      |
 | :-------: | :-----------------: | :------------------------------------------------------------------------------: |
 | Avalanche |    NETWORK NAME:    |                                  Avalanche RPC                                   |
-|           |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/avaxc](https://apigw-dev.chainprtcl.net/avaxc) |
+|           |    NEW RPC URL:     | [https://username.chainprtcl.net/avaxc/uid](https://username.chainprtcl.net/avaxc/uid) |
 |           |      CHAIN ID:      |                                      43114                                       |
 |           |       SYMBOL:       |                                       AVAX                                       |
 |           |   BLOCK EXPLORER:   |  [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)  |
@@ -56,7 +56,7 @@ Returns the current client version.
 **Example request**
 
 ```
-curl https://apigw-dev.chainprtcl.net/avaxc \
+curl https://username.chainprtcl.net/avaxc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -77,7 +77,7 @@ Returns the current network id.
 **Example request**
 
 ```
-  curl https://apigw-dev.chainprtcl.net/avaxc \
+  curl https://username.chainprtcl.net/avaxc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -94,18 +94,16 @@ Returns the current network id.
 #### Example request <a href="#example-request-2" id="example-request-2"></a>
 
 ```
-curl https://apigw-dev.chainprtcl.net/avaxc \
+curl https://username.chainprtcl.net/avaxc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":67}'
 ```
 
-
-
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-{"jsonrpc":"2.0","id":67,"result":"0xaf7bf1"}
+{"jsonrpc":"2.0","id":67,"result":"0x19987ed"}
 ```
 
 ***
@@ -128,7 +126,7 @@ import (
 
 func main() {
 
-  url := "https://apigw-dev.chainprtcl.net/avaxc"
+  url := "https://username.chainprtcl.net/avaxc/uid"
   method := "POST"
 
   payload := strings.NewReader(`{

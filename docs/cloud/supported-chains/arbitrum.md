@@ -29,7 +29,7 @@ You can set up your **MetaMask wallet** to connect to Arbitrum RPC. You can then
 |  Chain   | Custom RPC Category |                                        Details                                         |
 | :------: | :-----------------: | :------------------------------------------------------------------------------------: |
 | Arbitrum |    NETWORK NAME:    |                                      Arbitrum RPC                                      |
-|          |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/arbitrum](https://apigw-dev.chainprtcl.net/arbitrum) |
+|          |    NEW RPC URL:     | [https://username.chainprtcl.net/arbitrum/uid](https://username.chainprtcl.net/arbitrum/uid) |
 |          |      CHAIN ID:      |                                         42161                                          |
 |          |       SYMBOL:       |                                          AETH                                          |
 |          |   BLOCK EXPLORER:   |                       [https://arbiscan.io](https://arbiscan.io)                       |
@@ -45,7 +45,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/arbitrum \
+curl https://username.chainprtcl.net/arbitrum/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -54,7 +54,7 @@ curl https://apigw-dev.chainprtcl.net/arbitrum \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","id":1,"result":"nitro/vv2.0.10-73224e3/linux-amd64/go1.19.5"}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#net-library) <a href="#net-library" id="net-library"></a>
@@ -66,7 +66,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/arbitrum \
+curl https://username.chainprtcl.net/arbitrum/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -75,7 +75,7 @@ curl https://apigw-dev.chainprtcl.net/arbitrum \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{"jsonrpc":"2.0","id":67,"result":"42161"}
 ```
 
 #### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#eth-library) <a href="#eth-library" id="eth-library"></a>
@@ -87,7 +87,7 @@ curl https://apigw-dev.chainprtcl.net/arbitrum \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/arbitrum \
+curl https://username.chainprtcl.net/arbitrum/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{

@@ -29,7 +29,7 @@ You can set up your **MetaMask wallet** to connect to ETC RPC. You can then perf
 | Chain | Custom RPC Category |                                   Details                                    |
 | :---: | :-----------------: | :--------------------------------------------------------------------------: |
 |  ETC  |    NETWORK NAME:    |                                   ETC RPC                                    |
-|       |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/etc](https://apigw-dev.chainprtcl.net/etc) |
+|       |    NEW RPC URL:     | [https://username.chainprtcl.net/etc/uid](https://username.chainprtcl.net/etc/uid) |
 |       |      CHAIN ID:      |                                      61                                      |
 |       |       SYMBOL:       |                                     ETC                                      |
 |       |   BLOCK EXPLORER:   |  [https://blockscout.com/etc/mainnet/](https://blockscout.com/etc/mainnet/)  |
@@ -45,7 +45,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/etc \
+curl https://username.chainprtcl.net/etc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -54,7 +54,11 @@ curl https://apigw-dev.chainprtcl.net/etc \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{
+  "jsonrpc" : "2.0",
+  "id" : 1,
+  "result" : "besu/v22.10.3/linux-x86_64/openjdk-java-11"
+}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#net-library) <a href="#net-library" id="net-library"></a>
@@ -66,7 +70,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/etc \
+curl https://username.chainprtcl.net/etc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -75,7 +79,11 @@ curl https://apigw-dev.chainprtcl.net/etc \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{
+  "jsonrpc" : "2.0",
+  "id" : 67,
+  "result" : "1"
+}
 ```
 
 #### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#eth-library) <a href="#eth-library" id="eth-library"></a>
@@ -87,7 +95,7 @@ curl https://apigw-dev.chainprtcl.net/etc \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/etc \
+curl https://username.chainprtcl.net/etc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{
@@ -105,7 +113,14 @@ curl https://apigw-dev.chainprtcl.net/etc \
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-{"jsonrpc":"2.0","result":"0x5208","id":1}
+{
+  "jsonrpc" : "2.0",
+  "id" : 1,
+  "error" : {
+    "code" : -32004,
+    "message" : "Upfront cost exceeds account balance"
+  }
+}
 ```
 
 ### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#pricing) <a href="#pricing" id="pricing"></a>

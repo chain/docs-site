@@ -27,7 +27,7 @@ You can set up your **MetaMask wallet** to connect to Aurora RPC. You can then p
 | Chain  | Custom RPC Category |                                      Details                                       |
 | :----: | :-----------------: | :--------------------------------------------------------------------------------: |
 | Aurora |    NETWORK NAME:    |                                     Aurora RPC                                     |
-|        |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/aurora](https://apigw-dev.chainprtcl.net/aurora) |
+|        |    NEW RPC URL:     | [https://username.chainprtcl.net/aurora/uid](https://username.chainprtcl.net/aurora/uid) |
 |        |      CHAIN ID:      |                                     1313161554                                     |
 |        |       SYMBOL:       |                                        ETH                                         |
 |        |   BLOCK EXPLORER:   |                 [https://aurorascan.dev/](https://aurorascan.dev/)                 |
@@ -43,7 +43,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/aurora \
+curl https://username.chainprtcl.net/aurora/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -52,7 +52,7 @@ curl https://apigw-dev.chainprtcl.net/aurora \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","id":1,"result":"Aurora-Relayer/0.0.0"}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#net-library) <a href="#net-library" id="net-library"></a>
@@ -64,7 +64,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/aurora \
+curl https://username.chainprtcl.net/aurora/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -73,7 +73,7 @@ curl https://apigw-dev.chainprtcl.net/aurora \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{"jsonrpc":"2.0","id":67,"result":"1313161554"}
 ```
 
 #### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#eth-library) <a href="#eth-library" id="eth-library"></a>
@@ -85,7 +85,7 @@ curl https://apigw-dev.chainprtcl.net/aurora \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/aurora \
+curl https://username.chainprtcl.net/aurora/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{
@@ -103,7 +103,7 @@ curl https://apigw-dev.chainprtcl.net/aurora \
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-{"jsonrpc":"2.0","result":"0x5208","id":1}
+{"jsonrpc":"2.0","id":1,"result":"0x6691b7"}
 ```
 
 ### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#pricing) <a href="#pricing" id="pricing"></a>

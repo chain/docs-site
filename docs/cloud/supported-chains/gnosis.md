@@ -31,7 +31,7 @@ You can set up your **MetaMask wallet** to connect to Gnosis RPC. You can then p
 | Chain  | Custom RPC Category |                                         Details                                         |
 | :----: | :-----------------: | :-------------------------------------------------------------------------------------: |
 | Gnosis |    NETWORK NAME:    |                                       Gnosis RPC                                        |
-|        |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/gnosis](https://apigw-dev.chainprtcl.net/gnosis)&#xD; |
+|        |    NEW RPC URL:     | [https://username.chainprtcl.net/gnosis/uid](https://username.chainprtcl.net/gnosis/uid)&#xD; |
 |        |      CHAIN ID:      |                                          0x64                                           |
 |        |       SYMBOL:       |                                          xDai                                           |
 |        |   BLOCK EXPLORER:   |      [https://blockscout.com/xdai/mainnet/](https://blockscout.com/xdai/mainnet/)       |
@@ -47,7 +47,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/gnosis \
+curl https://username.chainprtcl.net/gnosis/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -56,7 +56,7 @@ curl https://apigw-dev.chainprtcl.net/gnosis \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","result":"Nethermind/v1.14.7+4fe81c6b/linux-x64/dotnet6.0.11","id":1}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#net-library) <a href="#net-library" id="net-library"></a>
@@ -68,7 +68,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/gnosis \
+curl https://username.chainprtcl.net/gnosis/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -89,7 +89,7 @@ curl https://apigw-dev.chainprtcl.net/gnosis \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/gnosis \
+curl https://username.chainprtcl.net/gnosis/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{
@@ -107,7 +107,7 @@ curl https://apigw-dev.chainprtcl.net/gnosis \
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-{"jsonrpc":"2.0","result":"0x5208","id":1}
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"insufficient funds for transfer: address 0x8d97689c9818892b700e27f316cc3e41e17fbeb9"},"id":1}
 ```
 
 ### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#pricing) <a href="#pricing" id="pricing"></a>

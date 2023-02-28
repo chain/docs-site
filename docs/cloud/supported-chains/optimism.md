@@ -27,7 +27,7 @@ You can set up your **MetaMask wallet** to connect to Optimism RPC. You can then
 |  Chain   | Custom RPC Category |                                  Details                                   |
 | :------: | :-----------------: | :------------------------------------------------------------------------: |
 | Optimism |    NETWORK NAME:    |                                Optimism RPC                                |
-|          |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/op](https://apigw-dev.chainprtcl.net/op) |
+|          |    NEW RPC URL:     | [https://username.chainprtcl.net/op/uid](https://username.chainprtcl.net/op/uid) |
 |          |      CHAIN ID:      |                                     10                                     |
 |          |       SYMBOL:       |                                    ETH                                     |
 |          |   BLOCK EXPLORER:   |    [https://optimistic.etherscan.io/](https://optimistic.etherscan.io/)    |
@@ -43,7 +43,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/op \
+curl https://username.chainprtcl.net/op/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -52,7 +52,7 @@ curl https://apigw-dev.chainprtcl.net/op \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","id":1,"result":"Geth/v1.9.10-stable/linux-amd64/go1.18"}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#net-library) <a href="#net-library" id="net-library"></a>
@@ -64,7 +64,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/op \
+curl https://username.chainprtcl.net/op/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -73,7 +73,7 @@ curl https://apigw-dev.chainprtcl.net/op \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{"jsonrpc":"2.0","id":67,"result":"10"}
 ```
 
 #### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#eth-library) <a href="#eth-library" id="eth-library"></a>
@@ -85,7 +85,7 @@ curl https://apigw-dev.chainprtcl.net/op \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/op \
+curl https://username.chainprtcl.net/op/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{
@@ -103,7 +103,7 @@ curl https://apigw-dev.chainprtcl.net/op \
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-{"jsonrpc":"2.0","result":"0x5208","id":1}
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"gas required exceeds allowance (15000000)"}
 ```
 
 ### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/optimism/#pricing) <a href="#pricing" id="pricing"></a>

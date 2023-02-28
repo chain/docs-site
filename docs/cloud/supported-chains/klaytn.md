@@ -33,7 +33,7 @@ You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can 
 |    Chain     | Custom RPC Category |                                      Details                                       |
 | :----------: | :-----------------: | :--------------------------------------------------------------------------------: |
 | Klaytn Chain |    NETWORK NAME:    |                                  Klaytn Chain RPC                                  |
-|              |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/klaytn](https://apigw-dev.chainprtcl.net/klaytn) |
+|              |    NEW RPC URL:     | [https://username.chainprtcl.net/klaytn/uid](https://username.chainprtcl.net/klaytn/uid) |
 |              |      CHAIN ID:      |                                        8217                                        |
 |              |       SYMBOL:       |                                        KLAY                                        |
 |              |   BLOCK EXPLORER:   |                [https://scope.klaytn.com](https://scope.klaytn.com)                |
@@ -49,7 +49,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/bsc \
+curl https://username.chainprtcl.net/klaytn/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -58,7 +58,7 @@ curl https://apigw-dev.chainprtcl.net/bsc \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","id":1,"result":"Klaytn/v1.10.1/linux-amd64/go1.15.7"}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#net-library) <a href="#net-library" id="net-library"></a>
@@ -70,16 +70,16 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/klaytn \
+curl https://username.chainprtcl.net/klaytn/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://www.ankr.com/docs/build-blockchain/chains/v2/gnosis/#example-response-1)
+**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{"jsonrpc":"2.0","id":67,"result":"8217"}
 ```
 
 #### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#eth-library) <a href="#eth-library" id="eth-library"></a>
@@ -91,7 +91,7 @@ curl https://apigw-dev.chainprtcl.net/klaytn \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/klaytn \
+curl https://username.chainprtcl.net/klaytn/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{
@@ -109,7 +109,7 @@ curl https://apigw-dev.chainprtcl.net/klaytn \
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-{"jsonrpc":"2.0","result":"0x5208","id":1}
+{"jsonrpc":"2.0","id":1,"result":"0x5208"}
 ```
 
 ### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#pricing) <a href="#pricing" id="pricing"></a>

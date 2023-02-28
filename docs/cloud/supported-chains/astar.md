@@ -29,10 +29,10 @@ You can set up your **MetaMask wallet** to connect to Astar RPC. You can then pe
 | Chain | Custom RPC Category |                                    Details                                     |
 | :---: | :-----------------: | :----------------------------------------------------------------------------: |
 | Astar |    NETWORK NAME:    |                                   Astar RPC                                    |
-|       |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/astr](https://apigw-dev.chainprtcl.net/astr) |
+|       |    NEW RPC URL:     | [https://username.chainprtcl.net/astar/uid](https://username.chainprtcl.net/astar/uid) |
 |       |      CHAIN ID:      |                                      592                                       |
 |       |       SYMBOL:       |                                      ASTR                                      |
-|       |   BLOCK EXPLORER:   |         [https://blockscout.com/astar/](https://blockscout.com/astar/)         |
+|       |   BLOCK EXPLORER:   |         [https://astart.subscan.io](https://astart.subscan.io)                 |
 
 ### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
 
@@ -45,7 +45,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/astr \
+curl https://username.chainprtcl.net/astar/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -54,7 +54,7 @@ curl https://apigw-dev.chainprtcl.net/astr \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","result":"astar/v23.0/fc-rpc-2.0.0-dev","id":1}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#net-library) <a href="#net-library" id="net-library"></a>
@@ -66,7 +66,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/astr \
+curl https://username.chainprtcl.net/astar/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -75,7 +75,7 @@ curl https://apigw-dev.chainprtcl.net/astr \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{"jsonrpc":"2.0","result":"592","id":67}
 ```
 
 #### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#eth-library) <a href="#eth-library" id="eth-library"></a>
@@ -87,7 +87,7 @@ curl https://apigw-dev.chainprtcl.net/astr \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/astr \
+curl username.chainprtcl.net/astar/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{

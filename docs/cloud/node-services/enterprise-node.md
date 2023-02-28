@@ -15,7 +15,7 @@ To start deploying nodes, there are some required steps for you to go through:
   * Enterprise Node: This is the plan for enterprise. You don't have to stake XCN to deploy this node and you won't receive reward for deployment. However, you can use this node privately.
 <!-- * **Stake XCN (Protocol Nodes):** You will have to stake XCN to deploy a Protocol Node. -->
 * **Make Payment:** You will make payment for the node when you deploy it and each 30 days. You can use USDC, XCN, ETH.
-* **Deploy Node:** After you finished paying and staking (if you deploy a protocol node) --> The node will be automatically deployed. However there will be sometimes for the node to synch.
+* **Deploy Node:** After you finished paying and staking (if you deploy a protocol node) --> The node will be automatically deployed. However there will be sometimes for the node to sync.
 
 ### **Sign In**
 

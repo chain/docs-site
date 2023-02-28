@@ -29,7 +29,9 @@ You can set up your **MetaMask wallet** to connect to Ethereum RPC. You can then
 This request gets the Client version being used.
 
 ```
-curl https://api-us.chainprtcl.net/eth \  -X POST \  -H "Content-Type: application/json" \  --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":67}'
+curl https://username.chainprtcl.net/eth/uid \
+  -X POST \  -H "Content-Type: application/json" \
+  --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":67}'
 ```
 
 **Example response - Geth Client version**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#example-response---geth-client-version)
@@ -37,7 +39,7 @@ curl https://api-us.chainprtcl.net/eth \  -X POST \  -H "Content-Type: applicati
 The response shows Geth Client v1.1.7-74 is used.
 
 ```
-{"jsonrpc":"2.0","id":1,"result":"Geth/v1.1.7-74f6b613/linux-amd64/go1.16.10"}
+{"jsonrpc":"2.0","id":67,"result":"erigon/2.38.0/linux-amd64/go1.19.5"}
 ```
 
 
@@ -45,7 +47,9 @@ The response shows Geth Client v1.1.7-74 is used.
 #### Example request - Uses eth\_ to request the latest block number[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#example-request---uses-eth\_-to-request-the-latest-block-number) <a href="#example-request---uses-eth_-to-request-the-latest-block-number" id="example-request---uses-eth_-to-request-the-latest-block-number"></a>
 
 ```
-curl https://api-us.chainprtcl.net/eth \  -X POST \  -H "Content-Type: application/json" \  --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":67}'
+curl https://username.chainprtcl.net/eth/uid \
+  -X POST \  -H "Content-Type: application/json" \
+  --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":67}'
 ```
 
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#example-response) <a href="#example-response" id="example-response"></a>
@@ -53,5 +57,5 @@ curl https://api-us.chainprtcl.net/eth \  -X POST \  -H "Content-Type: applicati
 The latest block number is returned in hex
 
 ```
-{"jsonrpc":"2.0","id":67,"result":"0xdb85e4"}
+{"jsonrpc":"2.0","id":67,"result":"0xff3b18"}
 ```

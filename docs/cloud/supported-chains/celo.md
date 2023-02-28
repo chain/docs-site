@@ -31,7 +31,7 @@ You can set up your **MetaMask wallet** to connect to Celo RPC. You can then per
 | Chain | Custom RPC Category |                                    Details                                     |
 | :---: | :-----------------: | :----------------------------------------------------------------------------: |
 | Celo  |    NETWORK NAME:    |                                    Celo RPC                                    |
-|       |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/celo](https://apigw-dev.chainprtcl.net/celo) |
+|       |    NEW RPC URL:     | [https://username.chainprtcl.net/celo/uid](https://username.chainprtcl.net/celo/uid) |
 |       |      CHAIN ID:      |                                     42220                                      |
 |       |       SYMBOL:       |                                      CELO                                      |
 |       |   BLOCK EXPLORER:   |             [https://explorer.celo.org](https://explorer.celo.org)             |
@@ -47,7 +47,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/celo \
+curl https://username.chainprtcl.net/celo/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -68,7 +68,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/celo \
+curl https://username.chainprtcl.net/celo/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -89,7 +89,7 @@ curl https://apigw-dev.chainprtcl.net/celo \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/celo \
+curl https://username.chainprtcl.net/celo/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{

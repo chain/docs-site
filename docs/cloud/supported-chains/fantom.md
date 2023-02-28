@@ -27,7 +27,7 @@ You can set up your **MetaMask wallet** to connect to Fantom RPC. You can then p
 | Chain  | Custom RPC Category |                                   Details                                    |
 | :----: | :-----------------: | :--------------------------------------------------------------------------: |
 | Fantom |    NETWORK NAME:    |                                  Fantom RPC                                  |
-|        |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/ftm](https://apigw-dev.chainprtcl.net/ftm) |
+|        |    NEW RPC URL:     | [https://username.chainprtcl.net/ftm/uid](https://username.chainprtcl.net/ftm/uid) |
 |        |      CHAIN ID:      |                                     250                                      |
 |        |       SYMBOL:       |                                     FTM                                      |
 |        |   BLOCK EXPLORER:   |     [https://explorer.fantom.network/](https://explorer.fantom.network/)     |
@@ -43,7 +43,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/fantom/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/ftm \
+curl https://username.chainprtcl.net/ftm/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -64,7 +64,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/fantom/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/ftm \
+curl https://username.chainprtcl.net/ftm/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -85,7 +85,7 @@ curl https://apigw-dev.chainprtcl.net/ftm \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/ftm \
+curl https://username.chainprtcl.net/ftm/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{
