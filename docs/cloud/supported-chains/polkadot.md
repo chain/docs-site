@@ -27,3 +27,11 @@ Polkadot is built to connect and secure unique blockchains, whether they be publ
 * [Official Wiki](https://wifi.polkadot.network/docs/getting-started)
 * [Protocol Specification](https://spec.polkadot.network)
 * [Polkadot Github](https://github.com/paritytech/polkadot)
+
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/polkadot/#pricing) <a href="#pricing" id="pricing"></a>
+
+| Node Type             | Price (USD)          |
+| --------------------- | ---------------------|
+| Fullnode              | $273                 |
+| Testnet               | $338                 |
+| Archive               | $234                 |
