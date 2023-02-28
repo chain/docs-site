@@ -52,7 +52,7 @@ curl https://username.chainprtcl.net/ftm/uid \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/fantom/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","id":1,"result":"go-opera/v1.1.1-rc.2-48966266-1656248907/linux-amd64/go1.18"}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/fantom/#net-library) <a href="#net-library" id="net-library"></a>
@@ -73,7 +73,7 @@ curl https://username.chainprtcl.net/ftm/uid \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/fantom/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{"jsonrpc":"2.0","id":67,"result":"250"}
 ```
 
 #### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/fantom/#eth-library) <a href="#eth-library" id="eth-library"></a>
@@ -103,7 +103,7 @@ curl https://username.chainprtcl.net/ftm/uid \
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/fantom/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-{"jsonrpc":"2.0","result":"0x5208","id":1}
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"insufficient balance for transfer"}
 ```
 
 ### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/fantom/#pricing) <a href="#pricing" id="pricing"></a>

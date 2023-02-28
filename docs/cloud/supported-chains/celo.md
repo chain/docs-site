@@ -56,7 +56,7 @@ curl https://username.chainprtcl.net/celo/uid \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-response)
 
 ```
-{"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
+{"jsonrpc":"2.0","id":1,"result":"celo/v1.7.2-stable/linux-amd64/go1.17.13"}
 ```
 
 #### net library[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#net-library) <a href="#net-library" id="net-library"></a>
@@ -77,7 +77,7 @@ curl https://username.chainprtcl.net/celo/uid \
 **Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-response-1)
 
 ```
-{"jsonrpc":"2.0","result":"100","id":67}
+{"jsonrpc":"2.0","id":67,"result":"42220"}
 ```
 
 #### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#eth-library) <a href="#eth-library" id="eth-library"></a>
@@ -107,7 +107,7 @@ curl https://username.chainprtcl.net/celo/uid \
 #### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
 
 ```
-{"jsonrpc":"2.0","result":"0x5208","id":1}
+{"timestamp":"2023-02-28T18:46:24.819+00:00","path":"/celo-X","status":404,"error":"Not Found","message":null,"requestId":"28555b1f-45"}
 ```
 
 ### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#pricing) <a href="#pricing" id="pricing"></a>
