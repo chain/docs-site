@@ -6,30 +6,22 @@ description: How to deploy Enterprise Nodes in Chain Cloud
 
 To start deploying nodes, there are some required steps for you to go through:
 
-`Connect Wallet` --> `Add Email` --> `Go to the Marketplace` --> `Make Basic Configuration for the Node` --> `Make payment` --> `Deploy Node`
+`LogIn` --> `Go to the Marketplace` --> `Make Basic Configuration for the Node` --> `Make payment` --> `Deploy Node`
 
-* **Connect a wallet**: first things first, connecting your MetaMask wallet (Or other wallets that supported) is the key to access your account and start using Premium services.
-* **Add Email:** This step is mandatory. It will be used as way to receive notification in the future.
+<!-- * **SignUp**: first things first, connecting your MetaMask wallet (Or other wallets that supported) is the key to access your account and start using Premium services. -->
+* **Sign In:** first things first, the road to using Premium starts with signing in into your account (so we can provide you with the rivate endpoints and now which account to charge under the **Pricing** for the requests you make)
 * **Go to Marketplace:** As you added the email, you are now eligible to deploy node. You will have to choose which chains you will deploy the node.
 * **Make Basic Configuration**: You will have to choose which node plan is suited for you. There are 2 node plans:
-  * Protocol Node: You will have to stake XCN and make payment to deploy this kind of node. You can earn rewards in XCN for deploying this type of node.
   * Enterprise Node: This is the plan for enterprise. You don't have to stake XCN to deploy this node and you won't receive reward for deployment. However, you can use this node privately.
-* **Stake XCN (Protocol Nodes):** You will have to stake XCN to deploy a Protocol Node.
+<!-- * **Stake XCN (Protocol Nodes):** You will have to stake XCN to deploy a Protocol Node. -->
 * **Make Payment:** You will make payment for the node when you deploy it and each 30 days. You can use USDC, XCN, ETH.
-* **Deploy Node:** After you finished paying and staking (if you deploy a protocol node) --> The node will be automatically deployed. However there will be sometimes for the node to synch.
+* **Deploy Node:** After you finished paying and staking (if you deploy a protocol node) --> The node will be automatically deployed. However there will be sometimes for the node to sync.
 
-### **Connect Wallet**
+### **Sign In**
 
-The wallet connection procedure is the following:
+You can signup with your email and confirm via email and then signin to your account.
 
-1. Go to Chain Cloud dApp.
-2. Connect Wallet using Metamask, WalletConnect or Coinbase Wallet.
-
-### **Add Email**
-
-As you connected to the dApp, you will be asked to provide the email address. Please provide your email address as this is mandatory.
-
-![Add Email](../../../static/img/add-email.png)
+![Sign In](../../../static/img/LogIn.png)
 
 ### Go to marketplace
 
@@ -41,16 +33,14 @@ On the left menu, under Cloud category, user click "Marketplace" to start choosi
 
 After you choose which chain you want to deploy the node to, you will have to choose which plan is suitable for you. There are 2 types of node:
 
-* Protocol Node: You will have to stake XCN and make payment to deploy this kind of node. You can earn rewards in XCN for deploying this type of node.
+<!-- * Protocol Node: You will have to stake XCN and make payment to deploy this kind of node. You can earn rewards in XCN for deploying this type of node. -->
 * Enterprise Node: This is the plan for enterprise. You don't have to stake XCN to deploy this node and you won't receive reward for deployment. However, you can use this node privately.
 
 ![Choosing Plan](../../../static/img/basic-config.png)
 
 Depend on which plan you choose, your next step will be staking XCN or Make payment.
 
-{% hint style="info" %}
 Also, as a Enterprise node user, you will have to choose a subdomain for the node. You can connect to this node by websocket or a normal API address. It work just like an Premium API plan, but you will have access to this node privately.&#x20;
-{% endhint %}
 
 ### Make Payment <a href="#make-payment" id="make-payment"></a>
 
