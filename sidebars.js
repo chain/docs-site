@@ -196,6 +196,7 @@ const sidebars = {
                 "cloud/supported-chains/klaytn",
                 "cloud/supported-chains/polkadot",
                 // "cloud/supported-chains/polygon",
+                "cloud/supported-chains/stellar",
             ],
         },
         {
