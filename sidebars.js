@@ -194,6 +194,7 @@ const sidebars = {
                 "cloud/supported-chains/hedera",
                 "cloud/supported-chains/huobi",
                 "cloud/supported-chains/klaytn",
+                "cloud/supported-chains/near",
                 "cloud/supported-chains/polkadot",
                 // "cloud/supported-chains/polygon",
                 "cloud/supported-chains/stellar",
