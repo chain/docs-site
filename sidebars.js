@@ -191,6 +191,7 @@ const sidebars = {
                 "cloud/supported-chains/ethereum-classic",
                 "cloud/supported-chains/fantom",
                 "cloud/supported-chains/gnosis",
+                "cloud/supported-chains/hedera",
                 "cloud/supported-chains/huobi",
                 "cloud/supported-chains/klaytn",
                 "cloud/supported-chains/polkadot",
