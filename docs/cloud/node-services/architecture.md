@@ -19,5 +19,5 @@ Chain Cloud Node services will have 2 parts:
   * API Gateway: Using Java Spring Cloud as a solution to balance the RPC requests. With Java, we can have an API Gateway with high availability and stable.
   * API Key service: Design with Golang, this service can handle a large amount of request, up to billions.
   * Monitoring: Using to tracking the fullnode deployed, ensure the fullnode is healthy for the API Gateway demands.
-c
+
 ![Full node services architecture](../../../static/img/full-node-architecture.png)

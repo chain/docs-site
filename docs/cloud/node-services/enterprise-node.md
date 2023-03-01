@@ -11,11 +11,11 @@ To start deploying nodes, there are some required steps for you to go through:
 <!-- * **SignUp**: first things first, connecting your MetaMask wallet (Or other wallets that supported) is the key to access your account and start using Premium services. -->
 * **Sign In:** first things first, the road to using Premium starts with signing in into your account (so we can provide you with the rivate endpoints and now which account to charge under the **Pricing** for the requests you make)
 * **Go to Marketplace:** As you added the email, you are now eligible to deploy node. You will have to choose which chains you will deploy the node.
-* **Make Basic Configuration**: You will have to choose which node plan is suited for you. There are 2 node plans:
-  * Enterprise Node: This is the plan for enterprise. You don't have to stake XCN to deploy this node and you won't receive reward for deployment. However, you can use this node privately.
+* **Make Basic Configuration**: You will have to choose which node plan is suited for you. There is a node plan:
+  * Enterprise Node: This is the plan for enterprise. You can use this node privately.
 <!-- * **Stake XCN (Protocol Nodes):** You will have to stake XCN to deploy a Protocol Node. -->
-* **Make Payment:** You will make payment for the node when you deploy it and each 30 days. You can use USDC, XCN, ETH.
-* **Deploy Node:** After you finished paying and staking (if you deploy a protocol node) --> The node will be automatically deployed. However there will be sometimes for the node to sync.
+* **Make Payment:** You will make payment for the node when you deploy it and each 30 days. You can use Card payment or Crypto payment.
+* **Deploy Node:** After you finished paying --> The node will be automatically deployed. However there will be sometimes for the node to sync.
 
 ### **Sign In**
 
@@ -34,19 +34,20 @@ On the left menu, under Cloud category, user click "Marketplace" to start choosi
 After you choose which chain you want to deploy the node to, you will have to choose which plan is suitable for you. There are 2 types of node:
 
 <!-- * Protocol Node: You will have to stake XCN and make payment to deploy this kind of node. You can earn rewards in XCN for deploying this type of node. -->
-* Enterprise Node: This is the plan for enterprise. You don't have to stake XCN to deploy this node and you won't receive reward for deployment. However, you can use this node privately.
+* Enterprise Node: This is the plan for enterprise. You can use this node privately.
 
 ![Choosing Plan](../../../static/img/basic-config.png)
 
-Depend on which plan you choose, your next step will be staking XCN or Make payment.
+<!-- Depend on which plan you choose, your next step will be staking XCN or Make payment. -->
 
-Also, as a Enterprise node user, you will have to choose a subdomain for the node. You can connect to this node by websocket or a normal API address. It work just like an Premium API plan, but you will have access to this node privately.&#x20;
+As a Enterprise node user, you will have to choose a subdomain for the node. You can connect to this node by websocket or a normal API address. You will have access to this node privately.&#x20;
 
 ### Make Payment <a href="#make-payment" id="make-payment"></a>
 
-You can pay using USDC, ETH or XCN.
+You can pay using Card or Crypto.
 
-![Payment](../../../static/img/make-payment.png)
+![Payment with card](../../../static/img/make-payment-card.png)
+![Payment with crypto](../../../static/img/make-payment-crypto.png)
 
 ### Deploy Node
 
@@ -55,7 +56,7 @@ After you have finished payment, the node will need time to finish synching. Thi
 1. Start backend process
 2. Show pending screen for the user and to visit back in 24 hours.
 3. Once backend CRON is done and deployed. Change user status for this nodeUID to success and update user front end status
-4. User 30 day lock on stakes amount begins
+<!-- 4. User 30 day lock on stakes amount begins -->
 
 :::info
 If there is some error during the deployment, please contact admin for support.

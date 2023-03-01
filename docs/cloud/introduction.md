@@ -52,11 +52,11 @@ To access all the advanced features of Chain Cloud RPC, developers can use Premi
 * **Security**
   * Chain Cloud provide security for developers, including API Key, Whitelist for domains and IP Addresses.
 
-## For node providers:
+<!-- ## For node providers:
 
 * **Earn XCN for enabling Web3 development**
   * Node providers will stake XCN to provide nodes, at the same time earn the XCNs for serving the Web3 developers and applications&#x20;
 * **Boost Web3 integration and adoption**
   * Become part of a Network that provides developers faster and more reliable connections to blockchains so their decentralized applications can work more efficiently.
 * **Own & govern a foundational layer of Web3**
-  * Those who stake XCN can participate in the XCN DAO to make critical decisions affecting the Network's future.
+  * Those who stake XCN can participate in the XCN DAO to make critical decisions affecting the Network's future. -->
