@@ -26,5 +26,5 @@ description: Chain Cloud Full Node Services Pricing
 | Staking Requirement   | None                                                      |
 | Reward                | None                                                      |
 | Terms                 | Monthly                                                   |
-| Payment Method        | <ul><li>USD</li><li>BTC, ETH, BNB, USDT, ...</li></ul>    |
+| Payment Method        | <ul><li>USD</li><li>All of tokens which is supported by Binance</li></ul>    |
 | Cost                  | <p>Depends on chain and type</p>                          |

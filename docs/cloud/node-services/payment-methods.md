@@ -12,4 +12,4 @@ description: How to make payment in Chain Cloud
 
 For Premium API, you will need to pay using XCN, which is a cryptocurrency. We are using a Payment contract for the user to pay on-chain.&#x20;
 
-![Staking and make payment to deploy a fullnode](../../../static/img/staking-and-payment.png)
+![Make payment to deploy a fullnode](../../../static/img/staking-and-payment.png)
