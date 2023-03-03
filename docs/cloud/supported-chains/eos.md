@@ -8,11 +8,9 @@ EOS is a blockchain that operates on **Delegated Proof of Stake**, built on the 
 
 ### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/eos#quick-links) <a href="#quick-links" id="quick-links"></a>
 
-****[**EOSIO**](https://eos.io/)****
-
-****[**Developers**](https://developer.eos.io/)****
-
-****[**Github**](https://github.com/EOSIO)****
+* [EOSIO](https://eos.io/)
+* [Developers](https://developer.eos.io/)
+* [Github](https://github.com/EOSIO)
 
 ### Explorer[​](https://docs.chain.com/docs/cloud/supported-chains/eos/#explorer) <a href="#explorer" id="explorer"></a>
 
