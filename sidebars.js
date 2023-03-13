@@ -209,6 +209,42 @@ const sidebars = {
             collapsed: true,
             items: ["cloud/examples/web3-gaming"],
         },
+        // {
+        //     type: "category",
+        //     label: "DAO",
+        //     collapsible: true,
+        //     collapsed: true,
+        //     items: [
+        //         {
+        //             type: "category",
+        //             label: "Staking",
+        //             collapsible: true,
+        //             collapsed: true,
+        //             items: [
+        //                 "cloud/dao/staking/staking",
+        //                 "cloud/dao/staking/rewards",
+        //                 "cloud/dao/staking/epoch",
+        //                 "cloud/dao/staking/delegates",
+        //                 "cloud/dao/staking/slashing",
+        //             ],
+        //         },
+        //         {
+        //             type: "category",
+        //             label: "Governance",
+        //             collapsible: true,
+        //             collapsed: true,
+        //             items: [
+        //                 "cloud/dao/governance/dao",
+        //                 "cloud/dao/governance/constitution",
+        //                 "cloud/dao/governance/architecture",
+        //                 "cloud/dao/governance/proposal",
+        //                 "cloud/dao/governance/parameters",
+        //                 "cloud/dao/governance/voting",
+        //                 "cloud/dao/governance/treasury",
+        //             ],
+        //         },
+        //     ],
+        // },
     ],
 };
 
