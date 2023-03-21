@@ -25,4 +25,3 @@ Dogechain supercharges $Dogecoin to bring crypto applications like NFTs, games, 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $377                 |
-| Testnet               | $247                 |

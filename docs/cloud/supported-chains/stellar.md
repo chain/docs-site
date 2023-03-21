@@ -25,6 +25,4 @@ Stellar is a layer-1 open-source, decentralized, peer-to-peer blockchain network
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $255                 |
-| Testnet               | $190                 |
-| Archive               | $385                 |
 

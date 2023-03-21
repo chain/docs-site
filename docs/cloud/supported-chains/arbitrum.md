@@ -113,5 +113,3 @@ curl https://username.chainprtcl.net/arbitrum/uid \
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $182                 |
-| Archive Node          | $377                 |
-| Testnet               | $182                 |

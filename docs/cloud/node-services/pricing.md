@@ -26,5 +26,31 @@ description: Chain Cloud Full Node Services Pricing
 | Staking Requirement   | None                                                      |
 | Reward                | None                                                      |
 | Terms                 | Monthly                                                   |
-| Payment Method        | <ul><li>USD</li><li>All of tokens which is supported by Binance</li></ul>    |
-| Cost                  | <p>Depends on chain and type</p>                          |
+| Payment Method        | <ul><li>USD</li></ul>                                     |
+| Arbitrum              | $182                                                      |
+| Avalanche             | $169                                                      |
+| Bitcoin               | $221                                                      |
+| Bitcoin Cash          | $247                                                      |
+| Bittorrent            | $234                                                      |
+| BNB                   | $775                                                      |
+| BSC                   | $1482                                                     |
+| Cardano               | $252                                                      |
+| Cosmos                | $315                                                      |
+| Cronos                | $192                                                      |
+| Doge                  | $377                                                      |
+| Ethereum              | $676                                                      |
+| Ethereum Classic      | $213                                                      |
+| EOS                   | $385                                                      |
+| Filecoin              | $645                                                      |
+| Fantom                | $515                                                      |
+| Gnosis                | $169                                                      |
+| Hedera                | $515                                                      |
+| Near                  | $317                                                      |
+| Optimism              | $190                                                      |
+| Polkdot               | $173                                                      |
+| Polygon               | $2132                                                     |
+| Ripple(XRP)           | $190                                                      |
+| Stellar               | $255                                                      |
+| Solana                | $1859                                                     |
+| Tezos                 | $101                                                      |
+| TRON                  | $676                                                      |

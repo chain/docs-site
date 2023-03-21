@@ -23,6 +23,4 @@ NEAR is a user-friendly and carbon-neutral blockchain, built from the ground up 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $317                 |
-| Testnet               | $330                 |
-| Archive               | $2007                |
 

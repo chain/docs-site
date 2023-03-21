@@ -128,5 +128,3 @@ curl https://username.chainprtcl.net/etc/uid \
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $213                 |
-| Archive Node          | $317                 |
-| Testnet               | $154                 |

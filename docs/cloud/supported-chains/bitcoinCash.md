@@ -20,4 +20,3 @@ Bitcoin Cash is a digital currency that enables instant payments to anyone, anyw
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $247                 |
-| Testnet               | $182                 |

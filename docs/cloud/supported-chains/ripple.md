@@ -23,5 +23,4 @@ Ripple's main process is a payment settlement asset exchange and remittance syst
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $190                 |
-| Testnet               | $158                 |
 

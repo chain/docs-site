@@ -167,5 +167,3 @@ func main() {
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $169                 |
-| Archive Node          | $169                 |
-| Testnet               | $130                 |

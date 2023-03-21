@@ -33,5 +33,3 @@ Polkadot is built to connect and secure unique blockchains, whether they be publ
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $273                 |
-| Testnet               | $338                 |
-| Archive               | $234                 |
