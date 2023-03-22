@@ -110,6 +110,4 @@ curl https://username.chainprtcl.net/bttc/uid \
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
-| Fullnode              | $180                 |
-| Archive Node          | $380                 |
-| Testnet               | $180                 |
+| Fullnode              | $234                 |

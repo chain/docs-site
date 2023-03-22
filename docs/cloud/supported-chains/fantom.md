@@ -111,5 +111,3 @@ curl https://username.chainprtcl.net/ftm/uid \
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $515                 |
-| Archive Node          | $2725                |
-| Testnet               | $229                 |

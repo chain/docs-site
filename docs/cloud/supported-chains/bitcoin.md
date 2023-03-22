@@ -19,5 +19,4 @@ Bitcoin is digital money that can be exchanged permisionlessly, peer-to-peer, wi
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
-| Fullnode              | $221                 |
-| Testnet               | $143                 |
+| Fullnode              | $234                 |

@@ -115,5 +115,3 @@ curl https://apigw-dev.chainprtcl.net/bsc \
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $1482                |
-| Archive Node          | $2132                |
-| Testnet               | $1157                |

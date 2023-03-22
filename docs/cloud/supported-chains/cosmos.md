@@ -20,5 +20,3 @@ Cosmos is a rapidly expanding ecosystem of independent interconnected blockchain
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $315                 |
-| Testnet               | $289                 |
-| Archive               | $1550                |

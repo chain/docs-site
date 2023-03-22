@@ -115,5 +115,3 @@ curl https://username.chainprtcl.net/gnosis/uid \
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $169                 |
-| Archive Node          | $624                 |
-| Testnet               | $169                 |

@@ -28,4 +28,3 @@ Hedera is built differently from other blockchains. It has high throughput with 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $515                 |
-| Testnet               | $645                 |

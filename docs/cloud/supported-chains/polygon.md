@@ -110,6 +110,4 @@ curl https://apigw-dev.chainprtcl.net/polygon \
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
-| Fullnode              | $468                 |
-| Archive Node          | $468                 |
-| Testnet               | $468                 |
+| Fullnode              | $2132                |

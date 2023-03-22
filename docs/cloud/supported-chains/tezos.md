@@ -23,6 +23,4 @@ Tezos is designed to power the Web3 revolution. The future of the internet is be
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $101                 |
-| Testnet               | $101                 |
-| Archive               | $192                 |
 

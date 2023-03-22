@@ -27,4 +27,3 @@ EOS is a blockchain that operates on **Delegated Proof of Stake**, built on the 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
 | Fullnode              | $385                 |
-| Testnet               | $255                 |

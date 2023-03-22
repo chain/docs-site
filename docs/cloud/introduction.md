@@ -12,23 +12,32 @@ Chain Cloud is a decentralized and distributed infrastructure designed for devel
 <!--  -->
 1. [Node Services](./node-services/node-services.md): Full, Archive nodes are available for 18 chains.
     1. Arbitrum
-    2. Astar
-    3. Aurora
-    4. Avalanche
-    5. Bitcoin
-    6. Bittorrent
+    2. Avalanche
+    3. Bitcoin
+    4. Bitcoin Cash
+    5. Bittorrent
+    6. BNB
     7. BSC
-    8. Celo
-    9. Cronos
-    10. Ethereum
-    11. Ethereum Classic
-    12. Fantom
-    13. Gnosis
-    14. Huobi
-    15. Klaytn
-    16. Optimism
-    17. Polygon
-    18. Solana
+    8. Cardano
+    9. Cosmos
+    10. Cronos
+    11. Doge
+    12. Ethereum
+    13. Ethereum Classic
+    14. EOS
+    15. Filecoin
+    16. Fantom
+    17. Gnosis
+    18. Hedera
+    19. Near
+    20. Optimism
+    21. Polkdot
+    22. Polygon
+    23. Ripple(XRP)
+    24. Stellar
+    25. Solana
+    26. Tezos
+    27. TRON
 
 
 ## Overview
