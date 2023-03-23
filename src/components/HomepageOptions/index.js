@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const OptionList = [
     {
         title: "Sequence",
-        img: require("@site/static/img/sequence-full.gif").default,
+        img: require("@site/static/img/chain-sequence.png").default,
         description: (
             <>
                 Sequence is a ledger-as-a-service that enables organizations to
@@ -16,7 +16,7 @@ const OptionList = [
     },
     {
         title: "Cloud",
-        img: require("@site/static/img/cloud-full.gif").default,
+        img: require("@site/static/img/chain-cloud.png").default,
         description: (
             <>
                 Decentralized infrastructure protocol designed for developers to
