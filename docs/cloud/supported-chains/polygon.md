@@ -27,7 +27,7 @@ You can set up your **MetaMask wallet** to connect to Polygon RPC. You can then 
 |  Chain  | Custom RPC Category |                                       Details                                        |
 | :-----: | :-----------------: | :----------------------------------------------------------------------------------: |
 | Polygon |    NETWORK NAME:    |                                     Polygon RPC                                      |
-|         |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/polygon](https://apigw-dev.chainprtcl.net/polygon) |
+|         |    NEW RPC URL:     | [https://username.chainprtcl.net/polygon/uid](https://username.chainprtcl.net/polygon/uid) |
 |         |      CHAIN ID:      |                                         137                                          |
 |         |       SYMBOL:       |                                        MATIC                                         |
 |         |   BLOCK EXPLORER:   |                 [https://polygonscan.com/](https://polygonscan.com/)                 |
@@ -43,7 +43,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/polygon \
+curl https://username.chainprtcl.net/polygon/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -64,7 +64,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/polygon \
+curl https://username.chainprtcl.net/polygon/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -85,7 +85,7 @@ curl https://apigw-dev.chainprtcl.net/polygon \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/polygon \
+curl https://username.chainprtcl.net/polygon/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{

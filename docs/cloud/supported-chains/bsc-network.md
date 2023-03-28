@@ -31,7 +31,7 @@ You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can the
 |   Chain   | Custom RPC Category |                                                        Details                                                         |
 | :-------: | :-----------------: | :--------------------------------------------------------------------------------------------------------------------: |
 | BNB Chain |    NETWORK NAME:    |                                                     BNB Chain RPC                                                      |
-|           |    NEW RPC URL:     | [https://apigw-dev.chainprtcl.net/bsc](https://apigw-dev.chainprtcl.net/bsc)[&#xD;](https://api-us.chainprtcl.net/bsc) |
+|           |    NEW RPC URL:     | [https://username.chainprtcl.net/bsc/uid](https://username.chainprtcl.net/bsc/uid)                                     |
 |           |      CHAIN ID:      |                                                           56                                                           |
 |           |       SYMBOL:       |                                                          BNB                                                           |
 |           |   BLOCK EXPLORER:   |                                      [https://bscscan.com](https://bscscan.com/)                                       |
@@ -47,7 +47,7 @@ Returns the current client version.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request)
 
 ```
-curl https://apigw-dev.chainprtcl.net/bsc \
+curl https://username.chainprtcl.net/bsc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
@@ -68,7 +68,7 @@ Returns the current network id.
 **Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request-1)
 
 ```
-curl https://apigw-dev.chainprtcl.net/bsc \
+curl https://username.chainprtcl.net/bsc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
@@ -89,7 +89,7 @@ curl https://apigw-dev.chainprtcl.net/bsc \
 Returns the gas price for the transaction in hex.
 
 ```
-curl https://apigw-dev.chainprtcl.net/bsc \
+curl https://username.chainprtcl.net/bsc/uid \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{
@@ -110,7 +110,7 @@ curl https://apigw-dev.chainprtcl.net/bsc \
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/bittorent-chain/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#pricing) <a href="#pricing" id="pricing"></a>
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
