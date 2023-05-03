@@ -34,7 +34,7 @@ You can set up your **MetaMask wallet** to connect to ETC RPC. You can then perf
 |       |       SYMBOL:       |                                     ETC                                      |
 |       |   BLOCK EXPLORER:   |  [https://blockscout.com/etc/mainnet/](https://blockscout.com/etc/mainnet/)  |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#integrate-code) <a href="#integrate-code" id="integrate-code"></a>
 
 #### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#web3-library) <a href="#web3-library" id="web3-library"></a>
 
