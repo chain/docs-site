@@ -1,5 +1,5 @@
 ---
-description: Polygon network in Chain Cloud RPC service
+description: Fantom network in Chain Cloud RPC service
 ---
 
 # Fantom
