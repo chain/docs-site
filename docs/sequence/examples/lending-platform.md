@@ -1394,4 +1394,4 @@ end
 </TabItem>
 </Tabs>
 
-Note that to define the time window, instead of using the Sequence-generated timestamp (the `timestamp` field on Action objects), we could have included custom fields when building the actions in tags. When using these fields in the filter, we would simply add `:time` to indicate it is a timestamp field. See [Filters](https://dashboard.seq.com/docs/filters) for more information on custom time fields.
+Note that to define the time window, instead of using the Sequence-generated timestamp (the `timestamp` field on Action objects), we could have included custom fields when building the actions in tags. When using these fields in the filter, we would simply add `:time` to indicate it is a timestamp field. See [Filters](https://dashboard.sequence.chain.com/docs/filters) for more information on custom time fields.
