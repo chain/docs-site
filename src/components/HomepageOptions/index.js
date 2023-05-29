@@ -46,6 +46,7 @@ function Option({ img, title, description }) {
                             src={img}
                             className={styles.featureGif}
                             role="img"
+                            alt="Chain.com Image"
                         />
                     </div>
                     <div className={styles.optionDescription}>

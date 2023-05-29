@@ -19,7 +19,7 @@ To create a ledger, visit your team dashboard and select the "Ledgers" tab in th
 
 You will be asked to choose a name composed of letters, numbers and hyphens. The name must be unique within your team.
 
-![](../../../static/img/docs/create-ledger.png)
+![Create Ledger](../../../static/img/docs/create-ledger.png)
 
 #### Ledger Mode
 A ledger can be created in one of two modes: **development** or **production**.

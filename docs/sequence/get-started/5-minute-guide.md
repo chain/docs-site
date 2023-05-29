@@ -18,7 +18,7 @@ To create a ledger, visit your team dashboard and select the "Ledgers" tab in th
 
 You will be asked to choose a name composed of letters, numbers and hyphens. The name must be unique within your team. Let's name this ledger `test`.
 
-![](../../../static/img/docs/create-ledger.png)
+![Create Ledger](../../../static/img/docs/create-ledger.png "Create Ledger")
 
 #### Create API Credentials
 
@@ -32,7 +32,7 @@ You can create a Personal API Credential in your team dashboard:
 3. Scroll down to the "API credentials" section
 4. Click the "New" button.
 
-![](../../../static/img/docs/create-credential.png)
+![Create Credential](../../../static/img/docs/create-credential.png "")
 
 For security, you will only be able to view your new API Credential once, so make sure to copy it for use in your SDK.
 

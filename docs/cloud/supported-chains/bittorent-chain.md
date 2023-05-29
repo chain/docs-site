@@ -10,7 +10,7 @@ description: Bittorrent Chain network in Chain Cloud RPC service
 
 ****[**Bitttorrent Chain**](https://bttc.bittorrent.com/)****
 
-****[**Docs**](https://doc.bt.io/v1/doc/)****
+****[**Docs**](https://doc.bt.io/docs/quickstart)****
 
 ****[**Github**](https://github.com/bttcprotocol)****
 
