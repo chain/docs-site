@@ -6,7 +6,7 @@ description: Polygon network in Chain Cloud RPC service
 
 **Polygon** is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#quick-links) <input type="hidden" id="quick-links" />
 
 ****[**Polygon Chain**](https://polygon.technology/)****
 
@@ -14,11 +14,11 @@ description: Polygon network in Chain Cloud RPC service
 
 [**Github**](https://github.com/maticnetwork/)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to Polygon RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -32,9 +32,9 @@ You can set up your **MetaMask wallet** to connect to Polygon RPC. You can then 
 |         |       SYMBOL:       |                                        MATIC                                         |
 |         |   BLOCK EXPLORER:   |                 [https://polygonscan.com/](https://polygonscan.com/)                 |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#gnosis-1) <input type="hidden" id="gnosis-1" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -55,7 +55,7 @@ curl https://username.chainprtcl.net/polygon/uid \
 {"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -76,9 +76,9 @@ curl https://username.chainprtcl.net/polygon/uid \
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request-2) <input type="hidden" id="example-request-2" />
 
 **eth\_estimateGas**
 
@@ -100,13 +100,13 @@ curl https://username.chainprtcl.net/polygon/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-response-2) <input type="hidden" id="example-response-2" />
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

@@ -4,7 +4,7 @@ description: Chain Cloud RPC Service Pricing
 
 # Pricing
 
-### Public and Premium plans comparison[​](https://www.ankr.com/docs/build-blockchain/pricing-plans/#public-and-premium-plans-comparison) <a href="#public-and-premium-plans-comparison" id="public-and-premium-plans-comparison"></a>
+### Public and Premium plans comparison[​](https://docs.chain.com/docs/cloud/node-services/pricing/#public-and-premium-plans-comparison) <input type="hidden" id="public-and-premium-plans-comparison" />
 
 | Feature               | Standard API                                                                                                           | Premium API                                                    |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |

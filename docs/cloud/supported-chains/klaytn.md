@@ -12,7 +12,7 @@ description: Klaytn network in Chain Cloud RPC service
 * Lower the barriers to entry for end-users.
 * Ease the technology adoption process for industry.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#quick-links) <input type="hidden" id="quick-links" />
 
 ****[**Klaytn**](https://klaytn.foundation/)****
 
@@ -20,11 +20,11 @@ description: Klaytn network in Chain Cloud RPC service
 
 ****[**Github**](https://github.com/klaytn)****
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can then perform transactions and interact with the network.
 
-#### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#get-started) <a href="#get-started" id="get-started"></a>
+#### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'.
@@ -38,9 +38,9 @@ You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can 
 |              |       SYMBOL:       |                                        KLAY                                        |
 |              |   BLOCK EXPLORER:   |                [https://scope.klaytn.com](https://scope.klaytn.com)                |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#gnosis-1) <input type="hidden" id="gnosis-1" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -61,7 +61,7 @@ curl https://username.chainprtcl.net/klaytn/uid \
 {"jsonrpc":"2.0","id":1,"result":"Klaytn/v1.10.1/linux-amd64/go1.15.7"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -82,9 +82,9 @@ curl https://username.chainprtcl.net/klaytn/uid \
 {"jsonrpc":"2.0","id":67,"result":"8217"}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request-2) <input type="hidden" id="example-request-2" />
 
 **eth\_estimateGas**
 
@@ -106,13 +106,13 @@ curl https://username.chainprtcl.net/klaytn/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response-2) <input type="hidden" id="example-response-2" />
 
 ```
 {"jsonrpc":"2.0","id":1,"result":"0x5208"}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

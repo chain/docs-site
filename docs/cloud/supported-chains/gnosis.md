@@ -10,7 +10,7 @@ Development on Gnosis Chain is straightforward for Ethereum developers as it is 
 
 Any contract that works on the Ethereum mainnet can be redeployed to the Gnosis chain. Transaction costs are minimized, and all fees and transactions are paid with a single token (xDai). Many tools supporting Ethereum development are compatible with Gnosis Chain.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#quick-links) <input type="hidden" id="quick-links" />
 
 [**Gnosis Chain**](https://www.xdaichain.com/)
 
@@ -18,11 +18,11 @@ Any contract that works on the Ethereum mainnet can be redeployed to the Gnosis 
 
 [**Github**](https://github.com/xdaichain)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to Gnosis RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -36,9 +36,9 @@ You can set up your **MetaMask wallet** to connect to Gnosis RPC. You can then p
 |        |       SYMBOL:       |                                          xDai                                           |
 |        |   BLOCK EXPLORER:   |      [https://blockscout.com/xdai/mainnet/](https://blockscout.com/xdai/mainnet/)       |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#gnosis-1) <input type="hidden" id="gnosis-1" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -59,7 +59,7 @@ curl https://username.chainprtcl.net/gnosis/uid \
 {"jsonrpc":"2.0","result":"Nethermind/v1.14.7+4fe81c6b/linux-x64/dotnet6.0.11","id":1}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -80,9 +80,9 @@ curl https://username.chainprtcl.net/gnosis/uid \
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#example-request-2) <input type="hidden" id="example-request-2" />
 
 **eth\_estimateGas**
 
@@ -104,13 +104,13 @@ curl https://username.chainprtcl.net/gnosis/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#example-response-2) <input type="hidden" id="example-response-2" />
 
 ```
 {"jsonrpc":"2.0","error":{"code":-32000,"message":"insufficient funds for transfer: address 0x8d97689c9818892b700e27f316cc3e41e17fbeb9"},"id":1}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/gnosis/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
