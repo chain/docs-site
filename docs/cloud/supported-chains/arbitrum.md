@@ -12,7 +12,7 @@ Arbitrum has three modes: **AnyTrust Channels**, **AnyTrust Sidechains,** and **
 
 [**Arbitrum**](https://arbitrum.io/) ​
 
-[**Docs**](https://developer.offchainlabs.com/docs/frontend\_integration)**​**
+[**Docs**](https://developer.arbitrum.io/getting-started-devs)**​**
 
 [**Github**](https://github.com/OffchainLabs)
 
