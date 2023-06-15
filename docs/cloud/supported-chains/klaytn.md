@@ -12,7 +12,7 @@ description: Klaytn network in Chain Cloud RPC service
 * Lower the barriers to entry for end-users.
 * Ease the technology adoption process for industry.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#quick-links) <input type="hidden" id="quick-links" />
+### Quick links
 
 ****[**Klaytn**](https://klaytn.foundation/)****
 
@@ -20,11 +20,11 @@ description: Klaytn network in Chain Cloud RPC service
 
 ****[**Github**](https://github.com/klaytn)****
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#connect-wallet) <input type="hidden" id="connect-wallet" />
+### Connect wallet
 
 You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can then perform transactions and interact with the network.
 
-#### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#get-started) <input type="hidden" id="get-started" />
+#### Get started
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'.
@@ -38,15 +38,15 @@ You can set up your **MetaMask wallet** to connect to Klaytn Chain RPC. You can 
 |              |       SYMBOL:       |                                        KLAY                                        |
 |              |   BLOCK EXPLORER:   |                [https://scope.klaytn.com](https://scope.klaytn.com)                |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#gnosis-1) <input type="hidden" id="gnosis-1" />
+### Integrate Code
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#web3-library) <input type="hidden" id="web3-library" />
+#### web3 library
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/klaytn/uid \
@@ -55,19 +55,19 @@ curl https://username.chainprtcl.net/klaytn/uid \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","id":1,"result":"Klaytn/v1.10.1/linux-amd64/go1.15.7"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#net-library) <input type="hidden" id="net-library" />
+#### net library
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request-1)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/klaytn/uid \
@@ -76,15 +76,15 @@ curl https://username.chainprtcl.net/klaytn/uid \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response-1)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","id":67,"result":"8217"}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#eth-library) <input type="hidden" id="eth-library" />
+#### eth library
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-request-2) <input type="hidden" id="example-request-2" />
+#### Example request
 
 **eth\_estimateGas**
 
@@ -106,13 +106,13 @@ curl https://username.chainprtcl.net/klaytn/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#example-response-2) <input type="hidden" id="example-response-2" />
+#### Example response
 
 ```
 {"jsonrpc":"2.0","id":1,"result":"0x5208"}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/klaytn/#pricing) <input type="hidden" id="pricing" />
+### Pricing
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

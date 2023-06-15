@@ -6,7 +6,7 @@ description: Aurora network in Chain Cloud RPC service
 
 **Aurora** is an Ethereum Virtual Machine (EVM) built on the NEAR Protocol, that provides a solution for developers to deploy their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users. Besides the EVM, Aurora developed the Rainbow Bridge which allows users to transfer assets between Ethereum, NEAR, and Aurora. Aurora is backed by top VCs such as Pantera Capital, Electric Capital, Dragonfly Capital, Three Arrows Capital, and Alameda Research.
 
-### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/aurora#quick-links) <input type="hidden" id="quick-links" />
+### **Quick Links**
 
 ****[**Aurora**](https://aurora.dev/)****
 
@@ -14,11 +14,11 @@ description: Aurora network in Chain Cloud RPC service
 
 ****[**Github**](https://github.com/AstarNetwork)****
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#connect-wallet) <input type="hidden" id="connect-wallet" />
+### Connect wallet
 
 You can set up your **MetaMask wallet** to connect to Aurora RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#get-started) <input type="hidden" id="get-started" />
+### Get started
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -32,15 +32,15 @@ You can set up your **MetaMask wallet** to connect to Aurora RPC. You can then p
 |        |       SYMBOL:       |                                        ETH                                         |
 |        |   BLOCK EXPLORER:   |                 [https://aurorascan.dev/](https://aurorascan.dev/)                 |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#gnosis-1) <input type="hidden" id="gnosis-1" />
+### Integrate Code
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#web3-library) <input type="hidden" id="web3-library" />
+#### web3 library
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-request)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/aurora/uid \
@@ -49,19 +49,19 @@ curl https://username.chainprtcl.net/aurora/uid \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-response)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","id":1,"result":"Aurora-Relayer/0.0.0"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#net-library) <input type="hidden" id="net-library" />
+#### net library
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-request-1)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/aurora/uid \
@@ -70,15 +70,15 @@ curl https://username.chainprtcl.net/aurora/uid \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-response-1)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","id":67,"result":"1313161554"}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#eth-library) <input type="hidden" id="eth-library" />
+#### eth library
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-request-2) <input type="hidden" id="example-request-2" />
+#### Example request
 
 **eth\_estimateGas**
 
@@ -100,13 +100,13 @@ curl https://username.chainprtcl.net/aurora/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#example-response-2) <input type="hidden" id="example-response-2" />
+#### Example response
 
 ```
 {"jsonrpc":"2.0","id":1,"result":"0x6691b7"}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/aurora/#pricing) <input type="hidden" id="pricing" />
+### Pricing
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

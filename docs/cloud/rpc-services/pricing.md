@@ -4,7 +4,7 @@ description: Chain Cloud RPC Service Pricing
 
 # Pricing
 
-### Public and Premium plans comparison[​](https://docs.chain.com/docs/cloud/node-services/pricing/#public-and-premium-plans-comparison) <input type="hidden" id="public-and-premium-plans-comparison" />
+### Public and Premium plans comparison
 
 | Feature               | Standard API                                                                                                           | Premium API                                                    |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |

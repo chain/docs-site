@@ -8,7 +8,7 @@ description: Ethereum Classic network in Chain Cloud RPC service
 
 In 2014, Ethereum founders Vitalik Buterin, Gavin Wood and Jeffrey Wilcke began work on a next-generation blockchain that had the ambitions to implement a general, fully trustless smart contract platform.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#quick-links) <input type="hidden" id="quick-links" />
+### Quick links
 
 ****[**Ethereum Classic**](https://ethereumclassic.org/)
 
@@ -16,11 +16,11 @@ In 2014, Ethereum founders Vitalik Buterin, Gavin Wood and Jeffrey Wilcke began 
 
 ****[**Github**](https://github.com/etclabscore)****
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#connect-wallet) <input type="hidden" id="connect-wallet" />
+### Connect wallet
 
 You can set up your **MetaMask wallet** to connect to ETC RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#get-started) <input type="hidden" id="get-started" />
+### Get started
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -34,15 +34,15 @@ You can set up your **MetaMask wallet** to connect to ETC RPC. You can then perf
 |       |       SYMBOL:       |                                     ETC                                      |
 |       |   BLOCK EXPLORER:   |  [https://blockscout.com/etc/mainnet/](https://blockscout.com/etc/mainnet/)  |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#integrate-code) <input type="hidden" id="integrate-code" />
+### Integrate Code
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#web3-library) <input type="hidden" id="web3-library" />
+#### web3 library
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-request)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/etc/uid \
@@ -51,7 +51,7 @@ curl https://username.chainprtcl.net/etc/uid \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-response)
+**Example response**
 
 ```
 {
@@ -61,13 +61,13 @@ curl https://username.chainprtcl.net/etc/uid \
 }
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#net-library) <input type="hidden" id="net-library" />
+#### net library
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-request-1)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/etc/uid \
@@ -76,7 +76,7 @@ curl https://username.chainprtcl.net/etc/uid \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-response-1)
+**Example response**
 
 ```
 {
@@ -86,9 +86,9 @@ curl https://username.chainprtcl.net/etc/uid \
 }
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#eth-library) <input type="hidden" id="eth-library" />
+#### eth library
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-request-2) <input type="hidden" id="example-request-2" />
+#### Example request
 
 **eth\_estimateGas**
 
@@ -110,7 +110,7 @@ curl https://username.chainprtcl.net/etc/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-response-2) <input type="hidden" id="example-response-2" />
+#### Example response
 
 ```
 {
@@ -123,7 +123,7 @@ curl https://username.chainprtcl.net/etc/uid \
 }
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#pricing) <input type="hidden" id="pricing" />
+### Pricing
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

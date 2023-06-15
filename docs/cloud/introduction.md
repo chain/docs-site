@@ -11,7 +11,7 @@ Chain Cloud is a decentralized and distributed infrastructure designed for devel
 <!-- 1. [Standard API](./rpc-services/standard-api.md): Free and instant access to our range of Public RPC APIs.
 2. [Premium API](./rpc-services/premium-api/premium-api.md): Sign up to our Premium Plan with a minimum deposit of 0.01 XCN and get access to powerful features. -->
 <!--  -->
-1. [Node Services](./node-services/node-services.md): Full, Archive nodes are available for 18 chains.
+[Node Services](./node-services/node-services.md): Full, Archive nodes are available for 18 chains.
     1. Arbitrum
     2. Avalanche
     3. Bitcoin
