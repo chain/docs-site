@@ -17,7 +17,7 @@ To start deploying nodes, there are some required steps for you to go through:
 * **Make Payment:** You will make payment for the node when you deploy it and each 30 days. You can use Card payment or Crypto payment.
 * **Deploy Node:** After you finished paying --> The node will be automatically deployed. However there will be sometimes for the node to sync.
 
-### **Sign In**
+### Sign In
 
 You can signup with your email and confirm via email and then signin to your account.
 

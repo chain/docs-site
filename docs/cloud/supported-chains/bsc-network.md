@@ -10,7 +10,7 @@ As well as EVM compatibility, BNB Chain adds smart contract functionality to the
 
 EVM-compatibility permits support for Ethereum tools and DApps.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#quick-links) <input type="hidden" id="quick-links" />
+### Quick links
 
 [**BNB Chain**](https://www.binance.org/en/smartChain)
 
@@ -18,11 +18,11 @@ EVM-compatibility permits support for Ethereum tools and DApps.
 
 [**Github**](https://github.com/bnb-chain)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#connect-wallet) <input type="hidden" id="connect-wallet" />
+### Connect wallet
 
 You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can then perform transactions and interact with the network.
 
-#### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#get-started) <input type="hidden" id="get-started" />
+#### Get started
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'.
@@ -36,15 +36,15 @@ You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can the
 |           |       SYMBOL:       |                                                          BNB                                                           |
 |           |   BLOCK EXPLORER:   |                                      [https://bscscan.com](https://bscscan.com/)                                       |
 
-### Integrate code[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#integrate-code) <input type="hidden" id="integrate-code" />
+### Integrate code
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#web3-library) <input type="hidden" id="web3-library" />
+#### web3 library
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/bsc/uid \
@@ -53,19 +53,19 @@ curl https://username.chainprtcl.net/bsc/uid \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-response)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","id":1,"result":"Geth/v1.1.7-74f6b613/linux-amd64/go1.16.10"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#net-library) <input type="hidden" id="net-library" />
+#### net library
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request-1)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/bsc/uid \
@@ -74,15 +74,15 @@ curl https://username.chainprtcl.net/bsc/uid \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-response-1)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#eth-library) <input type="hidden" id="eth-library" />
+#### eth library
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request-2) <input type="hidden" id="example-request-2" />
+#### Example request
 
 **eth\_estimateGas**
 
@@ -104,13 +104,13 @@ curl https://username.chainprtcl.net/bsc/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-response-2) <input type="hidden" id="example-response-2" />
+#### Example response
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#pricing) <input type="hidden" id="pricing" />
+### Pricing
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

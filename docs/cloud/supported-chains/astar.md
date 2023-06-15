@@ -8,7 +8,7 @@ description: Astar network in Chain Cloud RPC service
 
 Astar Network focuses on making the best smart contract platform so that dApps developers on Polkadot do not need to pay much attention to infrastructure and can focus more on their dApp. Ideally, the developers can build whatever applications on Astar Network without having to consider its scalability. [Astar Network](https://astar.network/) solves prominent issues: scalability interoperability and lack of developer incentive.
 
-### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#quick-links) <input type="hidden" id="quick-links" />
+### **Quick Links**
 
 [**Astar**](https://astar.network/)
 
@@ -16,11 +16,11 @@ Astar Network focuses on making the best smart contract platform so that dApps d
 
 [**Github**](https://github.com/AstarNetwork)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#connect-wallet) <input type="hidden" id="connect-wallet" />
+### Connect wallet
 
 You can set up your **MetaMask wallet** to connect to Astar RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#get-started) <input type="hidden" id="get-started" />
+### Get started
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -34,15 +34,15 @@ You can set up your **MetaMask wallet** to connect to Astar RPC. You can then pe
 |       |       SYMBOL:       |                                      ASTR                                      |
 |       |   BLOCK EXPLORER:   |         [https://astart.subscan.io](https://astart.subscan.io)                 |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#gnosis-1) <input type="hidden" id="gnosis-1" />
+### Integrate Code
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#web3-library) <input type="hidden" id="web3-library" />
+#### web3 library
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-request)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/astar/uid \
@@ -51,19 +51,19 @@ curl https://username.chainprtcl.net/astar/uid \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-response)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","result":"astar/v23.0/fc-rpc-2.0.0-dev","id":1}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#net-library) <input type="hidden" id="net-library" />
+#### net library
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-request-1)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/astar/uid \
@@ -72,15 +72,15 @@ curl https://username.chainprtcl.net/astar/uid \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-response-1)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","result":"592","id":67}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#eth-library) <input type="hidden" id="eth-library" />
+#### eth library
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-request-2) <input type="hidden" id="example-request-2" />
+#### Example request
 
 **eth\_estimateGas**
 
@@ -102,13 +102,13 @@ curl username.chainprtcl.net/astar/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#example-response-2) <input type="hidden" id="example-response-2" />
+#### Example response
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/astar/#pricing) <input type="hidden" id="pricing" />
+### Pricing
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

@@ -6,11 +6,11 @@ description: Overview of Chain Cloud Premium API
 
 _Premium API_ provides access to a range of exclusive features that allow you to build on a secure, reliable, ultra-fast multi-chain network.
 
-### Key features[​](https://www.ankr.com/docs/build-blockchain/products/v2/premium-plan/#key-features) <input type="hidden" id="key-features" />
+### Key features
 
 1. Secure and private endpoints for HTTPS and WSS.
 
-### Benefits[​](https://www.ankr.com/docs/build-blockchain/products/v2/premium-plan/#benefits) <input type="hidden" id="benefits" />
+### Benefits
 
 Premium API is a set of _secure_ and _private_ RPC endpoints exclusive to you. They provide greater reliability by interfacing with a fully distributed, ultra low latency node pool.
 

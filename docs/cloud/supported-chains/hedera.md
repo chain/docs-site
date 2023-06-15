@@ -10,7 +10,7 @@ Hedera’s performance-optimized Ethereum Virtual Machine (EVM) smart contracts,
 
 Hedera is built differently from other blockchains. It has high throughput with fast finality; low, predictable fees; fair transaction ordering with consensus timestamps; and a robust codebase that ensures scalability and reliability at every layer of its network infrastructure. Hedera is governed responsibly by the world’s leading organizations to ensure that the network is collusion-resistant.
 
-### Explorers[​](https://docs.chain.com/docs/cloud/supported-chains/hedera/#explorers) <input type="hidden" id="explorers" />
+### Explorers
 
 * [Arkhia](https://explorer.arkhia.io)
 * [DragonGlass](https://app.dragonglass.me/hedera/home)
@@ -18,12 +18,12 @@ Hedera is built differently from other blockchains. It has high throughput with 
 * [HederaExplorer](https://hederaexplorer.io)
 * [Hgraph.io](https://hgraph.io)
 
-### Official Documentation[​](https://docs.chain.com/docs/cloud/supported-chains/hedera/#official-documentation) <input type="hidden" id="official-documentation" />
+### Official Documentation
 
 * [Official Document](https://docs.hedera.com)
 * [SDK](https://docs.hedera.com/sdks-and-apis/sdk)
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/hedera/#pricing) <input type="hidden" id="pricing" />
+### Pricing
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

@@ -6,7 +6,7 @@ description: How to use Chain Cloud Standard API
 
 _Standard API_ is central to the Chain Cloud vision of mass adoption in Web 3.0 and the crypto economy. Chain Cloud's Standard API provides you with API endpoints for a fast and reliable access to a growing number of networks:
 
-### Make requests via public URL (no sign up or KYC) <input type="hidden" id="make-requests-via-public-url-no-sign-up-or-kyc" />
+### Make requests via public URL (no sign up or KYC)
 
 :::tip
 Try copying this code into your command line/terminal.

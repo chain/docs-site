@@ -6,7 +6,7 @@ description: Polygon network in Chain Cloud RPC service
 
 **Polygon** is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#quick-links) <input type="hidden" id="quick-links" />
+### Quick links
 
 ****[**Polygon Chain**](https://polygon.technology/)****
 
@@ -14,11 +14,11 @@ description: Polygon network in Chain Cloud RPC service
 
 [**Github**](https://github.com/maticnetwork/)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#connect-wallet) <input type="hidden" id="connect-wallet" />
+### Connect wallet
 
 You can set up your **MetaMask wallet** to connect to Polygon RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#get-started) <input type="hidden" id="get-started" />
+### Get started
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -32,15 +32,15 @@ You can set up your **MetaMask wallet** to connect to Polygon RPC. You can then 
 |         |       SYMBOL:       |                                        MATIC                                         |
 |         |   BLOCK EXPLORER:   |                 [https://polygonscan.com/](https://polygonscan.com/)                 |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#gnosis-1) <input type="hidden" id="gnosis-1" />
+### Integrate Code
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#web3-library) <input type="hidden" id="web3-library" />
+#### web3 library
 
 * **clientVersion**
 
 Returns the current client version.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/polygon/uid \
@@ -49,19 +49,19 @@ curl https://username.chainprtcl.net/polygon/uid \
   --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-response)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#net-library) <input type="hidden" id="net-library" />
+#### net library
 
 * **net\_version**
 
 Returns the current network id.
 
-**Example request**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request-1)
+**Example request**
 
 ```
 curl https://username.chainprtcl.net/polygon/uid \
@@ -70,15 +70,15 @@ curl https://username.chainprtcl.net/polygon/uid \
   --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":67}'
 ```
 
-**Example response**[**​**](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-response-1)
+**Example response**
 
 ```
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#eth-library) <input type="hidden" id="eth-library" />
+#### eth library
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-request-2) <input type="hidden" id="example-request-2" />
+#### Example request
 
 **eth\_estimateGas**
 
@@ -100,13 +100,13 @@ curl https://username.chainprtcl.net/polygon/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#example-response-2) <input type="hidden" id="example-response-2" />
+#### Example response
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/polygon/#pricing) <input type="hidden" id="pricing" />
+### Pricing
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

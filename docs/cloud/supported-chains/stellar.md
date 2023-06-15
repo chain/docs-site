@@ -6,7 +6,7 @@ description: Stellar network in Chain Cloud RPC service
 
 Stellar is a layer-1 open-source, decentralized, peer-to-peer blockchain network that provides a framework for developers to create applications, issue assets, and connect to existing financial rails. Stellar is designed to enable creators, innovators, and developers to build projects on the network that can interoperate with each other.
 
-### Explorers[​](https://docs.chain.com/docs/cloud/supported-chains/stellar/#explorers) <input type="hidden" id="explorers" />
+### Explorers
 
 * [StellarChain](https://stellarchain.io)
 * [BlockChair](https://blockchair.com/stellar)
@@ -14,13 +14,13 @@ Stellar is a layer-1 open-source, decentralized, peer-to-peer blockchain network
 * [HederaExplorer](https://hederaexplorer.io)
 * [Hgraph.io](https://hgraph.io)
 
-### Official Documentation[​](https://docs.chain.com/docs/cloud/supported-chains/stellar/#official-documentation) <input type="hidden" id="official-documentation" />
+### Official Documentation
 
 * [Official Document](https://developers.stellar.org/docs)
 * [API Reference](https://developers.stellar.org/api)
 * [GitHub](https://github.com/stellar)
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/stellar/#pricing) <input type="hidden" id="pricing" />
+### Pricing
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|
