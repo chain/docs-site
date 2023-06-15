@@ -4,7 +4,7 @@ description: How to build a basic project with Ethereum
 
 # Build a basic project
 
-### Before you start[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#before-you-start) <a href="#before-you-start" id="before-you-start"></a>
+### Before you start[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#before-you-start) <input type="hidden" id="before-you-start" />
 
 Make sure you have Node installed.
 
@@ -14,7 +14,7 @@ $ node --versionv14.16.1
 
 If it isn't installed, [download](https://nodejs.org/en/download/) it or use a [package manager](https://nodejs.org/en/download/package-manager/).
 
-### Create a project[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#create-a-project) <a href="#create-a-project" id="create-a-project"></a>
+### Create a project[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#create-a-project) <input type="hidden" id="create-a-project" />
 
 In your terminal or command prompt do the following:
 
@@ -30,7 +30,7 @@ mkdir eth-project && cd eth-project
 npm init -y
 ```
 
-### Add truffle[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#add-truffle) <a href="#add-truffle" id="add-truffle"></a>
+### Add truffle[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#add-truffle) <input type="hidden" id="add-truffle" />
 
 1\) Install [Truffle](https://trufflesuite.com/).
 
@@ -66,7 +66,7 @@ Init successful, sweet!
 
 <!-- ![Truffle folders](https://www.ankr.com/docs/assets/images/truffle-project-folders-652098bff5eccd8bb47aa8f98ece14c1.png) -->
 
-### Write a simple contract[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#write-a-simple-contract) <a href="#write-a-simple-contract" id="write-a-simple-contract"></a>
+### Write a simple contract[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#write-a-simple-contract) <input type="hidden" id="write-a-simple-contract" />
 
 This `Storage` contract is very straightforward. It stores an integer on the blockchain that can be retrieved by running the `retrieve` function. It is the same file used in [Remix](https://remix.ethereum.org/)
 
@@ -103,7 +103,7 @@ contract Storage {
 }
 ```
 
-### Compile the contract[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#compile-the-contract) <a href="#compile-the-contract" id="compile-the-contract"></a>
+### Compile the contract[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#compile-the-contract) <input type="hidden" id="compile-the-contract" />
 
 The Ethereum Virtual Machine (EVM) executes the logic defined in the smart contracts but it doesn't understand high level languages. Instead, the solidity contract needs to be compiled into executable bytecode.
 
@@ -124,7 +124,7 @@ compilers: {
 
 The contract is compiled and a new **build/contracts** directory is created.
 
-### Deploy contract[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#deploy-contract) <a href="#deploy-contract" id="deploy-contract"></a>
+### Deploy contract[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#deploy-contract) <input type="hidden" id="deploy-contract" />
 
 With our project setup complete all is ready to deploy **Storage.sol** to the blockchain.
 
@@ -213,7 +213,7 @@ module.exports = async function (deployer) {
 };
 ```
 
-### Configure connection to ganache[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#configure-connection-to-ganache) <a href="#configure-connection-to-ganache" id="configure-connection-to-ganache"></a>
+### Configure connection to ganache[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/basic-project/#configure-connection-to-ganache) <input type="hidden" id="configure-connection-to-ganache" />
 
 1\) Set up a development network for localhost and port 8545 - which is what our local blockchain is using.
 

@@ -8,19 +8,19 @@ description: Arbitrum network in Chain Cloud RPC service
 
 Arbitrum has three modes: **AnyTrust Channels**, **AnyTrust Sidechains,** and **Arbitrum Rollup**.
 
-### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#quick-links) <input type="hidden" id="quick-links" />
 
 [**Arbitrum**](https://arbitrum.io/) ​
 
-[**Docs**](https://developer.offchainlabs.com/docs/frontend\_integration)**​**
+[**Docs**](https://developer.arbitrum.io/getting-started-devs)**​**
 
 [**Github**](https://github.com/OffchainLabs)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to Arbitrum RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -34,9 +34,9 @@ You can set up your **MetaMask wallet** to connect to Arbitrum RPC. You can then
 |          |       SYMBOL:       |                                          AETH                                          |
 |          |   BLOCK EXPLORER:   |                       [https://arbiscan.io](https://arbiscan.io)                       |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#gnosis-1) <input type="hidden" id="gnosis-1" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -57,7 +57,7 @@ curl https://username.chainprtcl.net/arbitrum/uid \
 {"jsonrpc":"2.0","id":1,"result":"nitro/vv2.0.10-73224e3/linux-amd64/go1.19.5"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -78,9 +78,9 @@ curl https://username.chainprtcl.net/arbitrum/uid \
 {"jsonrpc":"2.0","id":67,"result":"42161"}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#example-request-2) <input type="hidden" id="example-request-2" />
 
 **eth\_estimateGas**
 
@@ -102,13 +102,13 @@ curl https://username.chainprtcl.net/arbitrum/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#example-response-2) <input type="hidden" id="example-response-2" />
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/arbitrum/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

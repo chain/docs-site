@@ -8,7 +8,7 @@ description: Ethereum Classic network in Chain Cloud RPC service
 
 In 2014, Ethereum founders Vitalik Buterin, Gavin Wood and Jeffrey Wilcke began work on a next-generation blockchain that had the ambitions to implement a general, fully trustless smart contract platform.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#quick-links) <input type="hidden" id="quick-links" />
 
 ****[**Ethereum Classic**](https://ethereumclassic.org/)
 
@@ -16,11 +16,11 @@ In 2014, Ethereum founders Vitalik Buterin, Gavin Wood and Jeffrey Wilcke began 
 
 ****[**Github**](https://github.com/etclabscore)****
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to ETC RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -34,9 +34,9 @@ You can set up your **MetaMask wallet** to connect to ETC RPC. You can then perf
 |       |       SYMBOL:       |                                     ETC                                      |
 |       |   BLOCK EXPLORER:   |  [https://blockscout.com/etc/mainnet/](https://blockscout.com/etc/mainnet/)  |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#integrate-code) <a href="#integrate-code" id="integrate-code"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#integrate-code) <input type="hidden" id="integrate-code" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -61,7 +61,7 @@ curl https://username.chainprtcl.net/etc/uid \
 }
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -86,9 +86,9 @@ curl https://username.chainprtcl.net/etc/uid \
 }
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-request-2) <input type="hidden" id="example-request-2" />
 
 **eth\_estimateGas**
 
@@ -110,7 +110,7 @@ curl https://username.chainprtcl.net/etc/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum-classic/#example-response-2) <input type="hidden" id="example-response-2" />
 
 ```
 {
@@ -123,7 +123,7 @@ curl https://username.chainprtcl.net/etc/uid \
 }
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

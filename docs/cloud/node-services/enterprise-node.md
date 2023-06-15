@@ -42,7 +42,7 @@ After you choose which chain you want to deploy the node to, you will have to ch
 
 As a Enterprise node user, you will have to choose a subdomain for the node. You can connect to this node by websocket or a normal API address. You will have access to this node privately.&#x20;
 
-### Make Payment <a href="#make-payment" id="make-payment"></a>
+### Make Payment <input type="hidden" id="make-payment" />
 
 You can pay using Card or Crypto.
 

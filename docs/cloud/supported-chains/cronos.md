@@ -6,7 +6,7 @@ description: Cronos network in Chain Cloud RPC service
 
 **Cronos** is a EVM-compatible chain running in parallel with the Crypto.org Chain. It aims to massively scale the Crypto.org Chain DeFi ecosystem by providing developers with the ability to rapidly port DApps from Ethereum and EVM-Compatible chains. Developers also gain access to the massive user base of the Crypto.com ecosystem and funding from Cronos Ecosystem Grants.
 
-### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### **Quick Links**[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#quick-links) <input type="hidden" id="quick-links" />
 
 ****[**Cronos**](https://cronos.org/)****
 
@@ -14,11 +14,11 @@ description: Cronos network in Chain Cloud RPC service
 
 ****[**Github**](https://github.com/crypto-org-chain/cronos)****
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to Cronos RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -32,9 +32,9 @@ You can set up your **MetaMask wallet** to connect to Cronos RPC. You can then p
 |        |       SYMBOL:       |                                     CRO                                      |
 |        |   BLOCK EXPLORER:   |               [https://cronoscan.com/](https://cronoscan.com/)               |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#gnosis-1) <input type="hidden" id="gnosis-1" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -55,7 +55,7 @@ curl https://username.chainprtcl.net/cro/uid \
 {"jsonrpc":"2.0","id":1,"result":"Version dev ()\nCompiled at  using Go go1.18.4 (amd64)"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -76,9 +76,9 @@ curl https://username.chainprtcl.net/cro/uid \
 {"jsonrpc":"2.0","id":67,"result":"25"}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#example-request-2) <input type="hidden" id="example-request-2" />
 
 **eth\_estimateGas**
 
@@ -100,13 +100,13 @@ curl https://username.chainprtcl.net/cro/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#example-response-2) input type="hidden" id="example-response-2" />
 
 ```
 {"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"rpc error: code = Internal desc = insufficient balance for transfer"}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/cronos/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

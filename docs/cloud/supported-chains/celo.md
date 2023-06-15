@@ -10,7 +10,7 @@ Celo is a layer 1 protocol and blockchain platform. The Celo Mainnet is entirely
 
 All the cryptoassets on Celo have ERC-20 compliant interfaces, meaning that while they are not ERC-20 tokens on the Ethereum Mainnet, all familiar tooling and code that support ERC-20 tokens can be easily adapted for Celo assets, including the Celo Native Asset (CELO) and the Celo Dollar (cUSD).
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#quick-links) <input type="hidden" id="quick-links" />
 
 [**Celo**](https://celo.org/)
 
@@ -18,11 +18,11 @@ All the cryptoassets on Celo have ERC-20 compliant interfaces, meaning that whil
 
 [**Github**](https://github.com/celo-org)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to Celo RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'
@@ -36,9 +36,9 @@ You can set up your **MetaMask wallet** to connect to Celo RPC. You can then per
 |       |       SYMBOL:       |                                      CELO                                      |
 |       |   BLOCK EXPLORER:   |             [https://explorer.celo.org](https://explorer.celo.org)             |
 
-### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#gnosis-1) <a href="#gnosis-1" id="gnosis-1"></a>
+### Integrate Code[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#gnosis-1) <input type="hidden" id="gnosis-1" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -59,7 +59,7 @@ curl https://username.chainprtcl.net/celo/uid \
 {"jsonrpc":"2.0","id":1,"result":"celo/v1.7.2-stable/linux-amd64/go1.17.13"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -80,9 +80,9 @@ curl https://username.chainprtcl.net/celo/uid \
 {"jsonrpc":"2.0","id":67,"result":"42220"}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-request-2) <input type="hidden" id="example-request-2" />
 
 **eth\_estimateGas**
 
@@ -104,13 +104,13 @@ curl https://username.chainprtcl.net/celo/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#example-response-2) <input type="hidden" id="example-response-2" />
 
 ```
 {"timestamp":"2023-02-28T18:46:24.819+00:00","path":"/celo-X","status":404,"error":"Not Found","message":null,"requestId":"28555b1f-45"}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/celo/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

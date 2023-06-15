@@ -56,7 +56,7 @@ Also, as a Enterprise node user, you will have to choose a subdomain for the nod
 
 After making the basic configuration for the Protocol Node, you will start staking XCN. Keep in mind that you need to have enough XCN to stake. [Read here](./node-staking.md).
 
-### Make Payment <a href="#make-payment" id="make-payment"></a>
+### Make Payment <input type="hidden" id="make-payment" />
 
 As you finished staking, you will have to pay for that node. You can pay using USD (By Stripe), USDC, ETH or XCN.
 

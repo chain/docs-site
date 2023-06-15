@@ -10,7 +10,7 @@ The **C-Chain** is available via Avalanche RPC.
 
 Avalanche was built specifically with Defi dApps and protocols in mind, focusing on security, low latency & high throughput. Avalanche uses a novel consensus protocol by utilizing two different consensus mechanisms. The consensus protocol ensures a high degree of security and fast finality even with multiple chains running simultaneously.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#quick-links) <input type="hidden" id="quick-links" />
 
 [**Avalanche**](https://www.avalabs.org/)
 
@@ -18,11 +18,11 @@ Avalanche was built specifically with Defi dApps and protocols in mind, focusing
 
 [**Github**](https://github.com/ava-labs)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to Avalanche RPC. You can then perform transactions and interact with the network.
 
-### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#get-started) <a href="#get-started" id="get-started"></a>
+### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'.
@@ -36,7 +36,7 @@ You can set up your **MetaMask wallet** to connect to Avalanche RPC. You can the
 |           |       SYMBOL:       |                                       AVAX                                       |
 |           |   BLOCK EXPLORER:   |  [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)  |
 
-### Integrate code <a href="#integrate-code" id="integrate-code"></a>
+### Integrate code <input type="hidden" id="integrate-code" />
 
 **Avalanche** supports standard JSON RPC calls identical to [Geth's API](https://geth.ethereum.org/docs/rpc/server) for the following services:
 
@@ -45,9 +45,9 @@ You can set up your **MetaMask wallet** to connect to Avalanche RPC. You can the
 * `eth_`
 * `personal_`
 
-### Avalanche[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#avalanche-1) <a href="#avalanche-1" id="avalanche-1"></a>
+### Avalanche[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#avalanche-1) <input type="hidden" id="avalanche-1" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -68,7 +68,7 @@ curl https://username.chainprtcl.net/avaxc/uid \
 {"jsonrpc":"2.0","id":1,"result":"v0.7.2-rc.1"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -89,9 +89,9 @@ Returns the current network id.
 {"jsonrpc":"2.0","id":67,"result":"43114"}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request <a href="#example-request-2" id="example-request-2"></a>
+#### Example request <input type="hidden" id="example-request-2" />
 
 ```
 curl https://username.chainprtcl.net/avaxc/uid \
@@ -100,7 +100,7 @@ curl https://username.chainprtcl.net/avaxc/uid \
   --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":67}'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#example-response-2) <input type="hidden" id="example-response-2" />
 
 ```
 {"jsonrpc":"2.0","id":67,"result":"0x19987ed"}
@@ -108,9 +108,9 @@ curl https://username.chainprtcl.net/avaxc/uid \
 
 ***
 
-### Integrate code[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#integrate-code-1) <a href="#integrate-code-1" id="integrate-code-1"></a>
+### Integrate code[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#integrate-code-1) <input type="hidden" id="integrate-code-1" />
 
-#### web3[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#web3) <a href="#web3" id="web3"></a>
+#### web3[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#web3) <input type="hidden" id="web3" />
 
 * **clientVersion**
 
@@ -162,7 +162,7 @@ func main() {
 }
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/avalanche/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

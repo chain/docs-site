@@ -10,7 +10,7 @@ As well as EVM compatibility, BNB Chain adds smart contract functionality to the
 
 EVM-compatibility permits support for Ethereum tools and DApps.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#quick-links) <input type="hidden" id="quick-links" />
 
 [**BNB Chain**](https://www.binance.org/en/smartChain)
 
@@ -18,11 +18,11 @@ EVM-compatibility permits support for Ethereum tools and DApps.
 
 [**Github**](https://github.com/bnb-chain)
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can then perform transactions and interact with the network.
 
-#### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#get-started) <a href="#get-started" id="get-started"></a>
+#### Get started[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#get-started) <input type="hidden" id="get-started" />
 
 1. Open your **Metamask Extension** and click the '_**Network**_' drop down menu at the top.
 2. Select '_**Custom RPC**_'.
@@ -36,9 +36,9 @@ You can set up your **MetaMask wallet** to connect to BNB Chain RPC. You can the
 |           |       SYMBOL:       |                                                          BNB                                                           |
 |           |   BLOCK EXPLORER:   |                                      [https://bscscan.com](https://bscscan.com/)                                       |
 
-### Integrate code[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#integrate-code) <a href="#integrate-code" id="integrate-code"></a>
+### Integrate code[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#integrate-code) <input type="hidden" id="integrate-code" />
 
-#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#web3-library) <a href="#web3-library" id="web3-library"></a>
+#### web3 library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#web3-library) <input type="hidden" id="web3-library" />
 
 * **clientVersion**
 
@@ -59,7 +59,7 @@ curl https://username.chainprtcl.net/bsc/uid \
 {"jsonrpc":"2.0","id":1,"result":"Geth/v1.1.7-74f6b613/linux-amd64/go1.16.10"}
 ```
 
-#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#net-library) <a href="#net-library" id="net-library"></a>
+#### net library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#net-library) <input type="hidden" id="net-library" />
 
 * **net\_version**
 
@@ -80,9 +80,9 @@ curl https://username.chainprtcl.net/bsc/uid \
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
-#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#eth-library) <a href="#eth-library" id="eth-library"></a>
+#### eth library[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#eth-library) <input type="hidden" id="eth-library" />
 
-#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request-2) <a href="#example-request-2" id="example-request-2"></a>
+#### Example request[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-request-2) <input type="hidden" id="example-request-2" />
 
 **eth\_estimateGas**
 
@@ -104,13 +104,13 @@ curl https://username.chainprtcl.net/bsc/uid \
 }'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-response-2) <a href="#example-response-2" id="example-response-2"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#example-response-2) <input type="hidden" id="example-response-2" />
 
 ```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
 
-### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#pricing) <a href="#pricing" id="pricing"></a>
+### Pricing[​](https://docs.chain.com/docs/cloud/supported-chains/bsc-network/#pricing) <input type="hidden" id="pricing" />
 
 | Node Type             | Price (USD)          |
 | --------------------- | ---------------------|

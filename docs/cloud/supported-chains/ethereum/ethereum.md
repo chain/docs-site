@@ -10,7 +10,7 @@ The Ethereum network is one of the most popular platforms for building dApps and
 
 To connect to an Ethereum node, every Ethereum Client e.g. [Geth](https://geth.ethereum.org/) or [Erigon](https://github.com/ledgerwatch/erigon) implements a JSON-RPC specification. The [Ethereum JSON-RPC Specification](https://playground.open-rpc.org/?schemaUrl=https://raw.githubusercontent.com/ethereum/eth1.0-apis/assembled-spec/openrpc.json\&uiSchema%5BappBar%5D%5Bui:splitView%5D=true\&uiSchema%5BappBar%5D%5Bui:input%5D=false\&uiSchema%5BappBar%5D%5Bui:examplesDropdown%5D=false) is a collection of methods that all clients implement.
 
-### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#quick-links) <a href="#quick-links" id="quick-links"></a>
+### Quick links[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#quick-links) <input type="hidden" id="quick-links" />
 
 ​[**Ethereum**](https://ethereum.org/en/developers/)
 
@@ -20,7 +20,7 @@ To connect to an Ethereum node, every Ethereum Client e.g. [Geth](https://geth.e
 
 ***
 
-### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#connect-wallet) <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect wallet[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#connect-wallet) <input type="hidden" id="connect-wallet" />
 
 You can set up your **MetaMask wallet** to connect to Ethereum RPC. You can then perform transactions and interact with the network.
 
@@ -44,7 +44,7 @@ The response shows Geth Client v1.1.7-74 is used.
 
 
 
-#### Example request - Uses eth\_ to request the latest block number[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#example-request---uses-eth\_-to-request-the-latest-block-number) <a href="#example-request---uses-eth_-to-request-the-latest-block-number" id="example-request---uses-eth_-to-request-the-latest-block-number"></a>
+#### Example request - Uses eth\_ to request the latest block number[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#example-request---uses-eth\_-to-request-the-latest-block-number) <input type="hidden" id="example-request---uses-eth_-to-request-the-latest-block-number" />
 
 ```
 curl https://username.chainprtcl.net/eth/uid \
@@ -52,7 +52,7 @@ curl https://username.chainprtcl.net/eth/uid \
   --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":67}'
 ```
 
-#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#example-response) <a href="#example-response" id="example-response"></a>
+#### Example response[​](https://docs.chain.com/docs/cloud/supported-chains/ethereum/#example-response) <input type="hidden" id="example-response" />
 
 The latest block number is returned in hex
 
