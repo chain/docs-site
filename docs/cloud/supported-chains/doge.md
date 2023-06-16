@@ -18,7 +18,7 @@ Dogechain supercharges $Dogecoin to bring crypto applications like NFTs, games, 
 ### Official Documentation
 
 * [Official Document](https://docs.dogechain.dog/docs/overview)
-* [Official RPC-API documentation](https://dogechain.info/api/blockchain_api)
+* [Official RPC-API documentation](https://dogechain.info/api)
 
 ### Pricing
 
