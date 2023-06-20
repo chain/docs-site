@@ -13,4 +13,4 @@ Sequence is used as a system of record by a diverse set of companies including m
 
 The [Standard Plan](https://sequence.chain.com/start) for Sequence is **absolutely free for up to 500,000 transactions/month**. This includes unlimited team members, accounts, and queries.
 
-If you need a higher production transaction volume, dedicated support, enterprise SLAs, or anything else, [get in touch](https://chain.com/company/contact) to talk about a Custom Plan.
+If you need a higher production transaction volume, dedicated support, enterprise SLAs, or anything else, [get in touch](https://www.chain.com/company/contact) to talk about a Custom Plan.

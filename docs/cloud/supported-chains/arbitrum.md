@@ -8,7 +8,7 @@ description: Arbitrum network in Chain Cloud RPC service
 
 Arbitrum has three modes: **AnyTrust Channels**, **AnyTrust Sidechains,** and **Arbitrum Rollup**.
 
-### **Quick Links**
+### Quick Links
 
 [**Arbitrum**](https://arbitrum.io/) ​
 
