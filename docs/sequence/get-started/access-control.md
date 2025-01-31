@@ -22,7 +22,7 @@ You can invite people to your team by visiting the team dashboard and selecting 
 
 You will be asked to provide an email address and assign a [role](#roles).
 
-The person will receive an email asking them to create an account on your team with an **email address** and **password**. They will use these to login to your **team dashboard** at `https://<team>.seq.com`.
+The person will receive an email asking them to create an account on your team with an **email address** and **password**. They will use these to login to your **team dashboard** at `https://<team>.sequence.chain.com`.
 
 #### Personal API Credentials
 People who are developing applications on top of a ledger can also access the **Ledger API** from their local machines using **Personal API Credentials**, which are created in the team dashboard:
